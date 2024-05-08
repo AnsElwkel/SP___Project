@@ -1,0 +1,91 @@
+7
+Day 1 kill 3 MOBS
+***
+1
+Day 2 Collect 3 stone blocks from the forest.
+###
+1
+Day 3  break 5 trees
+$$$$$
+0
+Day 4  run 1000 meter
+R1000
+1
+Day 5  Collect 3 iron blocks from the forest.
+%%%
+1
+Day 6  kill 3 monsters
+&&&
+1
+Day 7  make a long sword
+ML
+1
+Day 8  gather 4 meat
+++++
+0
+Day 9  find the hidden box
+HB
+0
+Day 10 make a mace
+MM
+1
+Day 11 Collect 3 stone blocks from the forest.
+###
+1
+Day 12 make a waraxe
+MW
+0
+Day 13 kill 3 MOBS
+***
+0
+Day 14 Collect 3 iron blocks from the forest.
+%%%
+1
+Day 15 break 5 trees
+$$$$$
+0
+Day 16 make a saber
+MS
+0
+Day 17 run 1000 meter
+R1000
+1
+Day 18 kill 3 monsters
+&&&
+0
+Day 19 make a long sword
+ML
+1
+Day 20 gather 4 meat
+++++
+0
+Day 21 find the hidden box
+HB
+1
+Day 22 make a mace
+MM
+1
+Day 23 Collect 3 iron blocks from the forest.
+%%%
+1
+Day 24 kill 3 MOBS
+***
+0
+Day 25 make a waraxe
+MW
+1
+Day 26 Collect 3 stone blocks from the forest.
+###
+1
+Day 27 make a mace
+MM
+0
+Day 28 gather 4 meat
+++++
+0
+Day 29 run 1000 meter
+R1000
+0
+Day 30 make a saber
+MS
+1

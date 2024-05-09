@@ -46,7 +46,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 		//If the player Level increase The Upgrade screen will open
 		if (hero.IsUpdating)
 		{
-			hero.SkillUpdate(hero.damage, hero.MaxHealth, hero.MaxStamina, hero.walk, hero.HitSpeed);
+			hero.SkillUpdate(hero.maxDamage, hero.MaxHealth, hero.MaxStamina, hero.walk, hero.HitSpeed);
 			hero.run = hero.walk + (hero.walk * (60.0 / 100));
 			hero.StaminaBarSet(hero.MaxStamina);
 			hero.HealthBarSet(hero.MaxHealth);

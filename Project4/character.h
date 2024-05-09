@@ -66,6 +66,7 @@ struct character
 
 
 	//Not Controls (Don't touch)
+	int maxDamage = damage;
 	int score = 0, var /*Dealing Damage Handling Variable*/, MaxStamina = stamina, MaxHealth = health, MaxHunger = hunger;
 	bool IsAlive = 0, IsWeapon = 0, IsWalking = 0, IsAttacking = 0, IsStanding = 1, 
 		 arrive = 0, InCave = 1, IsUpdating = 1, control = 1;

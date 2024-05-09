@@ -41,7 +41,6 @@ struct Inventory
     Texture BlocksTexture;
     Sprite BlocksSprite;
 };
-
 // longSowrd -> 1, Axe -> 2 , Saber -> 3, pickAxe -> 4
 // 1st material = 5 ............. 6th material = 10
 struct mawared_str
@@ -65,15 +64,12 @@ struct item_type
 
 };
 extern item_type inv_items[27];
-
-
 struct Player
 {
     Vector2f position;
     float speed;
     Inventory inventory;
 };
-
 struct Tree
 {
 

@@ -136,15 +136,46 @@ void GameManager::buttonUpdate()
 	{
 		gameStates->push(new checkIfDone(window, gameStates));
 	}
+
+	if (PauseM->buttons["Save"]->isPressed())
+	{
+
+		fstream fout;
+		fout.open("saveGame.txt", ios::trunc | ios::in | ios::out);
+		//write last info
+		fout << this->story->hero.
+		fout << posPlayerX << ' ' << posPlayerY << '\n';
+		fout << health << '\n';
+		fout << st << '\n';
+		fout << currentIron << '\n';
+		fout << currentWood << '\n';
+		fout << currentMeat << '\n';
+		fout << currentLamb << '\n';
+		fout << currentChicken << '\n';
+		//speed , 
+
+		for (int i = 0; i < 18; ++i)
+			fout << inv_items[i].mawared.quantity << ' ' << inv_items[i].mawared.type << ' '
+			<< inv_items[i].weapons.health << ' ' << inv_items[i].weapons.type << ' '
+			<< inv_items[i].weapon_or_mawared_or_nothing << '\n';
+
+		for (int i = 0; i < 4; ++i)
+			fout << WeaponsBar[i].WeaponHealth << ' ' << WeaponsBar[i].Weapontype << '\n';
+
+
+		fout.close();
+
+	}
 }
 void GameManager::pausinit()
 {
-	PauseM->List.setSize(sf::Vector2f(window->getSize().x * 0.2, window->getSize().y * 0.45));
-	PauseM->List.setPosition(sf::Vector2f(window->getSize().x * 0.4, window->getSize().y * 0.325));
+	PauseM->List.setSize(sf::Vector2f(window->getSize().x * 0.2, window->getSize().y * 0.60));
+	PauseM->List.setPosition(sf::Vector2f(window->getSize().x * 0.3, window->getSize().y * 0.325));
 	PauseM->addbutton("continue", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 400 / 1080.0 * window->getSize().y);
 	PauseM->addbutton("Mainmenu", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 700 / 1080.0 * window->getSize().y);
 	PauseM->addbutton("settings", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 600 / 1080.0 * window->getSize().y);
 	PauseM->addbutton("daily", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 500 / 1080.0 * window->getSize().y);
+	PauseM->addbutton("Save", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 300 / 1080.0 * window->getSize().y);
 }
 void GameManager::CheckCollison1(int x, int y,int z)
 {

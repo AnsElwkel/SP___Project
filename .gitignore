@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+*.bin
+/.vs/SP_Project/v17/Browse.VC.db
+/.vs/SP_Project/v17/.wsuo
+/.vs/SP_Project/FileContentIndex/a42b6c23-b3a9-498a-ac5f-037e4543a9cc.vsidx
+/.vs/SP_Game/v17/Browse.VC.opendb
+/.vs/SP_Game/v17/Browse.VC.db-wal
+/.vs/SP_Game/v17/Browse.VC.db-shm
+/.vs/SP_Game/v17/Browse.VC.db
+/.vs/SP_Game/v17/ipch/AutoPCH/b9ce712401fd0fef/ENEMIES.ipch
+*.vsidx
+/.vs/SP_Game/FileContentIndex/9af1296d-f4f5-44ae-8503-65eb1b52381a.vsidx
+/.vs/SP_Game/v17/Browse.VC.db
+/.vs/SP_Game/v17/ipch/AutoPCH/b9ce712401fd0fef/ENEMIES.ipch
+/.vs/SP_Game/FileContentIndex/9af1296d-f4f5-44ae-8503-65eb1b52381a.vsidx
+/.vs/SP_Game/FileContentIndex/9af1296d-f4f5-44ae-8503-65eb1b52381a.vsidx
+/.vs/SP_Game/v17/Browse.VC.db

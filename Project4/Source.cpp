@@ -79,6 +79,7 @@ namespace ELARABY
 			{
 				arr.at(i)[j].visited = 0;
 				arr.at(i)[j].global = INFINITY;
+
 				arr.at(i)[j].local = INFINITY;
 				arr.at(i)[j].father = nullptr;
 			}

@@ -369,9 +369,10 @@ void character::move()
                 cout << WeaponsBar[0].Weapontype << '\n';
                 if (WeaponsBar[0].Weapontype == 1)
                 {
-                    cout << "okkkkkkkkk\n";
                     ChangeWeapon("LongSword");
-
+                    HitDistance = 100;
+                    damage = maxDamage+15;
+                    
                 }
 
             }
@@ -380,8 +381,9 @@ void character::move()
                 cout << WeaponsBar[2].Weapontype << '\n';
                 if (WeaponsBar[1].Weapontype == 2)
                 {
-                    cout << "okkkkkkkkk\n";
                     ChangeWeapon("Waraxe");
+                    damage = maxDamage + 7;
+                    HitDistance = 50;
                 }
 
             }
@@ -390,8 +392,10 @@ void character::move()
                 cout << WeaponsBar[2].Weapontype << '\n';
                 if (WeaponsBar[3].Weapontype == 4)
                 {
-                    cout << "okkkkkkkkk\n";
                     ChangeWeapon("Mace");
+                    HitDistance = 50;
+                    damage = maxDamage + 4;
+
                 }
 
             }
@@ -400,12 +404,19 @@ void character::move()
                 cout << WeaponsBar[2].Weapontype << '\n';
                 if (WeaponsBar[2].Weapontype == 3)
                 {
-                    cout << "okkkkkkkkk\n";
                     ChangeWeapon("Saber");
+                    HitDistance = 70;
+                    damage = maxDamage + 10;
+
                 }
 
             }
-
+            else if (Keyboard::isKeyPressed(Keyboard::Num5) and weapon != "Pickaxe")
+            {
+                ChangeWeapon("Pickaxe");
+                HitDistance = 45;
+                maxDamage = damage;
+            }
 
         }
         if (!IsAttacking && !IsWalking)

@@ -143,18 +143,25 @@ void GameManager::buttonUpdate()
 		fstream fout;
 		fout.open("saveGame.txt", ios::trunc | ios::in | ios::out);
 		//write last info
-		fout << this->story->hero.
-		fout << posPlayerX << ' ' << posPlayerY << '\n';
-		fout << health << '\n';
-		fout << st << '\n';
-		fout << currentIron << '\n';
-		fout << currentWood << '\n';
-		fout << currentMeat << '\n';
-		fout << currentLamb << '\n';
-		fout << currentChicken << '\n';
-		//speed , 
+		//Character
+		fout << this->story->hero.sprite.getPosition().x << ' ' << this->story->hero.sprite.getPosition().y << '\n'
+			<< this->story->hero.health << '\n'
+			<< this->story->hero.stamina << '\n'
+			<< this->story->hero.weapon << '\n'
+			<< this->story->hero.hunger << '\n'
+			<< this->story->hero.HitSpeed << '\n'
+			<< this->story->hero.walk << '\n'
+			<< this->story->hero.run << '\n'
+			<< this->story->hero.damage << '\n'
+			<< this->story->hero.score << '\n'
+		//Resources
+			<< inventory.meat << '\n'
+			<< inventory.currentIron << '\n'
+			<< inventory.currentWood << '\n'
+			<< inventory.currentStones << '\n';
+			 
 
-		for (int i = 0; i < 18; ++i)
+		for (int i = 0; i < 27; ++i)
 			fout << inv_items[i].mawared.quantity << ' ' << inv_items[i].mawared.type << ' '
 			<< inv_items[i].weapons.health << ' ' << inv_items[i].weapons.type << ' '
 			<< inv_items[i].weapon_or_mawared_or_nothing << '\n';
@@ -254,6 +261,7 @@ void GameManager::render(sf::RenderTarget* target)
 				{
 					collectedWoods.erase(collectedWoods.begin() + i);
 				}
+				i++;
 			}
 			i = 0;
 			for (auto dstone : collectedStones)
@@ -264,6 +272,7 @@ void GameManager::render(sf::RenderTarget* target)
 				{
 					collectedStones.erase(collectedStones.begin() + i);
 				}
+				i++;
 			}
 			i = 0;
 			for (auto& diron : collectedIrons)

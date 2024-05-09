@@ -18,7 +18,7 @@ struct GameManager :states
 	sf::RectangleShape shape,background,checkCollision;
 	PauseMenu* PauseM=new PauseMenu(window);
 	Sprite check;
-	GameManager(sf::RenderWindow* windoww, stack<states*>* gameStates);
+	GameManager(sf::RenderWindow* windoww, stack<states*>* gameStates );
 	void end();
 	void render(sf::RenderTarget* target);
 	void buttonUpdate();

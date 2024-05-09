@@ -4,7 +4,7 @@
 #include"Global.h"
 SpriteVector DrawSprite;
 
-sf::RenderWindow* window = new sf::RenderWindow(sf::VideoMode(1920, 1080), "Siltara", sf::Style::Close | sf::Style::Resize | sf::Style::Titlebar|sf::Style::Fullscreen); 
+sf::RenderWindow* window = new sf::RenderWindow(sf::VideoMode(1920, 1080), "Siltara", sf::Style::Close | sf::Style::Resize | sf::Style::Titlebar); 
 Vector2f WindowSize = { (float)window->getSize().x, (float)window->getSize().y };
 
 //Control DeltaTime

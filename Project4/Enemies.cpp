@@ -388,7 +388,7 @@ void enemies::FinalBossDraw(character &x)
 {
 	if (x.sprite.getPosition().y > sprite.getPosition().y)
 		window->draw(sprite);
-	window->draw(sprite);
+	window->draw(x.sprite);
 	if (x.sprite.getPosition().y <= sprite.getPosition().y)
 		window->draw(sprite);
 }

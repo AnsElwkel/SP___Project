@@ -171,6 +171,12 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 			hero.walking.pause();
 			scene.scene6(FinalBoss, hero);
 		}
+		else if (scene.EndSceneCh)
+		{
+			hero.control = 0;
+			hero.walking.pause();
+			scene.EndScene(FinalBoss, hero);
+		}
 	}
 	////Temp, Control Back Ground Color
 	if (hero.InCave)

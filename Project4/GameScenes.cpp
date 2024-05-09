@@ -749,6 +749,32 @@ void GameScenes::scene6(enemies& e, character& h)
 	}
 }
 
+Text tte;
+string sse;
+void GameScenes::EndSceneSet()
+{
+	tte.setFont(f);
+	tte.setString("");
+	tte.setFillColor(Color::White);
+	tte.setScale(scale);
+	tte.setPosition(64, 128);
+	sse = "Creators:\n\nYusuf Mahmud\n\nHossam El3araby\n\nMohamed Ramadan\n\nHossam ElNemr The Animal\n\nAnas Elwkel\n\nAhmed Labib\n\nMohamed Zanaty//";
+}
+
+int iie = 0;
+void GameScenes::EndScene(enemies &e, character &h)
+{
+	if (iie < sse.size())
+	{
+		DisplayText(tte, sse, iie, e, h, "no");
+	}
+	else
+	{
+		iie++;
+		EndSceneCh = 0;
+	}
+}
+
 void GameScenes::GameScenesSet(enemies& e, character& h)
 {
 	Scene0Set();
@@ -759,4 +785,5 @@ void GameScenes::GameScenesSet(enemies& e, character& h)
 	Scene4Set();
 	Scene5Set();
 	Scene6Set(h);
+	EndSceneSet();
 }

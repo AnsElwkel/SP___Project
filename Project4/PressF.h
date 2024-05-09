@@ -64,7 +64,7 @@ struct item_type
     Sprite food;
 
 };
-extern item_type inv_items[18];
+extern item_type inv_items[27];
 
 
 struct Player

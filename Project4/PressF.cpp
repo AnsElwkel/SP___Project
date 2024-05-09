@@ -2,7 +2,7 @@
 #include "character.h"
 #include"Story.h"
 // Variables
-float dt=1/200.0;
+float dt = 1 / 200.0;
 int WeaponID = 0;
 int WeaponType = 0;
 int TARGETDISTANCE = 40000;
@@ -42,7 +42,7 @@ bool checkDistance(float currentDistance, Sprite mainCharcter, Sprite store);
 float calcDistance(Sprite mainCharcter, Sprite store);
 void PressFtoOpenWeapons();
 void displayFoodList();
-void setblocks(Texture& blockText, Sprite& blocks,Vector2f pos);
+void setblocks(Texture& blockText, Sprite& blocks, Vector2f pos);
 // end
 float calcDistance(Sprite mainCharcter, RectangleShape store)
 {
@@ -51,7 +51,7 @@ float calcDistance(Sprite mainCharcter, RectangleShape store)
 }
 bool checkDistance(float currentDistance, Sprite mainCharcter, RectangleShape store)
 {
-	currentDistance = calcDistance(mainCharcter,store);
+	currentDistance = calcDistance(mainCharcter, store);
 	if (currentDistance <= TARGETDISTANCE)
 		return true;
 	else return false;
@@ -60,11 +60,16 @@ void PressFtoOpenWeapons()
 {
 	//each block is 72*72
 	// fonts
+	RectangleShape Box;
 	press.setString("Press F to open");
+	Box.setSize({ press.getGlobalBounds().width, press.getGlobalBounds().height });
+	Box.setPosition(press.getPosition());
+	Box.setFillColor(Color(128, 128, 128, 120));//grey
+	window->draw(Box);
 	weapons.weaponName.setOrigin(weapons.weaponName.getLocalBounds().width / 2.0, weapons.weaponName.getLocalBounds().height / 2.0);
-	weapons.weaponName.setPosition(WindowSize.x/2.0, WindowSize.x / 1920.f * 100);
-	weapons.weapondt.setCharacterSize(24*WindowSize.x/1920.f);
-	weapons.weapondt.setPosition(0, 200* WindowSize.x / 1920.f);
+	weapons.weaponName.setPosition(WindowSize.x / 2.0, WindowSize.x / 1920.f * 100);
+	weapons.weapondt.setCharacterSize(24 * WindowSize.x / 1920.f);
+	weapons.weapondt.setPosition(0, 200 * WindowSize.x / 1920.f);
 	// end fonts
 	if (last != 'f')
 	{
@@ -102,10 +107,10 @@ void PressFtoOpenWeapons()
 	if (last == 'f' and Blocks.LongSowrdB.getGlobalBounds().contains(Mouse::getPosition(*window).x, Mouse::getPosition(*window).y))
 	{
 		weapons.weaponName.setString("Long Sword");
-		weapons.weapondt.setString("Iron x" + to_string(weapons.WeaponsDetails.longSowrdIron)+"\n" + "wood x" + to_string(weapons.WeaponsDetails.longSowrdWood)+"\n"+"health: "+ to_string(weapons.WeaponsDetails.longSowrdHealth));
+		weapons.weapondt.setString("Iron x" + to_string(weapons.WeaponsDetails.longSowrdIron) + "\n" + "wood x" + to_string(weapons.WeaponsDetails.longSowrdWood) + "\n" + "health: " + to_string(weapons.WeaponsDetails.longSowrdHealth));
 		window->draw(weapons.weapondt);
 		window->draw(weapons.weaponName);
-		
+
 		if (Mouse::isButtonPressed(Mouse::Left) and !ok1)
 		{
 			if (weapons.WeaponsDetails.longSowrdIron <= inventory.currentIron and weapons.WeaponsDetails.longSowrdWood <= inventory.currentWood)
@@ -138,9 +143,9 @@ void PressFtoOpenWeapons()
 			}
 			ok1 = 1;
 		}
-			else if (!Mouse::isButtonPressed(Mouse::Left))
-				ok1 = 0;
-		
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			ok1 = 0;
+
 	}
 	else if (last == 'f' and Blocks.WarAxeB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
@@ -170,7 +175,7 @@ void PressFtoOpenWeapons()
 		else if (!Mouse::isButtonPressed(Mouse::Left))
 			ok2 = 0;
 	}
-	
+
 	else if (last == 'f' and Blocks.SaberB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
 		weapons.weaponName.setString("Saber");
@@ -204,7 +209,7 @@ void PressFtoOpenWeapons()
 				item_type saber = { 1,{3,100,weapons.Saber} };
 				addToInventory(saber);
 			}
-				ok3 = 1;
+			ok3 = 1;
 		}
 		else if (!Mouse::isButtonPressed(Mouse::Left))
 			ok3 = 0;
@@ -215,7 +220,7 @@ void PressFtoOpenWeapons()
 		weapons.weapondt.setString("Iron x" + to_string(weapons.WeaponsDetails.maceIron) + "\n" + "wood x" + to_string(weapons.WeaponsDetails.maceWood) + "\n" + "health: " + to_string(weapons.WeaponsDetails.maceHealth));
 		window->draw(weapons.weapondt);
 		window->draw(weapons.weaponName);
-		
+
 		if (Mouse::isButtonPressed(Mouse::Left) and !ok4)
 		{
 			if (weapons.WeaponsDetails.maceIron <= inventory.currentIron and weapons.WeaponsDetails.maceWood <= inventory.currentWood)
@@ -244,10 +249,10 @@ void PressFtoOpenWeapons()
 				item_type mace = { 1,{4,100,weapons.Mace} };
 				addToInventory(mace);
 			}
-					ok4 = 1;
+			ok4 = 1;
 		}
-			else if(!Mouse::isButtonPressed(Mouse::Left))
-				ok4 = 0;
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			ok4 = 0;
 	}
 }
 void PressFtoOpenfood()
@@ -293,7 +298,7 @@ void PressFtoOpenfood()
 		food.fooddt.setString("Meat x1\nwood x" + to_string(food.FoodDetails.meatWood));
 		window->draw(food.fooddt);
 		window->draw(food.foodName);
-		
+
 		if (Mouse::isButtonPressed(Mouse::Left) and !okf1)
 		{
 			if (food.FoodDetails.meatWood <= inventory.currentWood and inventory.meat >= 0)
@@ -308,7 +313,7 @@ void PressFtoOpenfood()
 							removeFromInventory(i);
 						}
 					}
-				
+
 				inventory.meat--;
 				inventory.currentWood -= food.FoodDetails.meatWood;
 				item_type Meat;
@@ -369,11 +374,11 @@ void PressFtoOpenfood()
 		else if (!Mouse::isButtonPressed(Mouse::Left))
 			ok3 = 0;
 	}
-	
+
 }
-void setblocks(Texture& blockText, Sprite& blocks,Vector2f pos)
+void setblocks(Texture& blockText, Sprite& blocks, Vector2f pos)
 {
-	blockText.loadFromFile("./res./weapons/list - Copy.jpg");
+	blockText.loadFromFile("./res./weapons/list - Copy.png");
 	blocks.setTexture(blockText);
 	blocks.setPosition(pos);
 	blocks.setScale(2.f * WindowSize.x / 1920.f, 2.f * WindowSize.x / 1920.f);
@@ -454,22 +459,22 @@ void displayFoodList()
 }
 void fonts()
 {
-	pressfont.loadFromFile("./res/Fonts/Press F.otf");
+	pressfont.loadFromFile("./res/Fonts/minecraft_font.ttf");
 	press.setFont(pressfont);
 	weapons.weaponName.setFont(pressfont);
 	weapons.weapondt.setFont(pressfont);
 	food.foodName.setFont(pressfont);
 	food.fooddt.setFont(pressfont);
-	press.setCharacterSize(WindowSize.x/1920.f*48);
-	
+	press.setCharacterSize(WindowSize.x / 1920.f * 48);
+
 }
 void drawFoodStore(Vector2f pos)
 {
 	foodStoreTex.loadFromFile("./res/food/foodStore.png");
 	foodkoisk.setTexture(foodStoreTex);
 	foodkoisk.setPosition(pos);
-	foodkoisk.setOrigin(foodkoisk.getGlobalBounds().width/2.0, foodkoisk.getGlobalBounds().height / 2.0);
-	foodkoisk.setScale(0.2f*WindowSize.x/1920.f, 0.2f* WindowSize.x / 1920.f);
+	foodkoisk.setOrigin(foodkoisk.getGlobalBounds().width / 2.0, foodkoisk.getGlobalBounds().height / 2.0);
+	foodkoisk.setScale(0.2f * WindowSize.x / 1920.f, 0.2f * WindowSize.x / 1920.f);
 }
 void drawWeaponStore(Vector2f pos)
 {
@@ -477,15 +482,15 @@ void drawWeaponStore(Vector2f pos)
 	weaponkoisk.setTexture(weaponStoreTex);
 	weaponkoisk.setPosition(pos);
 	weaponkoisk.setOrigin(weaponkoisk.getGlobalBounds().width / 2.0, weaponkoisk.getGlobalBounds().height / 2.0);
-	weaponkoisk.setScale(0.3f*WindowSize.x/1920.f, 0.3f*WindowSize.x / 1920.f);
+	weaponkoisk.setScale(0.3f * WindowSize.x / 1920.f, 0.3f * WindowSize.x / 1920.f);
 }
 void  displayWeaponHeroList()
 {
-	
-		
+
+
 	for (int i = 0; i < WEAPONSNUMBER; i++)
 	{
-		setblocks(Blocks.WeaponBarText, Blocks.WeaponBarB, { WindowSize.x / 2.f-2*Blocks.WeaponBarB.getGlobalBounds().width+i* Blocks.WeaponBarB.getGlobalBounds().width,WindowSize.y- Blocks.WeaponBarB.getGlobalBounds().height});
+		setblocks(Blocks.WeaponBarText, Blocks.WeaponBarB, { WindowSize.x / 2.f - 2 * Blocks.WeaponBarB.getGlobalBounds().width + i * Blocks.WeaponBarB.getGlobalBounds().width,WindowSize.y - Blocks.WeaponBarB.getGlobalBounds().height });
 	}
 	for (int i = 0; i < WEAPONSNUMBER; i++)
 	{
@@ -542,7 +547,7 @@ void  displayWeaponHeroList()
 		{
 			currentWeaponText[i].loadFromFile("./res/weapons/long_sword.png");
 		}
-		else if(WeaponsBar[i].Weapontype == 2)
+		else if (WeaponsBar[i].Weapontype == 2)
 		{
 			currentWeaponText[i].loadFromFile("./res/weapons/waraxe.png");
 		}
@@ -554,22 +559,22 @@ void  displayWeaponHeroList()
 		{
 			currentWeaponText[i].loadFromFile("./res/weapons/mace.png");
 		}
-			currentWeapon[i].setTexture(currentWeaponText[i]);
-			currentWeapon[i].setOrigin(currentWeapon[i].getLocalBounds().width / 2.0, currentWeapon[i].getLocalBounds().height / 2.0);
-			currentWeapon[i].setPosition(WindowSize.x / 2.f - 2 * Blocks.WeaponBarB.getGlobalBounds().width + i * Blocks.WeaponBarB.getGlobalBounds().width + Blocks.WeaponBarB.getGlobalBounds().width / 2.f, WindowSize.y - Blocks.WeaponBarB.getGlobalBounds().height + Blocks.WeaponBarB.getGlobalBounds().height / 2.f);
-			currentWeapon[i].setScale(0.8f * (WindowSize.x / 1920.f), 0.8f * (WindowSize.y / 1080.f));
-			window->draw(currentWeapon[i]);
-			HealthBarSet(WeaponsBar[i].WeaponHealth, {WindowSize.x / 2.f - 2 * Blocks.WeaponBarB.getGlobalBounds().width + i * Blocks.WeaponBarB.getGlobalBounds().width,WindowSize.y - Blocks.WeaponBarB.getGlobalBounds().height});
+		currentWeapon[i].setTexture(currentWeaponText[i]);
+		currentWeapon[i].setOrigin(currentWeapon[i].getLocalBounds().width / 2.0, currentWeapon[i].getLocalBounds().height / 2.0);
+		currentWeapon[i].setPosition(WindowSize.x / 2.f - 2 * Blocks.WeaponBarB.getGlobalBounds().width + i * Blocks.WeaponBarB.getGlobalBounds().width + Blocks.WeaponBarB.getGlobalBounds().width / 2.f, WindowSize.y - Blocks.WeaponBarB.getGlobalBounds().height + Blocks.WeaponBarB.getGlobalBounds().height / 2.f);
+		currentWeapon[i].setScale(0.8f * (WindowSize.x / 1920.f), 0.8f * (WindowSize.y / 1080.f));
+		window->draw(currentWeapon[i]);
+		HealthBarSet(WeaponsBar[i].WeaponHealth, { WindowSize.x / 2.f - 2 * Blocks.WeaponBarB.getGlobalBounds().width + i * Blocks.WeaponBarB.getGlobalBounds().width,WindowSize.y - Blocks.WeaponBarB.getGlobalBounds().height });
 	}
 
 }
-void HealthBarSet(float x,Vector2f pos)
+void HealthBarSet(float x, Vector2f pos)
 {
-	float BlockSize = 72*WindowSize.x/1920.f;
-	WeaponHealthBar.setSize({ BlockSize*x/100.f, 5.f*WindowSize.x/1600.f});
+	float BlockSize = 72 * WindowSize.x / 1920.f;
+	WeaponHealthBar.setSize({ BlockSize * x / 100.f, 5.f * WindowSize.x / 1600.f });
 	WeaponHealthBar.setOrigin(0, WeaponHealthBar.getLocalBounds().getSize().y);
-	WeaponHealthBar.setPosition(pos.x, pos.y+ BlockSize);
-	if(x >= 20)
+	WeaponHealthBar.setPosition(pos.x, pos.y + BlockSize);
+	if (x >= 20)
 		WeaponHealthBar.setFillColor(Color::Green);
 	else
 		WeaponHealthBar.setFillColor(Color::Red);
@@ -583,7 +588,7 @@ void HealthBarSet(float x,Vector2f pos)
 	WeaponHealthBarFrame.setFillColor(Color::Transparent);
 	window->draw(WeaponHealthBar);
 	window->draw(WeaponHealthBarFrame);
-	
+
 }
 void setCursor()
 {

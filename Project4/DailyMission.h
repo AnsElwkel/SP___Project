@@ -4,7 +4,7 @@
 using namespace std;
 using namespace sf;
 extern Vector2f resizeAll;
-struct checkIfDone:states
+struct checkIfDone :states
 {
 
 
@@ -38,6 +38,13 @@ struct checkIfDone:states
     int current = 0, currentDay = 0, lastDay = 0;
     Sprite checkBox[5];
     Sprite giftSprite;
+    Sprite backGround;
+    Texture Gift;
+    Texture checkbox;
+    Texture bGround;
+    Texture coinTex;
+    Sprite coinSprit;
+    Text coinNum;
     Font font;
     RectangleShape done[5];//green Box
     RectangleShape missionBox;
@@ -51,7 +58,7 @@ struct checkIfDone:states
     void Updatebind(const float& dt);
     void end();
     void giftBox();
-    void selection(Font&);
+    void selection();
 };
 
 

@@ -104,9 +104,11 @@
 #include"Settings.h"
 #include "DailyMission.h"
 #include "PauseMenu.h"
-Color A = sf::Color(203, 255, 255,0);
-Color B = sf::Color(196, 138, 100,0);
-Color C = sf::Color(165, 180, 125,0);
+#include "mainMenu.h"
+
+Color A = sf::Color(203, 255, 255, 0);
+Color B = sf::Color(196, 138, 100, 0);
+Color C = sf::Color(165, 180, 125, 0);
 Vector2f resizeAll = { 1.f,1.f };
 float resizeText = min(resizeAll.x, resizeAll.y);
 
@@ -119,26 +121,17 @@ Clock coinTimer;
 bool doneToday;
 float coinFlat = 0;
 int p = 0;
-button menu[4];
-bool Menu[4]={};
 
 
 
-enum APPSELECT
-{
-    MENU,PLAY,MISSION,EXIT,SETTING,PAUSE
 
-};
-
-
-APPSELECT CURRENT = MENU;
 
 Vector2f multiply(Vector2f& vec1, Vector2f& vec2, int i = -1) {
     Vector2f vec3 = Vector2f(vec1.x * vec2.x, (vec1.y * vec2.y + (80 * (i + 1))));//for selectors to make spaces
     return vec3;
 
 }
-void checkIfDone:: loadDailyMission(string& lastDay, string gifts[]) {
+void checkIfDone::loadDailyMission(string& lastDay, string gifts[]) {
     ifstream inputFile("daily_mission.txt");
     if (inputFile.is_open()) {
         getline(inputFile, lastDay);
@@ -166,7 +159,7 @@ void checkIfDone::saveDailyMission(string& lastDay, string gifts[]) {
 }
 void checkIfDone::checkMission()//check the mission of today
 {
-    
+
     current = 3 * currentDay;
     loadDailyMission(lastDayString, mission);
     localtime_s(&ltm, &now);
@@ -266,7 +259,7 @@ void checkIfDone::checkMission()//check the mission of today
 
 
 
-    if (mission[current] == "1" && coinFlat <= 2&&p<450)
+    if (mission[current] == "1" && coinFlat <= 2 && p < 450)
     {
         giftt = rand() % 3001 + 2000;
         p++;
@@ -274,17 +267,17 @@ void checkIfDone::checkMission()//check the mission of today
         if (p == 450)
         {
             coin += giftt;
-        
+
         }
     }
 }
-void checkIfDone::selection(Font& font) {
+void checkIfDone::selection() {
 
 
     current = currentDay * 3;
     currentDayString = to_string(currentDay);
     lastDay = stoi(lastDayString);
-   
+
     missionBox.setSize(multiply(rectSize, resizeAll));
     missionBox.setPosition(multiply(rectPosition, resizeAll));
     missionBox.setFillColor(Color(128, 128, 128, 120));//grey
@@ -328,15 +321,15 @@ void checkIfDone::selection(Font& font) {
         cur[3] = 7;
         cur[4] = 10;
     }
-    
+
     else
     {
-       
-        cur[0] = current - 11;
-        cur[1] = current - 8;
-        cur[2] = current - 5;
-        cur[3] = current - 2;
-        cur[4] = current +1;
+
+        cur[0] = current - 14;
+        cur[1] = current - 11;
+        cur[2] = current - 8;
+        cur[3] = current - 5;
+        cur[4] = current - 2;
 
     }
     missionText.setString("Daily Mission Is: "
@@ -379,19 +372,33 @@ void checkIfDone::selection(Font& font) {
     saveDailyMission(currentDayString, mission);
 }
 
-checkIfDone::checkIfDone(sf::RenderWindow* windoww, stack<states*>* gameStates):states(windoww,gameStates)
+checkIfDone::checkIfDone(sf::RenderWindow* windoww, stack<states*>* gameStates) :states(windoww, gameStates)
 {
-    Texture checkbox;
-    checkbox.loadFromFile("check.png");
+
+    checkbox.loadFromFile("./res/gifts/check.png");
+
     for (size_t i = 0; i < 5; i++)
         checkBox[i].setTexture(checkbox);
-    Texture Gift;
-    Gift.loadFromFile("coins.png");
+    Gift.loadFromFile("./res/gifts/coins.png");
     giftSprite.setTexture(Gift);
-    font.loadFromFile("minecraft_font.ttf");
+    font.loadFromFile("./res/Fonts/minecraft_font.ttf");
+    bGround.loadFromFile("./res/siltara4.jpg");
+    backGround.setTexture(bGround);
+    coinTex.loadFromFile("./res/gifts/coinn.png");
+    coinSprit.setTexture(coinTex);
+    coinNum.setString("" + to_string(coin) + " \ncoins ");
+    coinNum.setCharacterSize(60 * resizeText);
+    coinNum.setFillColor(Color(249, 188, 0));
+    coinNum.setFont(font);
+
+    coinNum.setPosition(200, 35);
+    coinSprit.setPosition(100, 35);
 }
 
 void checkIfDone::render(RenderTarget* window) {
+    window->draw(backGround);
+    window->draw(coinSprit);
+    window->draw(coinNum);
     for (int i = 0; i < 5; i++)
     {
         window->draw(checkBox[i]);
@@ -410,9 +417,9 @@ void checkIfDone::update(const float& dt)
 {
     Updatebind(dt);
     UpdateMousePos();
-   checkMission();
-   selection(font);
-   giftBox();
+    checkMission();
+    selection();
+    giftBox();
 }
 void checkIfDone::Updatebind(const float& dt)
 {
@@ -425,10 +432,9 @@ void checkIfDone::end()
 void checkIfDone::giftBox() {
 
     giftText.setPosition(650 * resizeAll.x, 600 * resizeAll.y);
-    giftText.setString("You got   " + to_string(giftt) + "  Coins ");
+    giftText.setString("You got  " + to_string(giftt) + "  Coins ");
     giftText.setFont(font);
     giftText.setCharacterSize(50 * resizeAll.x);
     giftText.setFillColor(Color::Black);
 }
 
-   

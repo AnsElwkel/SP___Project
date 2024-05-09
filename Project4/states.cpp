@@ -25,6 +25,7 @@ bool states::close()
 
 const bool states::getQuit() const
 {
+
 	return quit;
 }
 

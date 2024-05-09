@@ -10,7 +10,7 @@ bool tch = 1;
 GameScenes::GameScenes()
 {
 }
-void GameScenes::DisplayText(Text &t, string &s, int &idx, enemies& e, character& h, string talker)
+void GameScenes::DisplayText(Text& t, string& s, int& idx, enemies& e, character& h, string talker)
 {
 	bool tech = 0;
 	Text te, te2;
@@ -45,7 +45,7 @@ void GameScenes::DisplayText(Text &t, string &s, int &idx, enemies& e, character
 			if (typech == 0)
 				typech = 1, typing.play();
 			t.setString(t.getString() + s[idx]);
-			if (t.findCharacterPos(idx).x > WindowSize.x * 9 / 10.f && s[idx] == ' ' /*&& s[idx - 2] != ' '*/ )
+			if (t.findCharacterPos(idx).x > WindowSize.x * 9 / 10.f && s[idx] == ' ' /*&& s[idx - 2] != ' '*/)
 				t.setString(t.getString() + '\n');
 		}
 		if (idx + 2 < s.size() && s[idx + 1] == '/' && s[idx + 2] == '/')
@@ -68,7 +68,7 @@ void GameScenes::DisplayText(Text &t, string &s, int &idx, enemies& e, character
 			}
 		}
 		else if (s[idx] == ',')
-			TextTimer = ComaDelay, idx++,typech = 0, typing.stop();
+			TextTimer = ComaDelay, idx++, typech = 0, typing.stop();
 		else if (idx + 1 < s.size() && s[idx + 1] != ' ')
 			TextTimer = TextDelay, idx++;
 		else
@@ -86,7 +86,7 @@ void GameScenes::DisplayText(Text &t, string &s, int &idx, enemies& e, character
 	}
 	else
 	{
-		window->draw(h.sprite); 
+		window->draw(h.sprite);
 		window->draw(e.sprite);
 		if (talker == "hero")
 			window->draw(HeroTalk.sprite);
@@ -95,6 +95,44 @@ void GameScenes::DisplayText(Text &t, string &s, int &idx, enemies& e, character
 		window->draw(t);
 		if (!tech)
 			window->draw(te2);
+	}
+}
+
+string si;
+Text ti;
+void GameScenes::InstructionsSceneSet()
+{
+	ti.setFont(f);
+	ti.setString("");
+	ti.setFillColor(Color::White);
+	ti.setScale(scale);
+	ti.setPosition(50, 300);
+	si = "Use Arrows To Move\n\nPress X To Attack\n\nPress C To Dodge Attacks\n\nHold Left Shift To Run//";
+}
+
+int ii = 0;
+RectangleShape screen;
+void GameScenes::InstructionsScene(enemies& e, character& h)
+{
+	screen.setSize({ (float)window->getSize().x, (float)window->getSize().y });
+	screen.setFillColor(Color::Black);
+	if (ii < si.size())
+	{
+		DisplayText(ti, si, ii, e, h, "no");
+	}
+	else if (ii == si.size())
+	{
+		ii++;
+		window->draw(h.sprite);
+		window->draw(e.sprite);
+		window->draw(HeroTalk.sprite);
+		window->draw(screen);
+		window->draw(ti);
+	}
+	else
+	{
+		ii++;
+		InstructionsSceneCh = 0;
 	}
 }
 
@@ -115,11 +153,8 @@ void GameScenes::Scene0Set()
 	t[0].setPosition(32, window->getSize().y / 2 - 64);
 }
 
-RectangleShape screen;
-void GameScenes::scene0(enemies &e, character &h)
+void GameScenes::scene0(enemies& e, character& h)
 {
-	screen.setSize({ (float)window->getSize().x, (float)window->getSize().y });
-	screen.setFillColor(Color::Black);
 	if (i[0] < s[0].size())
 	{
 		DisplayText(t[0], s[0], i[0], e, h, "no");
@@ -127,7 +162,7 @@ void GameScenes::scene0(enemies &e, character &h)
 	else if (i[0] == s[0].size())
 	{
 		i[0]++;
-		window->draw(h.sprite); 
+		window->draw(h.sprite);
 		window->draw(e.sprite);
 		window->draw(HeroTalk.sprite);
 		window->draw(screen);
@@ -213,7 +248,7 @@ void GameScenes::BlinkReset()
 	Blinking = 1;
 }
 
-void GameScenes::scene1(enemies &e, character &h)
+void GameScenes::scene1(enemies& e, character& h)
 {
 	if (Blinking)
 	{
@@ -227,7 +262,7 @@ void GameScenes::scene1(enemies &e, character &h)
 	}
 	else
 	{
-		 
+
 		i[1]++;
 		BlinkReset();
 		scene1ch = 0;
@@ -326,7 +361,7 @@ void GameScenes::scene3(enemies& e, character& h)
 	if (!h.arrive)
 	{
 		h.GoTo({ ((float)window->getSize().x / 4), ((float)window->getSize().y / 2) }, 3, 200);
-		window->draw(h.sprite); 
+		window->draw(h.sprite);
 		window->draw(e.sprite);
 	}
 	else if (i[7] < s[7].size())
@@ -336,7 +371,7 @@ void GameScenes::scene3(enemies& e, character& h)
 		DisplayText(t[7], s[7], i[7], e, h, "FinalBoss");
 	}
 	else if (i[8] < s[8].size())
-	{ 
+	{
 		i[7]++;
 		DisplayText(t[8], s[8], i[8], e, h, "hero");
 	}
@@ -446,7 +481,7 @@ void GameScenes::scene5(enemies& e, character& h)
 	}
 	else if (!h.arrive && bch)
 	{
-		h.GoTo({ WindowSize.x / 2, WindowSize.y / 2}, 3, 300);
+		h.GoTo({ WindowSize.x / 2, WindowSize.y / 2 }, 3, 300);
 		window->draw(FakeBrother);
 		window->draw(h.sprite);
 		window->draw(e.sprite);
@@ -467,13 +502,13 @@ void GameScenes::scene5(enemies& e, character& h)
 				h.sprite.setOrigin(h.WalkSize / 2.f);
 				AnemationTimer = AnemationDelay;
 			}
-			else 
+			else
 			{
 				AnemationTimer -= DeltaTime;
 			}
 			h.sprite.move(0, -110 * DeltaTime);
 		}
-		else 
+		else
 			chh = 0;
 		if (HitTimer < 0 && FBi < 5)
 		{
@@ -717,6 +752,7 @@ void GameScenes::scene6(enemies& e, character& h)
 void GameScenes::GameScenesSet(enemies& e, character& h)
 {
 	Scene0Set();
+	InstructionsSceneSet();
 	Scene1Set(e, h);
 	Scene2Set();
 	Scene3Set();

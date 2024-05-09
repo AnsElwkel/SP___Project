@@ -1,6 +1,7 @@
 #include "PauseMenu.h"
 PauseMenu::PauseMenu(sf::RenderWindow* window)
 {
+	//window->setMouseCursorVisible(0);
 	Background.setSize(sf::Vector2f(window->getSize().x, window->getSize().y));
 	Background.setFillColor(sf::Color(0, 0, 0, 80));
 	List.setSize(sf::Vector2f(window->getSize().x * 0.2, window->getSize().y * 0.4));
@@ -31,6 +32,7 @@ void PauseMenu::destroy()
 }
 void PauseMenu::render(sf::RenderTarget* target)
 {
+
 	target->draw(Background);
 	target->draw(List);
 	for (auto& i : buttons)

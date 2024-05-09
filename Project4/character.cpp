@@ -8,20 +8,20 @@ void character::chooseHero()
     Mogiwara.setTexture(tMogiwara);
     Mogiwara.setTextureRect(IntRect(0, WalkDownIndex, HeroSize.x, HeroSize.y));
     Mogiwara.setScale(WindowSize.x / 426.7, WindowSize.y / 240);
-    Mogiwara.setOrigin(HeroSize.x / 2, HeroSize.y *2 / 3);
-    Mogiwara.setPosition(WindowSize.x / 4, WindowSize.y / 4);
+    Mogiwara.setOrigin(HeroSize.x / 2, HeroSize.y * 2 / 3);
+    Mogiwara.setPosition(WindowSize.x / 3, WindowSize.y / 2);
     tZanaty.loadFromFile("./res/Heros/zanaty/Shadow/NoWeapon/zanaty.png");
-    zanaty.setTexture(tZanaty);
+    /*zanaty.setTexture(tZanaty);
     zanaty.setTextureRect(IntRect(0, WalkDownIndex, HeroSize.x, HeroSize.y));
     zanaty.setScale(WindowSize.x / 426.6, WindowSize.y / 240);
     zanaty.setOrigin(HeroSize.x / 2, HeroSize.y * 2 / 3);
-    zanaty.setPosition(WindowSize.x * 3 / 4, WindowSize.y / 4);
+    zanaty.setPosition(WindowSize.x * 3 / 4, WindowSize.y / 4);*/
     tLapip.loadFromFile("./res/Heros/Lapip/Shadow/NoWeapon/Lapip.png");
     Lapip.setTexture(tLapip);
     Lapip.setTextureRect(IntRect(0, WalkDownIndex, HeroSize.x, HeroSize.y));
     Lapip.setScale(WindowSize.x / 426.7, WindowSize.y / 240);
     Lapip.setOrigin(HeroSize.x / 2, HeroSize.y * 2 / 3);
-    Lapip.setPosition(WindowSize.x * 3 / 4, WindowSize.y * 3 / 4);
+    Lapip.setPosition(WindowSize.x * 2 / 3, WindowSize.y / 2);
     Font f;
     f.loadFromFile("./res/Fonts/minecraft_font.ttf");
     Text Mte, Zte, Lte;
@@ -30,21 +30,21 @@ void character::chooseHero()
     Vector2f MteSize = Mte.getLocalBounds().getSize();
     Mte.setScale(WindowSize.x / 1280, WindowSize.y / 720);
     Mte.setOrigin(MteSize.x / 2, MteSize.y / 2);
-    Mte.setPosition(Mogiwara.getPosition().x, WindowSize.y / 4 + Mogiwara.getGlobalBounds().height / 3 + Mte.getGlobalBounds().height);
+    Mte.setPosition(Mogiwara.getPosition().x, Mogiwara.getPosition().y + Mogiwara.getGlobalBounds().height / 3 + Mte.getGlobalBounds().height);
     Mte.setFillColor(Color::White);
-    Zte.setFont(f);
+    /*Zte.setFont(f);
     Zte.setString("Zanaty");
     Vector2f ZteSize = Zte.getGlobalBounds().getSize();
     Zte.setScale(WindowSize.x / 1280, WindowSize.y / 720);
     Zte.setOrigin(ZteSize.x / 2, ZteSize.y / 2);
     Zte.setPosition(zanaty.getPosition().x, WindowSize.y / 4 + zanaty.getGlobalBounds().height / 3 + Zte.getGlobalBounds().height);
-    Zte.setFillColor(Color::White);
+    Zte.setFillColor(Color::White);*/
     Lte.setFont(f);
     Lte.setString("Lapip");
     Vector2f LteSize = Lte.getLocalBounds().getSize();
     Lte.setScale(WindowSize.x / 1280, WindowSize.y / 720);
     Lte.setOrigin(LteSize.x / 2, LteSize.y / 2);
-    Lte.setPosition(Lapip.getPosition().x, WindowSize.y * 3 / 4 + Lapip.getGlobalBounds().height / 3 + Lte.getGlobalBounds().height);
+    Lte.setPosition(Lapip.getPosition().x, Lapip.getPosition().y + Lapip.getGlobalBounds().height / 3 + Lte.getGlobalBounds().height);
     Lte.setFillColor(Color::White);
 
     Event ev;
@@ -68,14 +68,14 @@ void character::chooseHero()
                 break;
             }
         }
-        if (zanaty.getGlobalBounds().contains(WmousePos) || Zte.getGlobalBounds().contains(WmousePos))
-        {
-            if (Mouse::isButtonPressed(Mouse::Left))
-            {
-                who = "zanaty";
-                break;
-            }
-        }
+        /* if (zanaty.getGlobalBounds().contains(WmousePos) || Zte.getGlobalBounds().contains(WmousePos))
+         {
+             if (Mouse::isButtonPressed(Mouse::Left))
+             {
+                 who = "zanaty";
+                 break;
+             }
+         }*/
         if (Lapip.getGlobalBounds().contains(WmousePos) || Lte.getGlobalBounds().contains(WmousePos))
         {
             if (Mouse::isButtonPressed(Mouse::Left))
@@ -86,8 +86,8 @@ void character::chooseHero()
         }
 
         window->clear();
-        window->draw(zanaty);    
-        window->draw(Mogiwara);  
+        window->draw(zanaty);
+        window->draw(Mogiwara);
         window->draw(Lapip);
         window->draw(Mte);
         window->draw(Zte);
@@ -95,6 +95,7 @@ void character::chooseHero()
         window->display();
     }
 }
+
 
 void character::set(int posx, int posy, bool x)
 {
@@ -278,6 +279,7 @@ void character::walkRight(bool x)
     sprite.setOrigin(HeroSize / 2.f);
     if (x) sprite.move(speed * DeltaTime, 0);
     lastKey = "Right";
+    last = '0';
 }
 
 void character::walkLeft(bool x)
@@ -296,6 +298,7 @@ void character::walkLeft(bool x)
     sprite.setOrigin(HeroSize / 2.f);
     if (x) sprite.move(-speed * DeltaTime, 0);
     lastKey = "Left";
+    last = '0';
 }
 
 void character::walkUp(bool x)
@@ -314,6 +317,7 @@ void character::walkUp(bool x)
     sprite.setOrigin(HeroSize / 2.f);
     if (x) sprite.move(0, -speed * DeltaTime);
     lastKey = "Up";
+    last = '0';
 }
 
 void character::walkDown(bool x)
@@ -332,163 +336,231 @@ void character::walkDown(bool x)
     sprite.setOrigin(HeroSize / 2.f);
     if (x) sprite.move(0, speed * DeltaTime);
     lastKey = "Down";
+    last = '0';
 }
 
 bool mu = 0;
+void character::ChangeWeapon(string x)
+{
+    weapon = x;
+    if (x == "NoWeapon")
+        IsWeapon = 0;
+    else
+        IsWeapon = 1;
+    tHero.loadFromFile("./res/Heros/" + who + "/" + shadow + "/" + weapon + "/" + who + ".png");
+    sprite.setTexture(tHero);
+    sprite.setScale(scale);
+}
 void character::move()
 {
-    if (!IsAttacking && !IsWalking)
+    if (control)
     {
-        HeroSize = WalkSize;
-        sprite.setOrigin(HeroSize / 2.f);
-        if (lastKey == "Right")
+        if (!IsWalking)
         {
-            sprite.setTextureRect(IntRect(0, WalkRightIndex, HeroSize.x, HeroSize.y));
-        }
-        else if (lastKey == "Left")
-        {
-            sprite.setTextureRect(IntRect(0, WalkLeftIndex, HeroSize.x, HeroSize.y));
-        }
-        else if (lastKey == "Up")
-        {
-            sprite.setTextureRect(IntRect(0, WalkUpIndex, HeroSize.x, HeroSize.y));
-        }
-        else if (lastKey == "Down")
-        {
-            sprite.setTextureRect(IntRect(0, WalkDownIndex, HeroSize.x, HeroSize.y));
-        }
-    }
+            if (WeaponsBar[0].Weapontype == 0 and weapon == "LongSword"
+                or WeaponsBar[1].Weapontype == 0 and weapon == "Waraxe"
+                or WeaponsBar[2].Weapontype == 0 and weapon == "Saber"
+                or WeaponsBar[3].Weapontype == 0 and weapon == "Mace")
+            {
+                ChangeWeapon("Pickaxe");
+            }
+            if (Keyboard::isKeyPressed(Keyboard::Num1))
+            {
+                cout << WeaponsBar[0].Weapontype << '\n';
+                if (WeaponsBar[0].Weapontype == 1)
+                {
+                    cout << "okkkkkkkkk\n";
+                    ChangeWeapon("LongSword");
 
-    // moving hero
-    AnemationDelay = 10 / speed;
-    if (IsWalking && mu == 0)
-    {
-        walking.play();
-        walking.setLoop(1);
-        mu = 1;
-    }
-    else if (!IsWalking && mu == 1)
-    {
-        walking.pause();
-        mu = 0;
-    }
-    if (Keyboard::isKeyPressed(Keyboard::Right))
-    {
-        if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
-        {
-            speed = run;
-            if (StaminaConsumtionTime < 0)
-            {
-                stamina--;
-                StaminaConsumtionTime = StaminaConsumtionDelay;
-            }
-            else
-                StaminaConsumtionTime -= DeltaTime;
-            HungerConsumeTime -= 5 * DeltaTime;
-        }
-        else
-            speed = walk;
-        HitI = 0;
-        IsAttacking = 0;
-        IsWalking = 1;
-        walkRight(1);
-    }
-    else if (Keyboard::isKeyPressed(Keyboard::Left))
-    {
-        if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
-        {
-            speed = run;
-            if (StaminaConsumtionTime < 0)
-            {
-                stamina--;
-                StaminaConsumtionTime = StaminaConsumtionDelay;
-            }
-            else
-                StaminaConsumtionTime -= DeltaTime;
-            HungerConsumeTime -= 5 * DeltaTime;
-        }
-        else
-            speed = walk;
-        HitI = 0;
-        IsAttacking = 0;
-        IsWalking = 1;
-        walkLeft(1);
-    }
-    else if (Keyboard::isKeyPressed(Keyboard::Up))
-    {
-        if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
-        {
-            speed = run;
-            if (StaminaConsumtionTime < 0)
-            {
-                stamina--;
-                StaminaConsumtionTime = StaminaConsumtionDelay;
-            }
-            else
-                StaminaConsumtionTime -= DeltaTime;
-            HungerConsumeTime -= 5 * DeltaTime;
-        }
-        else
-            speed = walk;
-        HitI = 0;
-        IsAttacking = 0;
-        IsWalking = 1;
-        walkUp(1);
-    }
-    else if (Keyboard::isKeyPressed(Keyboard::Down))
-    {
-        if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
-        {
-            speed = run;
-            if (StaminaConsumtionTime < 0)
-            {
-                stamina--;
-                StaminaConsumtionTime = StaminaConsumtionDelay;
-            }
-            else
-                StaminaConsumtionTime -= DeltaTime;
-            HungerConsumeTime -= 5 * DeltaTime;
-        }
-        else
-            speed = walk;
-        HitI = 0;
-        IsAttacking = 0;
-        IsWalking = 1;
-        walkDown(1);
-    }
-    else
-        IsWalking = 0;
+                }
 
-    //Stamina Restore
-    if (!Keyboard::isKeyPressed(Keyboard::LShift) && stamina < MaxStamina)
-    {
-        if (StaminaRestoreTime < 0)
+            }
+            else if (Keyboard::isKeyPressed(Keyboard::Num2))
+            {
+                cout << WeaponsBar[2].Weapontype << '\n';
+                if (WeaponsBar[1].Weapontype == 2)
+                {
+                    cout << "okkkkkkkkk\n";
+                    ChangeWeapon("Waraxe");
+                }
+
+            }
+            else if (Keyboard::isKeyPressed(Keyboard::Num4))
+            {
+                cout << WeaponsBar[2].Weapontype << '\n';
+                if (WeaponsBar[3].Weapontype == 4)
+                {
+                    cout << "okkkkkkkkk\n";
+                    ChangeWeapon("Mace");
+                }
+
+            }
+            else if (Keyboard::isKeyPressed(Keyboard::Num3))
+            {
+                cout << WeaponsBar[2].Weapontype << '\n';
+                if (WeaponsBar[2].Weapontype == 3)
+                {
+                    cout << "okkkkkkkkk\n";
+                    ChangeWeapon("Saber");
+                }
+
+            }
+
+
+        }
+        if (!IsAttacking && !IsWalking)
         {
-            stamina++;
-            StaminaRestoreTime = StaminaRestoreDelay;
+            HeroSize = WalkSize;
+            sprite.setOrigin(HeroSize / 2.f);
+            if (lastKey == "Right")
+            {
+                sprite.setTextureRect(IntRect(0, WalkRightIndex, HeroSize.x, HeroSize.y));
+            }
+            else if (lastKey == "Left")
+            {
+                sprite.setTextureRect(IntRect(0, WalkLeftIndex, HeroSize.x, HeroSize.y));
+            }
+            else if (lastKey == "Up")
+            {
+                sprite.setTextureRect(IntRect(0, WalkUpIndex, HeroSize.x, HeroSize.y));
+            }
+            else if (lastKey == "Down")
+            {
+                sprite.setTextureRect(IntRect(0, WalkDownIndex, HeroSize.x, HeroSize.y));
+            }
+        }
+
+        // moving hero
+        AnemationDelay = 10 / speed;
+        if (IsWalking && mu == 0)
+        {
+            walking.play();
+            walking.setLoop(1);
+            mu = 1;
+        }
+        else if (!IsWalking && mu == 1)
+        {
+            walking.pause();
+            mu = 0;
+        }
+        if (Keyboard::isKeyPressed(Keyboard::Right))
+        {
+            if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
+            {
+                speed = run;
+                if (StaminaConsumtionTime < 0)
+                {
+                    stamina--;
+                    StaminaConsumtionTime = StaminaConsumtionDelay;
+                }
+                else
+                    StaminaConsumtionTime -= DeltaTime;
+                HungerConsumeTime -= 5 * DeltaTime;
+            }
+            else
+                speed = walk;
+            HitI = 0;
+            IsAttacking = 0;
+            IsWalking = 1;
+            walkRight(1);
+        }
+        else if (Keyboard::isKeyPressed(Keyboard::Left))
+        {
+            if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
+            {
+                speed = run;
+                if (StaminaConsumtionTime < 0)
+                {
+                    stamina--;
+                    StaminaConsumtionTime = StaminaConsumtionDelay;
+                }
+                else
+                    StaminaConsumtionTime -= DeltaTime;
+                HungerConsumeTime -= 5 * DeltaTime;
+            }
+            else
+                speed = walk;
+            HitI = 0;
+            IsAttacking = 0;
+            IsWalking = 1;
+            walkLeft(1);
+        }
+        else if (Keyboard::isKeyPressed(Keyboard::Up))
+        {
+            if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
+            {
+                speed = run;
+                if (StaminaConsumtionTime < 0)
+                {
+                    stamina--;
+                    StaminaConsumtionTime = StaminaConsumtionDelay;
+                }
+                else
+                    StaminaConsumtionTime -= DeltaTime;
+                HungerConsumeTime -= 5 * DeltaTime;
+            }
+            else
+                speed = walk;
+            HitI = 0;
+            IsAttacking = 0;
+            IsWalking = 1;
+            walkUp(1);
+        }
+        else if (Keyboard::isKeyPressed(Keyboard::Down))
+        {
+            if (Keyboard::isKeyPressed(Keyboard::LShift) && stamina > 0)
+            {
+                speed = run;
+                if (StaminaConsumtionTime < 0)
+                {
+                    stamina--;
+                    StaminaConsumtionTime = StaminaConsumtionDelay;
+                }
+                else
+                    StaminaConsumtionTime -= DeltaTime;
+                HungerConsumeTime -= 5 * DeltaTime;
+            }
+            else
+                speed = walk;
+            HitI = 0;
+            IsAttacking = 0;
+            IsWalking = 1;
+            walkDown(1);
         }
         else
-            StaminaRestoreTime -= DeltaTime;
-    }
-    if (hunger > 0)
-    {
-        if (HungerConsumeTime < 0)
+            IsWalking = 0;
+
+        //Stamina Restore
+        if (!Keyboard::isKeyPressed(Keyboard::LShift) && stamina < MaxStamina)
         {
-            hunger--;
-            HungerConsumeTime = HungerConsumeDelay;
+            if (StaminaRestoreTime < 0)
+            {
+                stamina++;
+                StaminaRestoreTime = StaminaRestoreDelay;
+            }
+            else
+                StaminaRestoreTime -= DeltaTime;
+        }
+        if (hunger > 0)
+        {
+            if (HungerConsumeTime < 0)
+            {
+                hunger--;
+                HungerConsumeTime = HungerConsumeDelay;
+            }
+            else
+                HungerConsumeTime -= DeltaTime;
         }
         else
-            HungerConsumeTime -= DeltaTime;
-    }
-    else
-    {
-        if (HealthConsumtionTime < 0)
         {
-            health -= 10;
-            HealthConsumtionTime = HealthConsumtionDelay;
+            if (HealthConsumtionTime < 0)
+            {
+                health -= 10;
+                HealthConsumtionTime = HealthConsumtionDelay;
+            }
+            else
+                HealthConsumtionTime -= DeltaTime;
         }
-        else
-            HealthConsumtionTime -= DeltaTime;
     }
 }
 
@@ -662,17 +734,7 @@ void character::die(string x)
     }
 }
 
-void character::ChangeWeapon(string x)
-{
-    weapon = x;
-    if (x == "NoWeapon")
-        IsWeapon = 0;
-    else
-        IsWeapon = 1;
-    tHero.loadFromFile("./res/Heros/" + who + "/" + shadow + "/" + weapon + "/" + who + ".png");
-    sprite.setTexture(tHero);
-    sprite.setScale(scale);
-}
+
 
 void character::ChangeShadow(string s)
 {
@@ -681,11 +743,31 @@ void character::ChangeShadow(string s)
     sprite.setTexture(tHero);
     sprite.setScale(scale);
 }
-
 void character::hit()
 {
-    if (Keyboard::isKeyPressed(Keyboard::X))
+  
+    if (Keyboard::isKeyPressed(Keyboard::X) and !IsAttacking)
+    {
         IsAttacking = 1;
+            if (weapon == "LongSword")
+            {
+                WeaponsBar[0].WeaponHealth -= 4;
+            }
+            else if (weapon == "Waraxe")
+            {
+                WeaponsBar[1].WeaponHealth -= 10;
+            }
+            else if (weapon == "Saber")
+            {
+                WeaponsBar[2].WeaponHealth -= 30;
+            }
+            else if (weapon == "Mace")
+            {
+                WeaponsBar[3].WeaponHealth -= 40;
+            }
+
+    }
+   
     if (IsWeapon && IsAttacking && !IsWalking)
     {
         AnimationI = 0;
@@ -853,7 +935,7 @@ void character::DealDamage(Sprite &s, int& h)
     {
         if (lastKey == "Right")
         {
-            if (var == 6 && (weapon == "LongSword" || weapon == "Saber"))
+            if (var == 6 && (weapon == "LongSword" || weapon == "Saber" || weapon == "Waraxe" || weapon == "Mace"))
             {
                 if (DistanceBetween(s, sprite) <= HitDistance && d.x < d.y && abs(d.x) > abs(d.y))
                     h -= damage;
@@ -869,7 +951,7 @@ void character::DealDamage(Sprite &s, int& h)
         if (lastKey == "Left")
         {
             
-            if (var == 6 && (weapon == "LongSword" || weapon == "Saber"))
+            if (var == 6 && (weapon == "LongSword" || weapon == "Saber" || weapon == "Waraxe" || weapon == "Mace"))
             {
                 if (DistanceBetween(s, sprite) <= HitDistance && d.x > d.y && abs(d.x) > abs(d.y))
                     h -= damage;
@@ -884,7 +966,7 @@ void character::DealDamage(Sprite &s, int& h)
         }
         if (lastKey == "Up")
         {
-            if (var == 6 && (weapon == "LongSword" || weapon == "Saber"))
+            if (var == 6 && (weapon == "LongSword" || weapon == "Saber" || weapon == "Waraxe" || weapon == "Mace"))
             {
                 if (DistanceBetween(s, sprite) <= HitDistance && d.x < d.y && abs(d.x) < abs(d.y))
                     h -= damage;
@@ -899,7 +981,7 @@ void character::DealDamage(Sprite &s, int& h)
         }
         if (lastKey == "Down")
         {
-            if (var == 6 && (weapon == "LongSword" || weapon == "Saber"))
+            if (var == 6 && (weapon == "LongSword" || weapon == "Saber" || weapon == "Waraxe" || weapon == "Mace"))
             {
                 if (DistanceBetween(s, sprite) <= HitDistance && d.x > d.y && abs(d.x) < abs(d.y))
                     h -= damage;
@@ -910,7 +992,6 @@ void character::DealDamage(Sprite &s, int& h)
                 if (DistanceBetween(s, sprite) <= HitDistance && d.x > d.y && abs(d.x) < abs(d.y))
                     h -= damage;
                 var = 6, IsAttacking = 0, IsWalking = 1;
-                cout << var << endl;
             }
         }
     }
@@ -1014,3 +1095,4 @@ void character::play1()
 {
    // hit();
 }
+

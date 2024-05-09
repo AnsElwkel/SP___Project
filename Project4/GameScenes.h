@@ -17,7 +17,7 @@ struct GameScenes
 
 	//Constants (Don't Touch)
 	bool Blinking = 1, scene0ch = 1, scene1ch = 1, scene2ch = 1, scene3ch = 1, scene4ch = 1,
-		 scene5ch = 1, typech = 0, scene6ch = 1;
+		scene5ch = 1, typech = 0, scene6ch = 1, InstructionsSceneCh = 1;
 	float TextTimer = 0.085, TextDelay = InitTextDelay, ComaDelay = InitComaDelay, SlowTextDelay = InitSlowTextDelay;
 	SoundBuffer Btyping;
 	Sound typing;
@@ -28,6 +28,8 @@ struct GameScenes
 	void DisplayText(Text& t, string& s, int& idx, enemies& e, character& h, string talker);
 	void blink();
 	void BlinkReset();
+	void InstructionsSceneSet();
+	void InstructionsScene(enemies&, character&);
 	void Scene0Set();
 	void scene0(enemies&, character&);
 	void Scene1Set(enemies&, character&);

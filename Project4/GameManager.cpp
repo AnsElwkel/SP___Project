@@ -1,8 +1,10 @@
 #include "GameManager.h"
 #include "PressF.h"
+Vector2f final;
 vector<Wood> collectedWoods;
 vector<Stone_collectable> collectedStones;
 vector<Iron_collectable>collectedIrons;
+bool isitenter = 0;
 void GameManager::colli(RectangleShape& shape, RectangleShape& h,int x,int y)
 {
 	if (collisionDetector.isColliding(shape, h))
@@ -60,7 +62,8 @@ void GameManager::colli(RectangleShape& shape, RectangleShape& h,int x,int y)
 			}
 		}
 		shape.setSize({ 0.2 * 64,0.2 * 64 });;
-
+		shape.setPosition(final - Vector2f(0, -0.5 * 64));
+		isitenter =	1;
 		collisionDetector.setObjectBound(shape, h); collisionDetector.Movement(shape, h); 
 	}
 }
@@ -77,7 +80,7 @@ GameManager::GameManager(sf::RenderWindow* windoww, stack<states*>* GameManagerS
 	fonts();
 	pre();
 	camera.setSize(sf::Vector2f(window->getSize()));
-	camera.setCenter(sf::Vector2f(camera.getSize() / 2.f));
+	camera.setCenter(sf::Vector2f(((camera.getSize().x+200) / 2.f), (camera.getSize().y + 200) / 2.f));
 	shape.setSize({ 0.2* 64,0.2* 64 });;
 	shape.setPosition(800, 400);
 	background.setSize(Vector2f(window->getSize()));
@@ -173,6 +176,7 @@ void GameManager::CheckCollison1(int x, int y,int z)
 		world->Lands.at(world->currentLand)->cows.at(z)->randomlyMove(shape);
 		if (world->Lands.at(world->currentLand)->cows.at(z)->hp <= 0)
 		{
+
 			world->Lands.at(world->currentLand)->cows.at(z)->meatSprite.setPosition(world->Lands.at(world->currentLand)->cows.at(z)->animalSprite.getPosition().x, world->Lands.at(world->currentLand)->cows.at(z)->animalSprite.getPosition().y);
 			world->Lands.at(world->currentLand)->cows.erase(world->Lands.at(world->currentLand)->cows.begin() + z);
 			world->Lands.at(world->currentLand)->cows.push_back(new MOBS);
@@ -251,12 +255,9 @@ void GameManager::render(sf::RenderTarget* target)
 			{
 				if (last == 'f')
 				{
-
 					displayWeaponList();
-
 				}
 				PressFtoOpenWeapons();
-
 			}
 			if (checkDistance(calcDistance(story->hero.sprite, world->Lands[opened]->foodStore), story->hero.sprite, world->Lands[opened]->foodStore))
 			{
@@ -278,14 +279,6 @@ void GameManager::render(sf::RenderTarget* target)
 			{
 				drawInventory();
 				last = 'i';
-			}
-			if (Keyboard::isKeyPressed(Keyboard::X))
-			{
-				shape.setSize({ 0.4 * 64,0.4 * 64 });
-			}
-			else
-			{
-				shape.setSize({ 0.2 * 64,0.2 * 64 });;
 			}
 			window->draw(story->game.dn.night);
 			story->hero.ShowHealthBar();
@@ -309,47 +302,62 @@ void GameManager::update(const float& dt)
 	if (backGroundmanagement == 3)
 	{
 		Updatebind(dt);
-	if (Pause)
-	{
-		buttonUpdate();
-
-		UpdateMousePos(&camera);
-	}
-	else
-	{
-		//cout << inventory.currentIron << " " << inventory.currentWood << endl;
-		collectItems(story->hero.sprite, collectedWoods, collectedStones, collectedIrons);
-		cout << 1 / dt << endl;
-		for (size_t i = 0; i < world->Lands.at(world->currentLand)->maxAnimal; i++)
+		if (Pause)
 		{
-			CheckCollison1((int)(world->Lands.at(world->currentLand)->cows.at(i)->animalSprite.getPosition().x / world->Gridsizef), (int)(world->Lands.at(world->currentLand)->cows.at(i)->animalSprite.getPosition().y / world->Gridsizef), i);
-		}
-		Vector2f intial = story->hero.sprite.getPosition();
-		story->hero.move();
-		story->hero.dodge();
-		story->hero.hit();
-
-		Vector2f final = story->hero.sprite.getPosition();
-		shape.setPosition(final - Vector2f(0, -0.7 * 64));
-		CheckCollison(shape.getPosition().x / world->Gridsizef, shape.getPosition().y / world->Gridsizef, shape);
-		story->hero.sprite.setPosition(shape.getPosition() + Vector2f(0, -0.7 * 64));
-		camera.move(story->hero.sprite.getPosition() - intial);
-		if (!story->game.dn.Day)
-		{
-			world->Lands[opened]->night = !story->game.dn.Day;
-			world->Lands[opened]->spawning(story->game.Monsters, story->game.enemiesch, story->hero.sprite);
-			world->Lands[opened]->path->initial(world->Lands[opened]->chasing(story->hero, *world->Lands[opened]->path, story->game.Monsters, story->game.enemiesch, story->hero.sprite), 5);
+			buttonUpdate();
+			UpdateMousePos(&camera);
 		}
 		else
 		{
-
-			world->Lands[opened]->night = story->game.dn.Day;
-			if (story->game.ThereIsMonsters())
+			//cout << inventory.currentIron << " " << inventory.currentWood << endl;
+			collectItems(story->hero.sprite, collectedWoods, collectedStones, collectedIrons);
+			cout << 1 / dt << endl;
+			for (size_t i = 0; i < world->Lands.at(world->currentLand)->maxAnimal; i++)
 			{
-				world->Lands[opened]->clearEnemies(story->game.Monsters, story->game.enemiesch);
+				CheckCollison1((int)(world->Lands.at(world->currentLand)->cows.at(i)->animalSprite.getPosition().x / world->Gridsizef), (int)(world->Lands.at(world->currentLand)->cows.at(i)->animalSprite.getPosition().y / world->Gridsizef), i);
+			}
+			Vector2f intial = story->hero.sprite.getPosition();
+			story->hero.move();
+			story->hero.dodge();
+			story->hero.hit();
+			//shape.setPosition(final - Vector2f(0, -0.5* 64));
+			final = story->hero.sprite.getPosition();
+			if (Keyboard::isKeyPressed(Keyboard::X))
+			{
+
+				shape.setSize({ 0.6 * 64,0.6 * 64 });
+				shape.setPosition(final - Vector2f(0.2 * 64, -0.3 * 64));
+			}
+			else
+			{
+				shape.setSize({ 0.2 * 64,0.2 * 64 });
+				shape.setPosition(final - Vector2f(0, -0.5 * 64));
+
+			}
+			isitenter = 0;
+			CheckCollison(shape.getPosition().x / world->Gridsizef, shape.getPosition().y / world->Gridsizef, shape);
+			if(!isitenter)
+			shape.setPosition(final - Vector2f(0, -0.5 * 64));
+			story->hero.sprite.setPosition(shape.getPosition() + Vector2f(0, -0.5 * 64));
+			if(story->hero.sprite.getPosition().x>950&&story->hero.sprite.getPosition().y<13050)
+			camera.move(story->hero.sprite.getPosition().x - intial.x,0);
+			if (story->hero.sprite.getPosition().y > 480)
+				camera.move(0,story->hero.sprite.getPosition().y - intial.y);
+			if (!story->game.dn.Day)
+			{
+				world->Lands[opened]->night = !story->game.dn.Day;
+				world->Lands[opened]->spawning(story->game.Monsters, story->game.enemiesch, story->hero.sprite);
+				world->Lands[opened]->path->initial(world->Lands[opened]->chasing(story->hero, *world->Lands[opened]->path, story->game.Monsters, story->game.enemiesch, story->hero.sprite), 5);
+			}
+			else
+			{
+				world->Lands[opened]->night = story->game.dn.Day;
+				if (story->game.ThereIsMonsters())
+				{
+					world->Lands[opened]->clearEnemies(story->game.Monsters, story->game.enemiesch);
+				}
 			}
 		}
-	}
 	}
 	else
 	{

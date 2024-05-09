@@ -34,7 +34,7 @@ extern RectangleShape WeaponHealthBar, WeaponHealthBarFrame;
 
 struct Inventory
 {
-    int currentWood = 0, currentStones = 0, currentIron = 0, meat = 100,lamb = 100,chicken = 100;
+    int currentWood = 100, currentStones = 0, currentIron = 100, meat = 100,lamb = 0,chicken = 0;
     bool isOpen;
     Texture inventoryTexture;
     Sprite inventorySprite;

@@ -8,14 +8,14 @@ using namespace std;
 struct Map
 {
 	float Gridsizef;
-	int count, count1,currentLand=0;
+	int count, count1, currentLand = 0;
 	unsigned gridSize, layer;
 	sf::Vector2u maxSize;
 	sf::Texture TileSet;
 	string loadedTexture, select;
 	ELARABY::Vector<lands*>Lands;
 	vector<vector<bool>>collision;
-	Entity Tree,stone,blackSmith,kitchen,iron;
+	Entity Tree, stone, blackSmith, kitchen, iron;
 	Map();
 	Map(float Gridsize, unsigned width, unsigned height);
 	~Map();
@@ -25,4 +25,3 @@ struct Map
 	void render(int startX, int width, int startY, int height, sf::RenderTarget* target);
 	void render1(sf::Sprite& player, sf::RenderTarget* target, bool enemiesch[], int opened);
 };
-

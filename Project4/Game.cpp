@@ -16,10 +16,13 @@ bool Game::ThereIsMonsters()
 	return 0;
 }
 
+bool Fch = 0;
 void Game::play(character &hero, ELARABY::pathFinder& path)
 {
 	//GamePlay
 	hero.InCave = 0;
+	if (Keyboard::isKeyPressed(Keyboard::P) && Fch == 0)
+		Fch = 1;
 	if (blink.Blinking && !hero.IsAlive)
 	{
 		dn.night.setSize(WindowSize * 2.0f);
@@ -38,6 +41,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 	}
 	else
 	{
+		hero.control = 1;
 		blink.BlinkReset();
 		//If the player Level increase The Upgrade screen will open
 		if (hero.IsUpdating)
@@ -50,7 +54,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 		else
 		{
 			dn.flow();
-			if (dn.DayDate >= 10)
+			if (dn.DayDate >= 10 || Fch)
 			{
 				//DrawSprite.add(hero.sprite);
 				bool chi = ThereIsMonsters();
@@ -61,6 +65,13 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 					if (hero.arrive)
 					{
 						hero.ChangeWeapon("LongSword");
+						hero.HitSpeed = 0.05f;
+						hero.damage = 50;
+						hero.HealthBarSet(1000);
+						hero.health = 1000;
+						hero.StaminaBarSet(500);
+						hero.hunger = 20;
+						hero.HungerConsumeDelay = 20;
 						hero.state = "FinalBossFight";
 						hero.InCave = 1;
 						hero.sprite.setPosition(0, window->getSize().y / 2);
@@ -89,7 +100,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 					else
 					{
 						//As The Stop hitting Handling is at the (DealDamage()) Function
-						if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber"))
+						if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber" || hero.weapon == "Waraxe" || hero.weapon == "Mace"))
 							hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
 						else if (hero.var == 0 && (hero.weapon == "Axe" || hero.weapon == "Pickaxe"))
 							hero.var = 6, hero.IsAttacking = 0, hero.IsWalking = 1;
@@ -100,7 +111,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 					
 					
 					//As The Stop hitting Handling is at the (DealDamage()) Function
-					if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber"))
+					if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber" || hero.weapon == "Waraxe" || hero.weapon == "Mace"))
 						hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
 					else if (hero.var == 0 && (hero.weapon == "Axe" || hero.weapon == "Pickaxe"))
 					hero.var = 6, hero.IsAttacking = 0, hero.IsWalking = 1;

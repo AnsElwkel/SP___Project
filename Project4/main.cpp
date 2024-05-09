@@ -49,12 +49,13 @@ int main()
 
 	
 	//window->setFramerateLimit(100);
+	setCursor();
 	application Application(window);
 	srand(time(NULL));
 	sf::Clock dt;
 	while (Application.isRunning())
 	{	
-		
+		window->setMouseCursorVisible(1);
 		DeltaTime = dt.restart().asSeconds();
 		GameTime = GameClock.getElapsedTime().asSeconds();
 		Application.DeltaUpdate(DeltaTime);

@@ -387,10 +387,10 @@ void enemies::ChaceAndHit(character& x, bool ok, ELARABY::pathFinder& path,int i
 void enemies::FinalBossDraw(character &x)
 {
 	if (x.sprite.getPosition().y > sprite.getPosition().y)
-		DrawSprite.add(sprite);
-	DrawSprite.add(x.sprite);
+		window->draw(sprite);
+	window->draw(sprite);
 	if (x.sprite.getPosition().y <= sprite.getPosition().y)
-		DrawSprite.add(sprite);
+		window->draw(sprite);
 }
 
 void enemies::ShowHealthBar()

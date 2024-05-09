@@ -1,4 +1,6 @@
 #include "PressF.h"
+#include "character.h"
+#include"Story.h"
 // Variables
 float dt=1/200.0;
 int WeaponID = 0;
@@ -20,6 +22,8 @@ int currentWood = 0;
 int currentMeat = 0;
 int currentLamb = 0;
 int currentChicken = 0;
+bool ok1, ok2, ok3, ok4;
+bool okf1, okf2, okf3;
 const int WEAPONSNUMBER = 4;
 myWeapons WeaponsBar[WEAPONSNUMBER];
 Texture currentWeaponText[WEAPONSNUMBER];
@@ -101,45 +105,42 @@ void PressFtoOpenWeapons()
 		weapons.weapondt.setString("Iron x" + to_string(weapons.WeaponsDetails.longSowrdIron)+"\n" + "wood x" + to_string(weapons.WeaponsDetails.longSowrdWood)+"\n"+"health: "+ to_string(weapons.WeaponsDetails.longSowrdHealth));
 		window->draw(weapons.weapondt);
 		window->draw(weapons.weaponName);
-		if (Mouse::isButtonPressed(Mouse::Left))
-		{
-			if (timer < 0)
-			{
-				if (weapons.WeaponsDetails.longSowrdIron <= inventory.currentIron and weapons.WeaponsDetails.longSowrdWood <= inventory.currentWood)
-				{
-					inventory.currentIron -= weapons.WeaponsDetails.longSowrdIron;
-					inventory.currentWood -= weapons.WeaponsDetails.longSowrdWood;
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (1 == inv_items[i].mawared.type)
-						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.longSowrdWood;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
-						}
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (3 == inv_items[i].mawared.type)
-						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.longSowrdIron;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
-						}
-					inventory.currentWood -= weapons.WeaponsDetails.longSowrdWood;
-					inventory.currentIron -= weapons.WeaponsDetails.longSowrdIron;
-					item_type longSowrd = { 1,{1,100,weapons.LongSowrd}};
-					addToInventory(longSowrd);
-
-				}
-					timer = delay;
-			//cout << currentIron << '\n';
-			}
-			else
-				timer -= dt;
 		
+		if (Mouse::isButtonPressed(Mouse::Left) and !ok1)
+		{
+			if (weapons.WeaponsDetails.longSowrdIron <= inventory.currentIron and weapons.WeaponsDetails.longSowrdWood <= inventory.currentWood)
+			{
+
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (1 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.longSowrdWood, inv_items[i].mawared.quantity);
+
+						if (inv_items[i].mawared.quantity == 0)
+						{
+							removeFromInventory(i);
+						}
+					}
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (3 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.longSowrdIron, inv_items[i].mawared.quantity);
+
+						if (inv_items[i].mawared.quantity == 0)
+						{
+							removeFromInventory(i);
+						}
+					}
+				inventory.currentWood -= weapons.WeaponsDetails.longSowrdWood;
+				inventory.currentIron -= weapons.WeaponsDetails.longSowrdIron;
+				item_type longSowrd = { 1,{1,100,weapons.LongSowrd} };
+				addToInventory(longSowrd);
+			}
+			ok1 = 1;
 		}
+			else if (!Mouse::isButtonPressed(Mouse::Left))
+				ok1 = 0;
+		
 	}
 	else if (last == 'f' and Blocks.WarAxeB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
@@ -147,78 +148,66 @@ void PressFtoOpenWeapons()
 		weapons.weapondt.setString("wood x" + to_string(weapons.WeaponsDetails.warAxeWood) + "\n" + "health: " + to_string(weapons.WeaponsDetails.warAxeHealth));
 		window->draw(weapons.weapondt);
 		window->draw(weapons.weaponName);
-
-		if (Mouse::isButtonPressed(Mouse::Left))
+		if (Mouse::isButtonPressed(Mouse::Left) and !ok2)
 		{
-			if (timer < 0)
+			if (weapons.WeaponsDetails.warAxeWood <= inventory.currentWood)
 			{
-				if(weapons.WeaponsDetails.warAxeWood <= inventory.currentWood)
-				{
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (1 == inv_items[i].mawared.type)
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (1 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.warAxeWood, inv_items[i].mawared.quantity);
+						if (inv_items[i].mawared.quantity == 0)
 						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.warAxeWood;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
+							removeFromInventory(i);
 						}
-					inventory.currentWood -= weapons.WeaponsDetails.warAxeWood;
-					item_type waraxe = { 1,{2,100,weapons.WarAxe} };
-					addToInventory(waraxe);
-				}
-				timer = delay;
-				cout << currentIron << '\n';
+					}
+				inventory.currentWood -= weapons.WeaponsDetails.warAxeWood;
+				item_type waraxe = { 1,{2,100,weapons.WarAxe} };
+				addToInventory(waraxe);
 			}
-			else
-				timer -= dt;
-
+			ok2 = 1;
 		}
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			ok2 = 0;
 	}
+	
 	else if (last == 'f' and Blocks.SaberB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
 		weapons.weaponName.setString("Saber");
 		weapons.weapondt.setString("Iron x" + to_string(weapons.WeaponsDetails.saberIron) + "\n" + "wood x" + to_string(weapons.WeaponsDetails.saberWood) + "\n" + "health: " + to_string(weapons.WeaponsDetails.saberHealth));
 		window->draw(weapons.weapondt);
 		window->draw(weapons.weaponName);
-		if (Mouse::isButtonPressed(Mouse::Left))
+		if (Mouse::isButtonPressed(Mouse::Left) and !ok3)
 		{
-			if (timer < 0)
+			if (weapons.WeaponsDetails.saberIron <= inventory.currentIron and weapons.WeaponsDetails.saberWood <= inventory.currentWood)
 			{
-				if (weapons.WeaponsDetails.saberIron <= inventory.currentIron and weapons.WeaponsDetails.saberWood <= inventory.currentWood)
-				{
-					inventory.currentIron -= weapons.WeaponsDetails.saberIron;
-					inventory.currentWood -= weapons.WeaponsDetails.saberWood;
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (1 == inv_items[i].mawared.type)
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (1 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.saberWood, inv_items[i].mawared.quantity);
+						if (inv_items[i].mawared.quantity == 0)
 						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.saberWood;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
+							removeFromInventory(i);
 						}
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (3 == inv_items[i].mawared.type)
+					}
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (3 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.saberIron, inv_items[i].mawared.quantity);
+						if (inv_items[i].mawared.quantity == 0)
 						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.saberIron;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
+							removeFromInventory(i);
 						}
-					inventory.currentWood -= weapons.WeaponsDetails.saberWood;
-					inventory.currentIron -= weapons.WeaponsDetails.saberIron;
-					item_type saber = { 1,{3,100,weapons.Saber} };
-					addToInventory(saber);
-				}
-					timer = delay;
-				cout << currentIron << '\n';
+					}
+				inventory.currentWood -= weapons.WeaponsDetails.saberWood;
+				inventory.currentIron -= weapons.WeaponsDetails.saberIron;
+				item_type saber = { 1,{3,100,weapons.Saber} };
+				addToInventory(saber);
 			}
-			else
-				timer -= dt;
-
+				ok3 = 1;
 		}
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			ok3 = 0;
 	}
 	else if (last == 'f' and Blocks.MaceB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
@@ -226,43 +215,39 @@ void PressFtoOpenWeapons()
 		weapons.weapondt.setString("Iron x" + to_string(weapons.WeaponsDetails.maceIron) + "\n" + "wood x" + to_string(weapons.WeaponsDetails.maceWood) + "\n" + "health: " + to_string(weapons.WeaponsDetails.maceHealth));
 		window->draw(weapons.weapondt);
 		window->draw(weapons.weaponName);
-		if (Mouse::isButtonPressed(Mouse::Left))
+		
+		if (Mouse::isButtonPressed(Mouse::Left) and !ok4)
 		{
-			if (timer < 0)
+			if (weapons.WeaponsDetails.maceIron <= inventory.currentIron and weapons.WeaponsDetails.maceWood <= inventory.currentWood)
 			{
-				if (weapons.WeaponsDetails.maceIron <= inventory.currentIron and weapons.WeaponsDetails.maceWood <= inventory.currentWood)
-				{
-					inventory.currentIron -= weapons.WeaponsDetails.maceIron;
-					inventory.currentWood -= weapons.WeaponsDetails.maceWood;
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (1 == inv_items[i].mawared.type)
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (1 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.maceWood, inv_items[i].mawared.quantity);
+						if (inv_items[i].mawared.quantity == 0)
 						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.maceWood;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
+							removeFromInventory(i);
 						}
-					for (int i = 0; i < INVENTORY_SIZE; i++)
-						if (3 == inv_items[i].mawared.type)
-						{
-							inv_items[i].mawared.quantity -= weapons.WeaponsDetails.maceIron;
-							if (inv_items[i].mawared.quantity == 0)
-							{
-								removeFromInventory(i);
-							}
-						}
-					inventory.currentWood -= weapons.WeaponsDetails.maceWood;
-					inventory.currentIron -= weapons.WeaponsDetails.maceIron;
-					item_type mace = { 1,{4,100,weapons.Mace} };
-					addToInventory(mace);
-				}
-					timer = delay;
-			}
-			else
-				timer -= dt;
+					}
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (3 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(weapons.WeaponsDetails.maceIron, inv_items[i].mawared.quantity);
 
+						if (inv_items[i].mawared.quantity == 0)
+						{
+							removeFromInventory(i);
+						}
+					}
+				inventory.currentWood -= weapons.WeaponsDetails.maceWood;
+				inventory.currentIron -= weapons.WeaponsDetails.maceIron;
+				item_type mace = { 1,{4,100,weapons.Mace} };
+				addToInventory(mace);
+			}
+					ok4 = 1;
 		}
+			else if(!Mouse::isButtonPressed(Mouse::Left))
+				ok4 = 0;
 	}
 }
 void PressFtoOpenfood()
@@ -308,26 +293,33 @@ void PressFtoOpenfood()
 		food.fooddt.setString("Meat x1\nwood x" + to_string(food.FoodDetails.meatWood));
 		window->draw(food.fooddt);
 		window->draw(food.foodName);
-		if (Mouse::isButtonPressed(Mouse::Left))
+		
+		if (Mouse::isButtonPressed(Mouse::Left) and !okf1)
 		{
-			if (timer < 0)
+			if (food.FoodDetails.meatWood <= inventory.currentWood and inventory.meat >= 0)
 			{
-				if (food.FoodDetails.meatWood <= inventory.currentWood and inventory.meat >= 0)
-				{
-					inventory.meat--;
-					inventory.currentWood -= food.FoodDetails.meatWood;
-					item_type Meat;
-					Meat.weapon_or_mawared_or_nothing = 3;
-					Meat.food = food.Meat;
-					addToInventory(Meat);
-				}
-				timer = delay;
-				cout << currentMeat << '\n';
-			}
-			else
-				timer -= dt;
+				for (int i = 0; i < INVENTORY_SIZE; i++)
+					if (1 == inv_items[i].mawared.type)
+					{
+						inv_items[i].mawared.quantity -= min(food.FoodDetails.meatWood, inv_items[i].mawared.quantity);
 
+						if (inv_items[i].mawared.quantity == 0)
+						{
+							removeFromInventory(i);
+						}
+					}
+				
+				inventory.meat--;
+				inventory.currentWood -= food.FoodDetails.meatWood;
+				item_type Meat;
+				Meat.weapon_or_mawared_or_nothing = 3;
+				Meat.food = food.Meat;
+				addToInventory(Meat);
+			}
+			okf1 = 1;
 		}
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			okf1 = 0;
 	}
 	else if (last == 'f' and Blocks.LambB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
@@ -335,26 +327,22 @@ void PressFtoOpenfood()
 		food.fooddt.setString("Lamb x1\nwood x" + to_string(food.FoodDetails.lambWood));
 		window->draw(food.fooddt);
 		window->draw(food.foodName);
-		if (Mouse::isButtonPressed(Mouse::Left))
+		if (Mouse::isButtonPressed(Mouse::Left) and !okf2)
 		{
-			if (timer < 0)
-			{
-				if (food.FoodDetails.lambWood <= inventory.currentWood and inventory.lamb >= 0)
-				{
-					inventory.lamb--;
-					inventory.currentWood -= food.FoodDetails.lambWood;
-					item_type Lamb;
-					Lamb.weapon_or_mawared_or_nothing = 3;
-					Lamb.food = food.Lamb;
-					addToInventory(Lamb);
-				}
-				timer = delay;
-				cout << currentLamb << '\n';
-			}
-			else
-				timer -= dt;
 
+			if (food.FoodDetails.lambWood <= inventory.currentWood and inventory.lamb >= 0)
+			{
+				inventory.lamb--;
+				inventory.currentWood -= food.FoodDetails.lambWood;
+				item_type Lamb;
+				Lamb.weapon_or_mawared_or_nothing = 3;
+				Lamb.food = food.Lamb;
+				addToInventory(Lamb);
+			}
+			okf2 = 1;
 		}
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			okf2 = 0;
 	}
 	else if (last == 'f' and Blocks.ChickenB.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
 	{
@@ -362,27 +350,24 @@ void PressFtoOpenfood()
 		food.fooddt.setString("Chicken x1\nwood x" + to_string(food.FoodDetails.chickenWood));
 		window->draw(food.fooddt);
 		window->draw(food.foodName);
-		if (Mouse::isButtonPressed(Mouse::Left))
+		if (Mouse::isButtonPressed(Mouse::Left) and !okf3)
 		{
-			if (timer < 0)
-			{
-				if (food.FoodDetails.chickenWood <= inventory.currentWood and inventory.chicken >= 0)
-				{
-					inventory.chicken--;
-					inventory.currentWood -= food.FoodDetails.chickenWood;
-					item_type chicken;
-					chicken.weapon_or_mawared_or_nothing = 3;
-					chicken.food = food.Chicken;
-					addToInventory(chicken);
 
-				}
-				timer = delay;
-				cout << currentChicken << '\n';
+			if (food.FoodDetails.chickenWood <= inventory.currentWood and inventory.chicken >= 0)
+			{
+				inventory.chicken--;
+				inventory.currentWood -= food.FoodDetails.chickenWood;
+				item_type chicken;
+				chicken.weapon_or_mawared_or_nothing = 3;
+				chicken.food = food.Chicken;
+				addToInventory(chicken);
+
 			}
-			else
-				timer -= dt;
+			ok3 = 1;
 
 		}
+		else if (!Mouse::isButtonPressed(Mouse::Left))
+			ok3 = 0;
 	}
 	
 }
@@ -584,7 +569,11 @@ void HealthBarSet(float x,Vector2f pos)
 	WeaponHealthBar.setSize({ BlockSize*x/100.f, 5.f*WindowSize.x/1600.f});
 	WeaponHealthBar.setOrigin(0, WeaponHealthBar.getLocalBounds().getSize().y);
 	WeaponHealthBar.setPosition(pos.x, pos.y+ BlockSize);
-	WeaponHealthBar.setFillColor(Color::Green);
+	if(x >= 20)
+		WeaponHealthBar.setFillColor(Color::Green);
+	else
+		WeaponHealthBar.setFillColor(Color::Red);
+
 	WeaponHealthBarFrame.setSize({ Blocks.LongSowrdB.getGlobalBounds().width, 5.f * WindowSize.x / 1600.f });
 	WeaponHealthBarFrame.setScale(WeaponHealthBar.getScale());
 	WeaponHealthBarFrame.setOutlineThickness(1.4f);

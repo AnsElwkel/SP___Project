@@ -41,6 +41,7 @@ void pre()
     iron.sprite.getPosition();
     woodTexture.loadFromFile("./res/res/used res/wood1.png");
     dropped_stone_texture.loadFromFile("./res/res/used res/stone 4.png");
+    dropped_iron_texture.loadFromFile("./res/Iron.png");
    //stone.collected = false;
 
 }
@@ -79,18 +80,26 @@ void drawInventory()
     float inv_height = intitial_height - inventory.BlocksSprite.getGlobalBounds().height;
     inventory.inventorySprite.setPosition(inv_width, inv_height);
     RectangleShape eat, drop;
-    Text eatf, dropf;
+    Text eatf, dropf,counter;
+    counter.setFont(pressfont);
     eatf.setFont(pressfont);
     dropf.setFont(pressfont);
     eatf.setCharacterSize(12.f * WindowSize.x / 1920.f);
     dropf.setCharacterSize(12.f * WindowSize.x / 1920.f);
+    counter.setCharacterSize(20.f * WindowSize.x / 1920.f);
+    counter.setFillColor(Color::Black);
+    counter.setOrigin(counter.getGlobalBounds().width / 2.f, counter.getGlobalBounds().height / 2.f);
     for (int i = initial_width, idx = 0; i < initial_width + 6 * cur_width; i += cur_width)
     {
         for (int j = intitial_height; j < intitial_height + 3 * cur_height; j += cur_height, idx++)
         {
             inventory.BlocksSprite.setPosition(i, j);
             window->draw(inventory.BlocksSprite);
-
+            if (inv_items[idx].mawared.quantity > 0)
+            {
+                counter.setString(to_string(inv_items[idx].mawared.quantity));
+                counter.setPosition(i + inventory.BlocksSprite.getGlobalBounds().width-counter.getGlobalBounds().width-10, j + inventory.BlocksSprite.getGlobalBounds().height- counter.getGlobalBounds().height-15);
+            }
             if (inv_items[idx].weapon_or_mawared_or_nothing == 1) // if this block contains a weapon
             {
                 inv_items[idx].weapons.sprite.setPosition(i + inventory.BlocksSprite.getGlobalBounds().width / 2.f, j + inventory.BlocksSprite.getGlobalBounds().height / 2.f);
@@ -112,9 +121,17 @@ void drawInventory()
             }
             else if (inv_items[idx].weapon_or_mawared_or_nothing == 2) // contains a mawared
             {
-                inv_items[idx].mawared.sprite.setOrigin(inv_items[idx].mawared.sprite.getGlobalBounds().width / 2.f, inv_items[idx].mawared.sprite.getGlobalBounds().height / 2.f);
-                inv_items[idx].mawared.sprite.setPosition(i + inventory.BlocksSprite.getGlobalBounds().width / 2.f, j + inventory.BlocksSprite.getGlobalBounds().height / 2.f);
+                if (inv_items[idx].mawared.type == 3)
+                {
+                    inv_items[idx].mawared.sprite.setPosition(i, j );
 
+                }
+                else
+                {
+                    inv_items[idx].mawared.sprite.setOrigin(inv_items[idx].mawared.sprite.getGlobalBounds().width / 2.f, inv_items[idx].mawared.sprite.getGlobalBounds().height / 2.f);
+                    inv_items[idx].mawared.sprite.setPosition(i + inventory.BlocksSprite.getGlobalBounds().width / 2.f, j + inventory.BlocksSprite.getGlobalBounds().height / 2.f);
+                    inv_items[idx].mawared.sprite.setScale(0.8f, 0.8f);
+                }
                 window->draw(inv_items[idx].mawared.sprite);
                 if (inventory.BlocksSprite.getGlobalBounds().contains((Vector2f)Mouse::getPosition(*window)))
                 {
@@ -154,10 +171,12 @@ void drawInventory()
                 }
               
             }
+   
             window->draw(eat);
             window->draw(drop);
             window->draw(eatf);
             window->draw(dropf);
+            window->draw(counter);
             
         }
     }
@@ -171,7 +190,7 @@ bool isInInventory(item_type item)      // if item is in the inventory and not w
     {
         if(inv_items[i].mawared.type == item.mawared.type)
         {
-            if(inv_items[i].mawared.quantity<16) // if it is not stack (stack is 16 pieces)
+            if(inv_items[i].mawared.quantity<=16) // if it is not stack (stack is 16 pieces)
                 return true;
         }
     }
@@ -248,14 +267,14 @@ void updateObjectHealth(Player& player, Tree& tree, Stone& stone, Iron &iron, ve
         {
             cout << "Iron destroyed!\n";
             Iron_collectable dropped_iron;
-            dropped_iron.position = iron.sprite.getPosition();
+           // dropped_iron.position = iron.sprite.getPosition();
             //dropped_iron.position.y+
-            dropped_iron.sprite.setPosition(dropped_iron.position.x, dropped_iron.position.y);
+          //  dropped_iron.sprite.setPosition(dropped_iron.position.x, dropped_iron.position.y);
             dropped_iron.collected = false;
             dropped_iron.sprite.setTexture(dropped_iron_texture);
             collectedIrons.push_back(dropped_iron);
             iron.health = 0;
-            iron.sprite.setPosition(-1000, -1000);
+           // iron.sprite.setPosition(-1000, -1000);
         }
     }
 }
@@ -346,7 +365,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
             Sprite ironSprite;
             ironSprite.setTexture(dropped_iron_texture);
             ironSprite.setScale(0.2f, 0.2f);
-            ironSprite.setPosition(findAvailableSlot() * 80, 180);
+           // ironSprite.setPosition(findAvailableSlot() * 80, 180);
         }
     }
 }

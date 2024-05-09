@@ -7,38 +7,47 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 {
 	srand(time(0));//Randoms the (rand()) Function
 
-	//Temp, Hide the mouse cursor
+	//Hide the mouse cursor //Disabled
 	window->setMouseCursorVisible(1);
 
-	
+
 	if (hero.InCave && hero.shadow == "Shadow")
 		hero.ChangeShadow("NoShadow");
 
 	//Starting The Game
-	if (scene.scene0ch)
+	if (scene.InstructionsSceneCh)
 	{
+		hero.control = 0;
+		scene.InstructionsScene(FinalBoss, hero);
+	}
+	else if (scene.scene0ch)
+	{
+		hero.control = 0;
 		scene.scene0(FinalBoss, hero);
 	}
 	else if (scene.scene1ch)
 	{
+		hero.control = 0;
 		scene.scene1(FinalBoss, hero);
 		hero.health = 40;
 	}
 	else if (hero.health > 15 && scene.scene2ch)
 	{
+		hero.control = 1;
 		if (!hero.IsWeapon)
 		{
 			hero.ChangeWeapon("Saber");
 		}
 		hero.play();
 		hero.DealDamage(FinalBoss.sprite, FinalBoss.health);
-		FinalBoss.ChaceAndHit(hero,1, path,0);
+		FinalBoss.ChaceAndHit(hero, 1, path, 0);
 		window->draw(FinalBoss.sprite);
 		window->draw(hero.sprite);
 		FinalBoss.ShowHealthBar();
 	}
 	else if (scene.scene2ch)
 	{
+		hero.control = 0;
 		FinalBoss.LookAt(hero.sprite);
 		if (hero.health <= 0)
 			hero.health = 2;
@@ -56,6 +65,7 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 	}
 	else if (hero.state == "Defeated")
 	{
+		hero.control = 0;
 		hero.HealthBarSet(500);
 		hero.health = hero.MaxHealth;
 		hero.stamina = hero.MaxStamina;
@@ -73,6 +83,7 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 	{
 		if (scene.scene3ch)
 		{
+			hero.control = 0;
 			FinalBoss.sprite.setOrigin(FinalBoss.WalkSize / 2.f);
 			FinalBoss.sprite.setPosition(WindowSize.x * 3 / 4, WindowSize.y / 2);
 			FinalBoss.sprite.setTextureRect(IntRect(0, FinalBoss.WalkLeftIndex, FinalBoss.WalkSize.x, FinalBoss.WalkSize.y));
@@ -80,11 +91,12 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 		}
 		else if (FinalBoss.health > 15 && scene.scene4ch)
 		{
+			hero.control = 1;
 			if (hero.health > 0)
 			{
 				hero.play();
 				hero.DealDamage(FinalBoss.sprite, FinalBoss.health);
-				FinalBoss.ChaceAndHit(hero,1, path,0);
+				FinalBoss.ChaceAndHit(hero, 1, path, 0);
 				window->draw(FinalBoss.sprite);
 				window->draw(hero.sprite);
 				FinalBoss.ShowHealthBar();
@@ -97,6 +109,7 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 		}
 		else if (scene.scene4ch)
 		{
+			hero.control = 0;
 			if (FinalBoss.health <= 0)
 				FinalBoss.health = 2;
 			FinalBoss.ShowHealthBar();
@@ -110,17 +123,19 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 		}
 		else if (scene.scene5ch)
 		{
+			hero.control = 0;
 			scene.scene5(FinalBoss, hero);
 		}
 		else if (!IsWining || (int)WinClock.getElapsedTime().asSeconds() < WiningNeedTime)
 		{
+			hero.control = 1;
 			if (hero.health > 0)
 			{
 				if (FinalBoss.health > 2)
 				{
 					hero.play();
 					hero.DealDamage(FinalBoss.sprite, FinalBoss.health);
-					FinalBoss.ChaceAndHit(hero,1, path,0);
+					FinalBoss.ChaceAndHit(hero, 1, path, 0);
 					window->draw(FinalBoss.sprite);
 					window->draw(hero.sprite);
 					FinalBoss.ShowHealthBar();
@@ -136,7 +151,7 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 					if (hero.var == 6)
 						hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
 					window->draw(te);
-					FinalBoss.ChaceAndHit(hero,1, path,0);
+					FinalBoss.ChaceAndHit(hero, 1, path, 0);
 					window->draw(FinalBoss.sprite);
 					window->draw(hero.sprite);
 					FinalBoss.ShowHealthBar();
@@ -152,6 +167,7 @@ int Story::Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path)
 		}
 		else if (scene.scene6ch)
 		{
+			hero.control = 0;
 			hero.walking.pause();
 			scene.scene6(FinalBoss, hero);
 		}
@@ -193,5 +209,5 @@ Story::Story(sf::RenderWindow* window)
 	te.setPosition(WindowSize.x / 2, window->getSize().y - te.getCharacterSize() * 5);
 	te.setScale(WindowSize.x / 1600, WindowSize.y / 900);
 	this->window = window;
-	WindowSize =(Vector2f) window->getSize();
+	WindowSize = (Vector2f)window->getSize();
 }

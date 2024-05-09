@@ -6,20 +6,21 @@ struct character
 {
 	//Stamina Control
 	int stamina = 250;//Initial Stamina
-	float StaminaConsumtionTime = 0, StaminaConsumtionDelay = 0.01;
-	float StaminaRestoreTime = 0, StaminaRestoreDelay = 0.1;
+	float StaminaConsumtionTime = 0.f, StaminaConsumtionDelay = 0.01f;
+	float StaminaRestoreTime = 0.f, StaminaRestoreDelay = 0.1f;
 
 	//Speed Control
-	float walk = 150;//Initial Speed
-	float run = walk + (walk * (60.0 / 100));
+	float walk = 150.f;//Initial Speed
+	float run = walk + (walk * (60.f / 100));
 
 	//Helth Control
 	int health = 1000;//Initial Health
-	float HealthRestoreTime = 0, HealthRestoreDelay = 0.1;
+	float HealthRestoreTime = 0.f, HealthRestoreDelay = 0.1f;
+
 	//Hunger Control
-	int hunger = 500;
-	float HungerConsumeTime = 0, HungerConsumeDelay = 5;
-	float HealthConsumtionTime = 0, HealthConsumtionDelay = 0.5;
+	int hunger = 50;
+	float HungerConsumeTime = 0.f, HungerConsumeDelay = 5.f;
+	float HealthConsumtionTime = 0.f, HealthConsumtionDelay = 0.5f;
 
 	//Hit Control
 	int damage = 20, HitDistance = 100;
@@ -27,19 +28,19 @@ struct character
 
 	//Dodge Control
 	int DodgeStminaConsumtion = 50;
-	float DodgeTeleportDis = 100 * WindowSize.x / 1280;
+	float DodgeTeleportDis = 100.f * WindowSize.x / 1280.f;
 
 	bool isOpen = 0;
 	//Death Control
-	float DeathDelay = 0.5;
+	float DeathDelay = 0.5f;
 
 	//Hero Scales
-	Vector2f scale = { 0.8f+window->getSize().x/1920, 0.8f+window->getSize().y/1080};
+	Vector2f scale = { 0.8f+window->getSize().x/1920.f, 0.8f+window->getSize().y/1080.f};
 
 	//Sprite Sheet Size
-	Vector2f WalkSize = { 64, 64 };
-	Vector2f DieSize = { 64, 64 };
-	Vector2f HitSize = { 192, 192 };
+	Vector2f WalkSize = { 64.f, 64.f };
+	Vector2f DieSize = { 64.f, 64.f };
+	Vector2f HitSize = { 192.f, 192.f };
 	int NumOfWalkFrames = 9;
 	int NumOfHitFrames = 6;
 
@@ -66,10 +67,11 @@ struct character
 
 	//Not Controls (Don't touch)
 	int score = 0, var /*Dealing Damage Handling Variable*/, MaxStamina = stamina, MaxHealth = health, MaxHunger = hunger;
-	bool IsAlive = 0, IsWeapon = 0, IsWalking = 0, IsAttacking = 0, IsStanding = 1, arrive = 0, InCave = 1, IsUpdating = 1;
+	bool IsAlive = 0, IsWeapon = 0, IsWalking = 0, IsAttacking = 0, IsStanding = 1, 
+		 arrive = 0, InCave = 1, IsUpdating = 1, control = 1;
 	float AnemationTimer = 0, HitTimer = 0, DeathTimer = 0, speed = walk;
 	int AnimationI = 0, HitI = 0, DeathI = 0;
-	float AnemationDelay = 10 / speed;
+	float AnemationDelay = 10.f / speed;
 
 	string who, weapon = "Saber", shadow = "NoShadow", lastKey, state = "Defeated";
 	Vector2f HeroSize = WalkSize;

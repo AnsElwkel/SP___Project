@@ -13,6 +13,7 @@ extern Font pressfont;
 extern Text press;
 extern char last;
 extern float dt;
+
 extern float delay;
 extern float timer;
 extern int currentIron;

@@ -1,2 +1,6 @@
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.38.33130:TargetPlatformVersion=10.0.22621.0:VcpkgTriplet=x64-windows:
+<<<<<<< HEAD
 Debug|x64|C:\Users\AnasElwkel\Documents\GitHub\SP___Project\|
+=======
+Debug|x64|C:\Users\dell\OneDrive\Documents\GitHub\SP___Project\|
+>>>>>>> 7be369fd290421b4b33099b6812e9ab2a50eb9da

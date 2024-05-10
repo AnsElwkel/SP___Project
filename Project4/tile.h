@@ -7,7 +7,7 @@ struct tile
 //	bool once = 1,once1=1;
 	int health = 0;
 	sf::IntRect what, TILE, tr = { 49 * 8 + 20,147,70,100 };
-	sf::Texture* tex = new sf::Texture;
+	sf::Texture* tex = nullptr;
 	int id=0,whichTexture=-0;
 	tile(float x, float y, float sizef, sf::Texture* tex, sf::IntRect Rect, std::string s);
 	tile();

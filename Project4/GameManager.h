@@ -10,7 +10,7 @@ struct GameManager :states
 {
 	int opened=0,backGroundmanagement=0;
 	sf::View camera;
-	void colli(RectangleShape& shape, RectangleShape& h, int x, int y);
+	bool colli(RectangleShape& shape, RectangleShape& h, int x, int y);
 	collisionManager1 collisionDetector;
 	Story* story = nullptr;
 	RectangleShape arr[10];
@@ -18,7 +18,7 @@ struct GameManager :states
 	sf::RectangleShape shape,background,checkCollision;
 	PauseMenu* PauseM=new PauseMenu(window);
 	Sprite check;
-	GameManager(sf::RenderWindow* windoww, stack<states*>* gameStates );
+	GameManager(sf::RenderWindow* windoww, stack<states*>* gameStates);
 	void end();
 	void render(sf::RenderTarget* target);
 	void buttonUpdate();
@@ -27,4 +27,5 @@ struct GameManager :states
 	void Updatebind(const float& dt);
 	void CheckCollison(int x, int y, RectangleShape& h);
 	void CheckCollison1(int x, int y,int z);
+	void GoToOtherLand(int x);
 };

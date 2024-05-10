@@ -7,13 +7,12 @@ struct Game
 	//Monster Spawn Controls 
 	int SpawnDelay = 10; //Delay is random So (Max = SpawnDelay + Min - 1) & (Min = 3)
 	int ls = 3; // (Min)
-	const int MaxMonsterSpawn = 5;
-	bool enemiesch[5] = {};
-	enemies Monsters[5] = {};
 	DayAndNight dn;
 	GameScenes blink;
-	void SpawnAndChace(character& x, ELARABY::pathFinder& path);
-	void MonstersKill();
+	const int MaxMonsterSpawn = 2;
+	enemies Monsters[2];
+	bool enemiesch[2]{};
 	bool ThereIsMonsters();
-	void play(character&, ELARABY::pathFinder &path);
+	void play(character& hero, ELARABY::pathFinder& path);
+	void MonstersKill();
 };

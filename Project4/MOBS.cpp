@@ -29,10 +29,6 @@ void MOBS::randomlyMove(RectangleShape object)
 		select = rand() % 4 + 1;
 		while (select == tar)
 			select = rand() % 4 + 1;
-		if (Keyboard::isKeyPressed(Keyboard::X))
-		{
-			hp -= 25;
-		}
 	}
 	if (select == 1)
 		animalVelocity = { normalVelocity * deltaTime ,0 };//move right

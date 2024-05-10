@@ -3,7 +3,8 @@
 tile::tile(float x, float y, float sizef, sf::Texture *tex,sf::IntRect Rect,std::string s)
 {
 	what = Rect;
-	Tile.setTexture(tex);
+	this->tex = tex;
+	Tile.setTexture(this->tex);
 	Tile.setTextureRect(Rect);
 	Tile.setSize(sf::Vector2f(sizef, sizef));
 	Tile.setPosition(sizef*x, sizef*y);

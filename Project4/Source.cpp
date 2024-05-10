@@ -79,7 +79,6 @@ namespace ELARABY
 			{
 				arr.at(i)[j].visited = 0;
 				arr.at(i)[j].global = INFINITY;
-
 				arr.at(i)[j].local = INFINITY;
 				arr.at(i)[j].father = nullptr;
 			}
@@ -135,7 +134,7 @@ namespace ELARABY
 		if (Enemy[i]->currentSpeed.x == -10 || isItReached(monster, gridsize, i))
 		{
 			End = &arr[pos.x][pos.y];
-			reset(min(pos.x+115,140), max(pos.x-115,0), max(pos.y - 100, 0), min(pos.y+115,100), i);
+			reset(140,0, 0, 100, i);
 			std::list<object*>tabor;
 			tabor.push_back(Enemy[i]->start);
 			while (!tabor.empty() && distance(tabor.back(), End))

@@ -1,0 +1,3299 @@
+﻿  application.cpp
+E:\Project4\Project4\Map.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\application.cpp(7,23): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  button.cpp
+E:\Project4\Project4\button.cpp(4,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\button.cpp(4,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\button.cpp(5,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\button.cpp(5,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\button.cpp(14,185): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\button.cpp(14,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  character.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(9,75): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(9,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(10,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(15,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(15,61): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(16,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(21,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(21,60): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(22,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(107,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(107,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(112,22): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Project4\Project4\character.cpp(134,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\character.cpp(151,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\character.cpp(199,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\character.cpp(228,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(227,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(243,91): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(242,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(258,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(257,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(277,96): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(277,84): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(277,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(295,95): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(295,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(295,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(313,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(313,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(313,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(331,95): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(331,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(331,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(346,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(346,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(350,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(350,69): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(354,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(354,67): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(358,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(358,69): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(534,74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(534,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(540,74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(540,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(547,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(547,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(552,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(552,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.cpp(610,98): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(610,86): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(610,58): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(630,98): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(630,86): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(630,58): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(650,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(650,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(650,54): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(698,31): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(700,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(702,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(704,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(711,105): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(711,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(711,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(726,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(726,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(726,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(741,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(741,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(741,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(756,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(756,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(756,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(773,31): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(775,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(777,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(779,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.cpp(787,105): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(787,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(787,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(803,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(803,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(803,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(819,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(819,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(819,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(835,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(835,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\character.cpp(835,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  Collects & Inventory.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\Collects & Inventory.cpp(85,47): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(86,48): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(87,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(87,82): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(89,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(89,82): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(91,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(91,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(98,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(102,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(122,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(140,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(211,24): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(229,25): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(246,24): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Collects & Inventory.cpp(349,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  CollisionManager.cpp
+  DailyMission.cpp
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\DailyMission.cpp(294,45): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\Project4\Project4\DailyMission.cpp(430,34): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  DayAndNight.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Editor.cpp
+E:\Project4\Project4\Map.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\Editor.cpp(6,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(35,83): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(35,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(36,87): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(36,60): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(37,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(37,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(38,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(38,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(39,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(39,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(40,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(40,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(55,8): warning C4018: '<': signed/unsigned mismatch
+E:\Project4\Project4\Editor.cpp(55,44): warning C4018: '<': signed/unsigned mismatch
+E:\Project4\Project4\Editor.cpp(130,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(131,11): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(132,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(133,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(142,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(143,11): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(144,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(145,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+E:\Project4\Project4\Editor.cpp(218,141): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Editor.cpp(218,78): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Editor.cpp(226,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(251,26): warning C4305: '+=': truncation from 'double' to 'float'
+E:\Project4\Project4\Editor.cpp(255,26): warning C4305: '-=': truncation from 'double' to 'float'
+E:\Project4\Project4\Editor.cpp(323,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(325,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(341,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(341,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(354,99): warning C4305: 'argument': truncation from 'int' to 'sf::Uint8'
+E:\Project4\Project4\Editor.cpp(354,99): warning C4309: 'argument': truncation of constant value
+E:\Project4\Project4\Editor.cpp(356,208): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(356,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(358,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(358,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(366,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(366,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(423,70): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Editor.cpp(423,116): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Editor.cpp(423,171): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Editor.cpp(423,208): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Editor.cpp(434,38): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Editor.cpp(437,119): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(437,112): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(440,104): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(439,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Editor.cpp(442,149): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(442,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(442,124): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(444,157): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(444,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(444,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(446,143): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(446,126): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Editor.cpp(446,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Enemies.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Enemies.cpp(34,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(34,58): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(37,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Enemies.cpp(37,26): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Enemies.cpp(39,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Enemies.cpp(39,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Enemies.cpp(69,95): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(69,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(69,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(84,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(84,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(84,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(99,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(99,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(99,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(114,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(114,80): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(114,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(135,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(135,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(135,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(154,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(154,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(154,45): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(172,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(172,71): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(172,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(193,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(193,71): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(193,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(212,84): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(212,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(212,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(231,84): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(231,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(231,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(250,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(250,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(250,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Enemies.cpp(404,80): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Enemies.cpp(403,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  entities.cpp
+  Game.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Game.cpp(46,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Game.cpp(66,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  GameManager.cpp
+E:\Project4\Project4\map.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\GameManager.cpp(64,32): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(64,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(74,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\GameManager.cpp(84,29): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(84,21): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(142,83): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(142,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(143,87): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(143,60): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(144,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(144,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(145,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(145,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(146,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(146,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(147,145): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(147,109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(198,80): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameManager.cpp(198,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameManager.cpp(249,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(289,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(293,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\GameManager.cpp(314,230): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Project4\Project4\GameManager.cpp(325,34): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(325,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(326,55): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(326,44): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(330,34): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(330,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(335,82): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameManager.cpp(335,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  GameScenes.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(22,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameScenes.cpp(29,56): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameScenes.cpp(33,15): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(33,35): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(33,59): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(115,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameScenes.cpp(146,36): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameScenes.cpp(149,31): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameScenes.cpp(156,86): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameScenes.cpp(156,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\GameScenes.cpp(159,72): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameScenes.cpp(159,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\GameScenes.cpp(160,78): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(160,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(163,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(163,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(168,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(198,35): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(212,13): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(247,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(253,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(253,100): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(253,60): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(311,108): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(311,87): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(334,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(334,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(335,80): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(335,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(364,145): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(364,120): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(364,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(377,127): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(377,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(411,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(412,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(413,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(432,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(432,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(441,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(441,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(466,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(466,87): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(466,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(494,15): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(499,97): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(499,84): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(499,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(512,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(512,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(512,44): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(526,79): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(526,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(548,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(548,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(569,22): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameScenes.cpp(571,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(571,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(573,127): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(573,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\GameScenes.cpp(646,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.cpp(665,38): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\GameScenes.cpp(674,38): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  lands.cpp
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\lands.cpp(12,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(22,22): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(25,26): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(34,29): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(37,33): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(40,17): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(81,51): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(81,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(86,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(86,39): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(100,19): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(117,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(117,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(119,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(119,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(190,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(190,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(195,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(195,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(200,100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(200,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(228,22): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(231,26): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(239,30): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(242,34): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(245,18): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(248,52): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(248,41): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\lands.cpp(252,9): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(252,12): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(252,15): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(252,35): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(252,29): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(253,9): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(253,12): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(253,15): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(253,34): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(259,18): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(259,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(267,18): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(267,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(271,36): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(271,30): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(276,46): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(276,37): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\Project4\Project4\lands.cpp(281,18): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\Project4\Project4\lands.cpp(281,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\utility(247,16): warning C4267: 'initializing': conversion from 'size_t' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=int
+          ]
+E:\Project4\Project4\lands.cpp(102,21): message : see reference to function template instantiation 'std::pair<int,int>::pair<size_t&,int&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=size_t &,
+              _Other2=int &
+          ]
+E:\Project4\Project4\lands.cpp(102,20): message : see the first reference to 'std::pair<int,int>::pair' in 'lands::emptyChecker'
+  main.cpp
+E:\Project4\Project4\Map.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\main.cpp(19,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\main.cpp(39,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\main.cpp(53,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Project4\Project4\main.cpp(59,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  mainMenu.cpp
+E:\Project4\Project4\Map.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\mainMenu.cpp(5,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Project4\Project4\mainMenu.cpp(5,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  map.cpp
+E:\Project4\Project4\Map.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\map.cpp(37,12): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(73,101): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(73,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(86,129): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(86,103): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(86,218): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(86,152): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(91,126): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(91,103): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(91,190): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(91,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(95,128): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(95,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(99,141): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(99,115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(103,144): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(103,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(107,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(107,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(117,13): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Project4\Project4\map.cpp(118,8): warning C4244: 'initializing': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+E:\Project4\Project4\map.cpp(129,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(129,81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(134,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(134,81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(150,124): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(150,98): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(150,213): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(150,147): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(154,121): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(154,98): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(154,185): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(154,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(158,104): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(158,89): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(158,134): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(158,119): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(162,103): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(162,146): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(162,119): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(166,106): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\map.cpp(166,149): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(166,122): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(170,97): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\map.cpp(170,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  MOBS.cpp
+E:\Project4\Project4\MOBS.h(33,23): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\MOBS.h(33,19): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  PauseMenu.cpp
+E:\Project4\Project4\PauseMenu.cpp(4,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Project4\Project4\PauseMenu.cpp(4,51): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Project4\Project4\PauseMenu.cpp(6,75): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PauseMenu.cpp(6,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PauseMenu.cpp(8,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PauseMenu.cpp(8,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PauseMenu.cpp(21,129): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\PauseMenu.cpp(21,123): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PressF.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\PressF.cpp(3,9): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\PressF.cpp(46,70): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(60,123): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(60,73): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(61,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(62,51): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.cpp(98,125): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.cpp(98,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.cpp(272,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(272,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(273,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(275,49): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.cpp(408,120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(408,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(415,111): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(415,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(422,110): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(422,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(429,109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(429,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(447,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(447,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(454,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(454,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(461,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(461,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(478,44): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\PressF.cpp(486,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(486,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(494,104): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(494,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(573,119): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(573,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\PressF.cpp(577,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Compiling...
+  Settings.cpp
+E:\Project4\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\Project4\Project4\Settings.cpp(41,24): warning C4305: '+=': truncation from 'double' to 'float'
+E:\Project4\Project4\Settings.cpp(124,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(124,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(125,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(125,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(132,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(132,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(201,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(201,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(200,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(200,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(199,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(199,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(209,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(209,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(208,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(207,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(207,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(268,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(268,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(267,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(267,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(266,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(266,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(276,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(275,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(274,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(274,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(307,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(307,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(306,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(306,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(305,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(305,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(316,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(316,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(315,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(315,23): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Settings.cpp(314,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(314,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(350,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(350,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(349,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(349,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(348,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(348,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(358,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(357,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(356,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(356,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(384,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Settings.cpp(384,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Settings.cpp(383,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Settings.cpp(383,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Settings.cpp(382,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Project4\Project4\Settings.cpp(382,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\Project4\Project4\Settings.cpp(556,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(555,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(560,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(559,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(565,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(564,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(569,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(568,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(573,55): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(572,55): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(577,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(576,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(581,58): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(584,59): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(591,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(590,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(595,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(594,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(600,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(599,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(604,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(603,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(608,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(607,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(612,49): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(611,49): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(616,51): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(619,52): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(627,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(626,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(631,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(630,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(636,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(635,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(640,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(639,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(645,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(644,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(649,59): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(648,59): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(653,60): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(656,61): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(663,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(662,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(667,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(666,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(672,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(671,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(676,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(675,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(680,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(679,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(684,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(683,50): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(688,50): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(691,51): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(697,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(696,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(701,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(700,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(705,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(704,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(708,54): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Settings.cpp(711,102): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(711,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(712,99): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(712,64): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(744,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\Settings.cpp(746,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Project4\Project4\Settings.cpp(746,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  Source.cpp
+E:\Project4\Project4\Source.cpp(9,11): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\Project4\Project4\Source.cpp(154,15): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
+  SpriteVector.cpp
+  states.cpp
+  Story.cpp
+E:\Project4\Project4\PressF.h(161,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(168,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+E:\Project4\Project4\PressF.h(176,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+E:\Project4\Project4\PressF.h(183,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+E:\Project4\Project4\PressF.h(193,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+E:\Project4\Project4\PressF.h(198,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+E:\Project4\Project4\character.h(9,60): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(10,54): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(14,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Project4\Project4\character.h(18,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\character.h(37,25): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(37,20): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(47,32): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(49,30): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(51,28): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(53,31): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(55,26): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(58,38): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(60,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(62,35): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\character.h(64,37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Project4\Project4\Enemies.h(8,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\GameScenes.h(21,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\DayAndNight.h(8,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Project4\Project4\Story.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Project4\Project4\Story.cpp(65,72): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Story.cpp(65,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+E:\Project4\Project4\Story.cpp(78,112): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Story.cpp(78,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+E:\Project4\Project4\Story.cpp(172,23): warning C4305: '=': truncation from 'double' to 'float'
+E:\Project4\Project4\Story.cpp(193,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  tile.cpp
+E:\Project4\Project4\tile.cpp(20,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\tile.cpp(20,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\tile.cpp(30,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Project4\Project4\tile.cpp(30,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+E:\Project4\Project4\button.cpp(53): warning C4715: 'button::isPressed': not all control paths return a value
+E:\Project4\Project4\Source.cpp(179): warning C4715: 'ELARABY::pathFinder::Astar': not all control paths return a value
+  All 1486 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Project4.vcxproj -> E:\Project4\x64\Release\Project4.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

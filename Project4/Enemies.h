@@ -17,7 +17,7 @@ struct enemies
 	float DeathDelay = 0.5;
 
 	//Enemies Scales
-	Vector2f scale = { 1+WindowSize.x / 1920, 1+WindowSize.y / 1080 };
+	Vector2f scale = { 2,2};
 
 	//Sprite Sheet Size
 	Vector2f WalkSize = { 64, 64 };

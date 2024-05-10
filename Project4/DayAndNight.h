@@ -4,7 +4,7 @@ struct DayAndNight
 {
 	//Controls
 	int darknes = 110;//As the number increase the night darknes increase
-	int DNTime = 90; //Control the Day And Night Duration as Seconds
+	int DNTime = 34; //Control the Day And Night Duration as Seconds
 	float SunSetDelay = 0.015, SunRiseDelay = 0.015;//The Time SunSet And SunRise Take
 
 

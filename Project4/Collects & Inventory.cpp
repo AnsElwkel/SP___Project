@@ -33,6 +33,8 @@ void pre()
     tree.sprite.setTexture(treeTexture);
     tree.sprite.setPosition(400, 800);
     tree.sprite.getPosition();
+    tex.loadFromFile("./res/food/rawmeat.png");
+    rawmeat.setTexture(tex);
     stone.sprite.setTexture(stoneTexture);
     stone.sprite.setPosition(100, 190);
     stone.sprite.getPosition();
@@ -163,19 +165,23 @@ void drawInventory()
                     eat.setFillColor(Color::Green);
                     eatf.setString("eat");
                     eatf.setPosition(eat.getPosition());
-                    drop.setSize({ inventory.BlocksSprite.getGlobalBounds().width / 2.f, 15 * WindowSize.x / 1920.f });
-                    drop.setPosition(i + inventory.BlocksSprite.getGlobalBounds().width / 2.f, j + inventory.BlocksSprite.getGlobalBounds().height - drop.getGlobalBounds().height);
-                    drop.setFillColor(Color::Red);
-                    dropf.setString("drop");
-                    dropf.setPosition(drop.getPosition());
-
+                   
                     if (Mouse::isButtonPressed(Mouse::Left))
                     {
                         removeFromInventory(idx);
+                        click = 1;
                     }
                 }
+            }
+            else if (inv_items[idx].weapon_or_mawared_or_nothing == 4) // if this block contains a roasted food
+            {
+                inv_items[idx].food.setPosition(i + inventory.BlocksSprite.getGlobalBounds().width / 2.f, j + inventory.BlocksSprite.getGlobalBounds().height / 2.f);
+                window->draw(inv_items[idx].food);
+             
 
             }
+
+
 
             window->draw(eat);
             window->draw(drop);
@@ -299,7 +305,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
             item.mawared.sprite = wood.sprite;
 
             item.mawared.type = 1;
-            item.mawared.quantity = 1;
+            item.mawared.quantity = 8;
             inventory.currentWood += item.mawared.quantity;
             if (isInInventory(item)) // If item is already in inventory add to it the quantity collected
             {
@@ -328,7 +334,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
             item.weapon_or_mawared_or_nothing = 2;
             item.mawared.sprite = dstone.sprite;
             item.mawared.type = 2;
-            item.mawared.quantity = 1;
+            item.mawared.quantity = 2;
             inventory.currentStones += item.mawared.quantity;
 
             if (isInInventory(item))
@@ -354,7 +360,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
             item.weapon_or_mawared_or_nothing = 2;
             item.mawared.sprite = diron.sprite;
             item.mawared.type = 3;
-            item.mawared.quantity = 1;
+            item.mawared.quantity = 4;
             inventory.currentIron += item.mawared.quantity;
 
             if (isInInventory(item))

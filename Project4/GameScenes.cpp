@@ -762,7 +762,7 @@ void GameScenes::EndSceneSet()
 }
 
 int iie = 0;
-void GameScenes::EndScene(enemies &e, character &h)
+void GameScenes::EndScene(enemies& e, character& h)
 {
 	if (iie < sse.size())
 	{

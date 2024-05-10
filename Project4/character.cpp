@@ -115,7 +115,7 @@ void character::set(int posx, int posy, bool x)
     HealthFont.loadFromFile("./res/Fonts/score.otf");
     HealthBar.setSize({ (float)health, 32.f });
     HealthBar.setOrigin(HealthBar.getLocalBounds().getSize() / 2.f);
-    HealthBar.setPosition(WindowSize.x / 2,WindowSize.y - HealthBar.getSize().y * 3);
+    HealthBar.setPosition(WindowSize.x / 2, WindowSize.y - HealthBar.getSize().y * 3);
     HealthBar.setScale(WindowSize.x / 1280.f, WindowSize.y / 720.f);
     HealthBar.setFillColor(Color::Red);
     HealthBarFrame.setSize(HealthBar.getSize());
@@ -226,8 +226,8 @@ void character::ShowHealthBar()
     HealthText.setScale(HealthBar.getScale());
     HealthText.setOrigin((HealthText.getLocalBounds().width) / 2.f, (HealthText.getLocalBounds().height) / 2.f);
     HealthText.setPosition(HealthBar.getPosition().x + (HealthText.getOutlineThickness() - 3.8),
-                           HealthBar.getPosition().y - HealthText.getOutlineThickness() +
-                           (HealthText.getOutlineThickness() - (2.2 + HealthBar.getScale().x * 2)) * 2);
+        HealthBar.getPosition().y - HealthText.getOutlineThickness() +
+        (HealthText.getOutlineThickness() - (2.2 + HealthBar.getScale().x * 2)) * 2);
     window->draw(HealthBarFrame);
     window->draw(HealthBar);
     window->draw(HealthText);
@@ -241,8 +241,8 @@ void character::ShowStaminaBar()
     StaminaText.setScale(StaminaBar.getScale());
     StaminaText.setOrigin((StaminaText.getLocalBounds().width) / 2.f, (StaminaText.getLocalBounds().height) / 2.f);
     StaminaText.setPosition(StaminaBar.getPosition().x + (StaminaText.getOutlineThickness() - 3.8),
-                           StaminaBar.getPosition().y - StaminaText.getOutlineThickness() +
-                           (StaminaText.getOutlineThickness() - (2.2 + StaminaBar.getScale().x * 2)) * 2);
+        StaminaBar.getPosition().y - StaminaText.getOutlineThickness() +
+        (StaminaText.getOutlineThickness() - (2.2 + StaminaBar.getScale().x * 2)) * 2);
     window->draw(StaminaBar);
     window->draw(StaminaBarFrame);
     window->draw(StaminaText);
@@ -371,8 +371,8 @@ void character::move()
                 {
                     ChangeWeapon("LongSword");
                     HitDistance = 100;
-                    damage = maxDamage+15;
-                    
+                    damage = maxDamage + 15;
+
                 }
 
             }
@@ -582,7 +582,7 @@ void character::SkillUpdate(int& x, int& y, int& z, float& a, float& b)
     RectangleShape shaps[5];
     for (int i = 0; i < 5; i++)
     {
-        shaps[i].setSize(Vector2f((WindowSize.x / 1600.f) * 100,(WindowSize.y / 900) * 100));
+        shaps[i].setSize(Vector2f((WindowSize.x / 1600.f) * 100, (WindowSize.y / 900) * 100));
         shaps[i].setOrigin(shaps[i].getSize().x / 2, 0);
     }
     shaps[0].setPosition(window->getSize().x * 1 / 5.f, WindowSize.y / 2.f);
@@ -636,8 +636,8 @@ void character::SkillUpdate(int& x, int& y, int& z, float& a, float& b)
     }
 
     bool oneClick = 1, chh = 1;
-    Vector2f PlayerPosition = { sprite.getPosition().x , sprite.getPosition().y + sprite.getGlobalBounds().getSize().y / 3};
-    for (int i = 0; i < 3; i++) 
+    Vector2f PlayerPosition = { sprite.getPosition().x , sprite.getPosition().y + sprite.getGlobalBounds().getSize().y / 3 };
+    for (int i = 0; i < 3; i++)
     {
         if (shaps[i].getGlobalBounds().contains(PlayerPosition))
         {
@@ -756,29 +756,29 @@ void character::ChangeShadow(string s)
 }
 void character::hit()
 {
-  
+
     if (Keyboard::isKeyPressed(Keyboard::X) and !IsAttacking)
     {
         IsAttacking = 1;
-            if (weapon == "LongSword")
-            {
-                WeaponsBar[0].WeaponHealth -= 4;
-            }
-            else if (weapon == "Waraxe")
-            {
-                WeaponsBar[1].WeaponHealth -= 10;
-            }
-            else if (weapon == "Saber")
-            {
-                WeaponsBar[2].WeaponHealth -= 30;
-            }
-            else if (weapon == "Mace")
-            {
-                WeaponsBar[3].WeaponHealth -= 40;
-            }
+        if (weapon == "LongSword")
+        {
+            WeaponsBar[0].WeaponHealth -= 4;
+        }
+        else if (weapon == "Waraxe")
+        {
+            WeaponsBar[1].WeaponHealth -= 10;
+        }
+        else if (weapon == "Saber")
+        {
+            WeaponsBar[2].WeaponHealth -= 30;
+        }
+        else if (weapon == "Mace")
+        {
+            WeaponsBar[3].WeaponHealth -= 40;
+        }
 
     }
-   
+
     if (IsWeapon && IsAttacking && !IsWalking)
     {
         AnimationI = 0;
@@ -939,7 +939,7 @@ void character::hit()
     }
 }
 
-void character::DealDamage(Sprite &s, int& h)
+void character::DealDamage(Sprite& s, int& h)
 {
     Vector2f d = VectorDistanceBetween(sprite, s);
     if (IsWeapon && IsAttacking && !IsWalking)
@@ -961,7 +961,7 @@ void character::DealDamage(Sprite &s, int& h)
         }
         if (lastKey == "Left")
         {
-            
+
             if (var == 6 && (weapon == "LongSword" || weapon == "Saber" || weapon == "Waraxe" || weapon == "Mace"))
             {
                 if (DistanceBetween(s, sprite) <= HitDistance && d.x > d.y && abs(d.x) > abs(d.y))
@@ -1104,6 +1104,6 @@ void character::play()
 
 void character::play1()
 {
-   // hit();
+    // hit();
 }
 

@@ -14,10 +14,8 @@ mainMenu::~mainMenu()
 }
 void mainMenu::buttoninit()
 {
-	buttons["Load"] = new button;
-	buttons["Load"]->Button(font, "Load Game", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x/2-180*window->getSize().x/1920, 300);
 	buttons["Game"] = new button;
-	buttons["Game"]->Button(font, "New Game", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x/2-180*window->getSize().x/1920, 400);
+	buttons["Game"]->Button(font, "SILTARA", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x/2-180*window->getSize().x/1920, 400);
 	buttons["settings"] = new button;
 	buttons["settings"]->Button(font, "Settings", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x / 2 - 180 * window->getSize().x / 1920, 500);
 	buttons["editor"] = new button;
@@ -46,44 +44,6 @@ void mainMenu::buttonUpdate()
 	{
 		gameStates->push(new GameManager(window, gameStates));
 	}
-	if (buttons["Load"]->isPressed())
-	{
-		//float x, y;
-
-		//fstream fin;
-		//fin.open("saveGame.txt", ios::trunc | ios::in | ios::out);
-		////write last info
-		//fin >> x >> y;
-		//fin >> all.story->hero.health;
-		//fin >> all.story->hero.stamina;
-		//getline(fin, all.story->hero.weapon);
-		//fin >> all.story->hero.hunger;
-		//fin >> all.story->hero.HitSpeed;
-		//fin >> all.story->hero.walk;
-		//fin >> all.story->hero.run;
-		//fin >> all.story->hero.damage;
-		//fin >> all.story->hero.score;
-
-		//fin >> inventory.meat;
-		//fin >> inventory.currentIron;
-		//fin >> inventory.currentWood;
-		//fin	>> inventory.currentStones;
-
-
-		//for (int i = 0; i < 27; ++i)
-		//	fin >> inv_items[i].mawared.quantity >> inv_items[i].mawared.type 
-		//		>> inv_items[i].weapons.health >> inv_items[i].weapons.type
-		//		>> inv_items[i].weapon_or_mawared_or_nothing;
-
-		//for (int i = 0; i < 4; ++i)
-		//	fin >> WeaponsBar[i].WeaponHealth >> WeaponsBar[i].Weapontype;
-
-		//fin.close();
-		//all.story->hero.sprite.setPosition({ x, y });
-
-		gameStates->push(new GameManager(window, gameStates));
-	}
-
 	if (buttons["editor"]->isPressed())
 	{
 		gameStates->push(new Editor(window, gameStates));

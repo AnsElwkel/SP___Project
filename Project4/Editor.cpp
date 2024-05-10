@@ -65,14 +65,12 @@ void Editor::add(unsigned x, unsigned y, unsigned z, float GridSize, sf::Texture
 		tiles->Lands.at(tiles->currentLand)->Land[x ][y][z] = new tile(x * GridSize, y * GridSize, GridSize, &SelectByS, TexRect, type);
 		tiles->Lands.at(tiles->currentLand)->count++;
 		tiles->Lands.at(tiles->currentLand)->Land[x][y][z]->whichTexture = elem1;
-
 	}
 	else if (tiles->Lands.at(tiles->currentLand)->Land[x ][y][z + 1] == nullptr)
 	{
 		tiles->Lands.at(tiles->currentLand)->Land[x ][y][z + 1] = new tile(x * GridSize, y * GridSize, GridSize, &SelectByS, TexRect, type);
 		tiles->Lands.at(tiles->currentLand)->count++;
 		tiles->Lands.at(tiles->currentLand)->Land[x ][y][z+1]->whichTexture = elem1;
-
 	}
 }
 
@@ -115,6 +113,7 @@ void Editor::buttonUpdate(){
 	{
 		tiles->LoadFromFile(loaded);
 		loaded = 1;
+		tiles->Lands[tiles->currentLand]->once = 1;
 	}
 }
 void Editor::UpdateTile(const float& dt)
@@ -160,6 +159,7 @@ void Editor::UpdateTile(const float& dt)
 					}
 				}
 			}
+			tiles->Lands[tiles->currentLand]->once = 1;
 			activate = 0;
 		}
 		else if (activate1)
@@ -176,6 +176,8 @@ void Editor::UpdateTile(const float& dt)
 					}
 				}
 			}
+			tiles->Lands[tiles->currentLand]->once = 1;
+
 			activate1 = 0;
 		}
 		else if (valid(mousePositionGrid.x, mousePositionGrid.y))
@@ -183,15 +185,20 @@ void Editor::UpdateTile(const float& dt)
 			if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && delta >= 0.12f && !selector.getActive().first && !selector.getActive().second && isCatch)
 			{
 				add(mousePositionGrid.x, mousePositionGrid.y, 0, tiles->Gridsizef, *tex[elem1], arr[elem]);
+				tiles->Lands[tiles->currentLand]->once = 1;
+
 				delta = 0;
 			}
 			else if (sf::Mouse::isButtonPressed(sf::Mouse::Right) && delta >= 0.32)
 			{
 				remove(mousePositionGrid.x, mousePositionGrid.y, 0);
+				tiles->Lands[tiles->currentLand]->once = 1;
+
 				delta = 0;
 			}
 			else if (TexRect.left != -1)
 				hoverd = tile(mousePositionGrid.x * tiles->Gridsizef, mousePositionGrid.y * tiles->Gridsizef, tiles->Gridsizef, tex[elem1], TexRect, "ss");
+
 		}
 	}
 	
@@ -209,6 +216,7 @@ void Editor::FontInit()
 		throw("error!!! can't load font\n");
 	}
 }
+bool pressed = 0;
 void Editor::update(const float& dt)
 {
 	//cout << arr[elem] << endl;
@@ -248,16 +256,29 @@ void Editor::update(const float& dt)
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::C))
 	{
+
 		tiles->Gridsizef += 0.2;
+		pressed = 1;
+	}
+	else if(!Keyboard::isKeyPressed(Keyboard::RControl) && !Keyboard::isKeyPressed(Keyboard::C)&&pressed)
+	{
+		pressed = 0;
+		tiles->Lands[tiles->currentLand]->once = 1;
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::B))
 	{
 		tiles->Gridsizef -= 0.2;
+		pressed = 1;
+	}
+	else if (!Keyboard::isKeyPressed(Keyboard::RControl) && !Keyboard::isKeyPressed(Keyboard::B) && pressed)
+	{
+		pressed = 0;
+		tiles->Lands[tiles->currentLand]->once = 1;
 	}
 	delta1 += dt;
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Up)&&delta1>0.4)
 	{
-		elem = min(elem + 1, 8);
+		elem = min(elem + 1, 9);
 		delta1 = 0;
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Down)&&delta1>0.4)
@@ -333,7 +354,7 @@ void Editor::render(sf::RenderTarget* target)
 	{
 
 		selector.render(target);
-		stat.render(target, h, mousePositionGrid, font, tiles->Gridsizef,tiles->currentLand,tiles->Lands.size);
+		stat.render(target, h, mousePositionGrid, font, tiles->Gridsizef,tiles->currentLand,tiles->Lands.size());
 		if (!selector.getActive().first && !selector.getActive().second&&!stat.getActive())
 		{
 			target->setView(camera);
@@ -475,7 +496,7 @@ void Editor::status::render(RenderTarget* target, Vector2i& mousepos, Vector2u& 
 	}
 }
 
-void Editor::status::update(Vector2i* mousepos, int& currentLand,int grid,Vector2f maxsize, ELARABY::Vector<lands*>& Lands)
+void Editor::status::update(Vector2i* mousepos, int& currentLand,int grid,Vector2f maxsize, vector<lands*>& Lands)
 {
 	Switch->update(*mousepos);
 	if (Switch->isPressed() && !ispressing)
@@ -499,7 +520,7 @@ void Editor::status::update(Vector2i* mousepos, int& currentLand,int grid,Vector
 		}
 		if (buttons["GoToNext"]->isPressed() && !ispressing1)
 		{
-			if (currentLand < Lands.getSize() - 1)
+			if (currentLand < Lands.size() - 1)
 			{
 				currentLand++;
 				if (!Lands.at(currentLand)->isItLoaded)
@@ -519,7 +540,7 @@ void Editor::status::update(Vector2i* mousepos, int& currentLand,int grid,Vector
 		{
 			ispressing1 = 1;
 			Lands.push_back(new lands(maxsize, 0, 0, 40, 5, 45, grid, "land0.txt", 1));
-			Lands.at(Lands.size - 1)->isItLoaded = 1;
+			Lands.at(Lands.size() - 1)->isItLoaded = 1;
 		}
 		else if (!buttons["GoToNext"]->isPressed()&&!buttons["GoToPrevious"]->isPressed()&&!buttons["New"]->isPressed())
 			ispressing1 = 0;

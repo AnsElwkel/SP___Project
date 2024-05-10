@@ -13,7 +13,9 @@ extern Font pressfont;
 extern Text press;
 extern char last;
 extern float dt;
-
+extern Texture tex;
+extern Sprite rawmeat;
+extern bool click;
 extern float delay;
 extern float timer;
 extern int currentIron;
@@ -35,7 +37,7 @@ extern RectangleShape WeaponHealthBar, WeaponHealthBarFrame;
 
 struct Inventory
 {
-    int currentWood = 100, currentStones = 0, currentIron = 100, meat = 100,lamb = 0,chicken = 0;
+    int currentWood = 100, currentStones = 0, currentIron = 100, meat = 100, lamb = 0, chicken = 0;
     bool isOpen;
     Texture inventoryTexture;
     Sprite inventorySprite;
@@ -152,53 +154,53 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
 //********************************************************************************************
 extern struct foodDetails
 {
-	int meatWood = 3, lambWood = 2,chickenWood = 1;
-	
-	
+    int meatWood = 3, lambWood = 2, chickenWood = 1;
+
+
 };
 extern struct foodStore
 {
-	Texture meatText, lambText, chickenText,FoodListText,LockTex;
-	Sprite Meat, Lamb, Chicken,FoodList,Lock;
-	Text foodName, fooddt;
-	foodDetails FoodDetails;
+    Texture meatText, lambText, chickenText, FoodListText, LockTex;
+    Sprite Meat, Lamb, Chicken, FoodList, Lock;
+    Text foodName, fooddt;
+    foodDetails FoodDetails;
 };
 
 extern foodStore food;
 extern struct weaponsDetails
 {
-	int longSowrdIron = 6, maceIron = 3, saberIron = 2;
-	int longSowrdWood = 3, warAxeWood = 3, saberWood = 1, maceWood = 2;
-	int longSowrdHealth = 100, warAxeHealth = 100, saberHealth = 100, maceHealth = 100;
+    int longSowrdIron = 6, maceIron = 3, saberIron = 2;
+    int longSowrdWood = 3, warAxeWood = 3, saberWood = 1, maceWood = 2;
+    int longSowrdHealth = 100, warAxeHealth = 100, saberHealth = 100, maceHealth = 100;
 };
 extern struct weaponStore
 {
-	Texture LongSowrdTex, WarAxeTex, MaceTex, SaberTex,weaponListTex,LockTex;
-	Sprite LongSowrd,WarAxe,Mace,Saber,weaponList,Lock;
-	Text weaponName, weapondt;
-	weaponsDetails WeaponsDetails;
+    Texture LongSowrdTex, WarAxeTex, MaceTex, SaberTex, weaponListTex, LockTex;
+    Sprite LongSowrd, WarAxe, Mace, Saber, weaponList, Lock;
+    Text weaponName, weapondt;
+    weaponsDetails WeaponsDetails;
 };
 extern struct blocks
 {
-	Texture LongSowrdTexB, WarAxeTexB, MaceTexB, SaberTexB;
-	Sprite LongSowrdB, WarAxeB, MaceB, SaberB;
-	Texture meatTextB, lambTextB, chickenTextB;
-	Sprite MeatB, LambB, ChickenB;
-	Texture WeaponBarText;
-	Sprite WeaponBarB;
+    Texture LongSowrdTexB, WarAxeTexB, MaceTexB, SaberTexB;
+    Sprite LongSowrdB, WarAxeB, MaceB, SaberB;
+    Texture meatTextB, lambTextB, chickenTextB;
+    Sprite MeatB, LambB, ChickenB;
+    Texture WeaponBarText;
+    Sprite WeaponBarB;
 
 };
 extern struct myWeapons
 {
-	// 1 -> longsword , 2 -> Axe, 3 -> Saber , 4 -> Pickaxe
-	int Weapontype, WeaponID, WeaponHealth = 100;
+    // 1 -> longsword , 2 -> Axe, 3 -> Saber , 4 -> Pickaxe
+    int Weapontype, WeaponID, WeaponHealth = 100;
 };
 extern myWeapons WeaponsBar[4];
 extern blocks Blocks;
 extern weaponStore weapons;
 extern Texture currentWeaponText[4];
 extern Sprite currentWeapon[4];
- bool checkDistance(float currentDistance, Sprite mainCharcter, RectangleShape store);
+bool checkDistance(float currentDistance, Sprite mainCharcter, RectangleShape store);
 float calcDistance(Sprite mainCharcter, RectangleShape store);
 void PressFtoOpenWeapons();
 void PressFtoOpenfood();
@@ -210,6 +212,6 @@ void drawWeaponStore(Vector2f pos);
 void  displayWeaponHeroList();
 void setCursor();
 void setblocks(Texture& blockText, Sprite& blocks);
-void HealthBarSet(float x,Vector2f pos);
+void HealthBarSet(float x, Vector2f pos);
 void pre();
 #endif

@@ -39,7 +39,7 @@ struct Editor:states
 		status(float x, float y, float width, float height, Color c, int charSize, Font font);
 		void render(RenderTarget* target, Vector2i& mousepos, Vector2u& mousePositionGrid, Font font, float Grid,int currentland,int numberOfLands);
 		const bool getActive() const;
-		void update(Vector2i* mousepos,int &currentLand,int grid,Vector2f,ELARABY::Vector<lands*>&lands);
+		void update(Vector2i* mousepos,int &currentLand,int grid,Vector2f,vector<lands*>&lands);
 	};
 
 	// rendering zone and selecting ///

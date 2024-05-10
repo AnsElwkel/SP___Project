@@ -35,7 +35,7 @@ struct character
 	float DeathDelay = 0.5f;
 
 	//Hero Scales
-	Vector2f scale = { 0.8f+window->getSize().x/1920.f, 0.8f+window->getSize().y/1080.f};
+	Vector2f scale = { 0.8f + window->getSize().x / 1920.f, 0.8f + window->getSize().y / 1080.f };
 
 	//Sprite Sheet Size
 	Vector2f WalkSize = { 64.f, 64.f };
@@ -68,8 +68,8 @@ struct character
 	//Not Controls (Don't touch)
 	int maxDamage = damage;
 	int score = 0, var /*Dealing Damage Handling Variable*/, MaxStamina = stamina, MaxHealth = health, MaxHunger = hunger;
-	bool IsAlive = 0, IsWeapon = 0, IsWalking = 0, IsAttacking = 0, IsStanding = 1, 
-		 arrive = 0, InCave = 1, IsUpdating = 1, control = 1;
+	bool IsAlive = 0, IsWeapon = 0, IsWalking = 0, IsAttacking = 0, IsStanding = 1,
+		arrive = 0, InCave = 1, IsUpdating = 1, control = 1;
 	float AnemationTimer = 0, HitTimer = 0, DeathTimer = 0, speed = walk;
 	int AnimationI = 0, HitI = 0, DeathI = 0;
 	float AnemationDelay = 10.f / speed;
@@ -109,7 +109,7 @@ struct character
 	void die(string);
 	void hit();
 	void DealDamage(Sprite&, int& heal);
-	void GoTo(Vector2f Destination,int DestanceToStopBeforeDestenation, int Speed);
+	void GoTo(Vector2f Destination, int DestanceToStopBeforeDestenation, int Speed);
 	void LookAt(Sprite);
 	void chooseHero();
 	void ShowHealthBar();

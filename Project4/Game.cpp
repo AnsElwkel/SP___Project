@@ -16,13 +16,10 @@ bool Game::ThereIsMonsters()
 	return 0;
 }
 
-bool Fch = 0;
 void Game::play(character &hero, ELARABY::pathFinder& path)
 {
 	//GamePlay
 	hero.InCave = 0;
-	if (Keyboard::isKeyPressed(Keyboard::P) && Fch == 0)
-		Fch = 1;
 	if (blink.Blinking && !hero.IsAlive)
 	{
 		dn.night.setSize(WindowSize * 2.0f);
@@ -41,84 +38,87 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 	}
 	else
 	{
-		hero.control = 1;
 		blink.BlinkReset();
 		//If the player Level increase The Upgrade screen will open
 		if (hero.IsUpdating)
 		{
-			hero.SkillUpdate(hero.maxDamage, hero.MaxHealth, hero.MaxStamina, hero.walk, hero.HitSpeed);
+			hero.control = 1;
+			hero.SkillUpdate(hero.damage, hero.MaxHealth, hero.MaxStamina, hero.walk, hero.HitSpeed);
 			hero.run = hero.walk + (hero.walk * (60.0 / 100));
 			hero.StaminaBarSet(hero.MaxStamina);
 			hero.HealthBarSet(hero.MaxHealth);
 		}
 		else
 		{
-			dn.flow();
-			if (dn.DayDate >= 10 || Fch)
+			hero.control = 1;
+			if (hero.health > 0)
 			{
-				//DrawSprite.add(hero.sprite);
-				bool chi = ThereIsMonsters();
-				if (!chi)
+				dn.flow();
+				if (dn.DayDate >= 1)
 				{
-					//hero.GoTo({ WindowSize.x, WindowSize.y / 2 }, 3, 300);
-					hero.arrive = 1;
-					if (hero.arrive)
+					//DrawSprite.add(hero.sprite);
+					bool chi = ThereIsMonsters();
+					if (!chi)
 					{
-						hero.ChangeWeapon("LongSword");
-						hero.HitSpeed = 0.05f;
-						hero.damage = 50;
-						hero.HealthBarSet(1000);
-						hero.health = 1000;
-						hero.StaminaBarSet(500);
-						hero.hunger = 20;
-						hero.HungerConsumeDelay = 20;
-						hero.state = "FinalBossFight";
-						hero.InCave = 1;
-						hero.sprite.setPosition(0, window->getSize().y / 2);
-						hero.arrive = 0;
-					}
-				}
-				else
-				{
-					hero.walking.pause();
-				}
-				window->draw(dn.night);
-			}
-			else
-			{
-				if (!dn.Day)
-				{
-					//SpawnAndChace(hero, path);
-					if (ThereIsMonsters())
-					{
-						for (int i = 0; i < MaxMonsterSpawn; i++)
+						//hero.GoTo({ WindowSize.x, WindowSize.y / 2 }, 3, 300);
+						hero.arrive = 1;
+						if (hero.arrive)
 						{
-							if (enemiesch[i] == 1)
-								hero.DealDamage(Monsters[i].sprite, Monsters[i].health);
+							hero.ChangeWeapon("LongSword");
+							hero.state = "FinalBossFight";
+							hero.InCave = 1;
+							hero.sprite.setPosition(0, window->getSize().y / 2);
+							hero.arrive = 0;
 						}
 					}
 					else
 					{
-						//As The Stop hitting Handling is at the (DealDamage()) Function
-						if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber" || hero.weapon == "Waraxe" || hero.weapon == "Mace"))
-							hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
-						else if (hero.var == 0 && (hero.weapon == "Axe" || hero.weapon == "Pickaxe"))
-							hero.var = 6, hero.IsAttacking = 0, hero.IsWalking = 1;
+						hero.walking.pause();
 					}
+					window->draw(dn.night);
 				}
 				else
 				{
-					
-					
-					//As The Stop hitting Handling is at the (DealDamage()) Function
-					if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber" || hero.weapon == "Waraxe" || hero.weapon == "Mace"))
-						hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
-					else if (hero.var == 0 && (hero.weapon == "Axe" || hero.weapon == "Pickaxe"))
-					hero.var = 6, hero.IsAttacking = 0, hero.IsWalking = 1;
-					//path.Enemy.clear();
-					//DrawSprite.add(hero.sprite);
+					if (!dn.Day)
+					{
+						//SpawnAndChace(hero, path);
+						if (ThereIsMonsters())
+						{
+							for (int i = 0; i < MaxMonsterSpawn; i++)
+							{
+								if (enemiesch[i] == 1)
+									hero.DealDamage(Monsters[i].sprite, Monsters[i].health);
+							}
+						}
+						else
+						{
+							//As The Stop hitting Handling is at the (DealDamage()) Function
+							if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber"))
+								hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
+							else if (hero.var == 0 && (hero.weapon == "Axe" || hero.weapon == "Pickaxe"))
+								hero.var = 6, hero.IsAttacking = 0, hero.IsWalking = 1;
+						}
+					}
+					else
+					{
+
+
+						//As The Stop hitting Handling is at the (DealDamage()) Function
+						if (hero.var == 6 && (hero.weapon == "LongSword" || hero.weapon == "Saber"))
+							hero.var = 0, hero.IsAttacking = 0, hero.IsWalking = 1;
+						else if (hero.var == 0 && (hero.weapon == "Axe" || hero.weapon == "Pickaxe"))
+							hero.var = 6, hero.IsAttacking = 0, hero.IsWalking = 1;
+						//path.Enemy.clear();
+						//DrawSprite.add(hero.sprite);
+					}
+					hero.play1();
 				}
-				hero.play1();
+			}
+			else
+			{
+				hero.die("die");
+				if(!hero.IsAlive)
+					hero.reset();
 			}
 		}
 	}

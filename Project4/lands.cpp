@@ -3,8 +3,14 @@ lands::lands()
 {
 
 }
+Entity Tree;
 lands::lands(sf::Vector2f maxSize,int cost, int id, int maxRes, int maxAnimal, int maxEnemies,int gridSize,std::string filename,bool what)
 {
+	texture = new RenderTexture;
+	if (texture->create(14000, 10000))cout << "yes" << endl;
+	texture2 = new RenderTexture;
+	if (texture2->create(14000, 10000))cout << "yes" << endl;
+	Tree.CreateEntity("./res/map.png", { 49 * 8 + 20,147,70,100 });
 	this->cost = cost;
 	this->id = id;
 	name = filename;
@@ -97,7 +103,7 @@ void lands::emptyChecker()
 	{
 		for (int j = 0; j < maxSize.y; j++)
 		{
-			if (!collision[i][j])
+			if (!collision[i+1][j+1])
 			{
 				empty.push_back({i,j});
 			}
@@ -134,6 +140,7 @@ sf::Sprite* lands::chasing(character& x, ELARABY::pathFinder& path, enemies Mons
 		{
 			if (Monsters[i].IsAlive && Monsters[i].health > 0)
 			{
+
 				Monsters[i].ChaceAndHit(x, 0, path,i);
 				monsterSpriteArray[i] = Monsters[i].sprite;
 			}
@@ -169,7 +176,8 @@ void lands::clearEnemies(enemies Monsters[], bool enemiesch[])
 		}
 	}
 }
-void lands::randoming()
+
+void lands::randoming(int s)
 {
 
 	while (currentAnimal < maxAnimal)
@@ -180,30 +188,39 @@ void lands::randoming()
 		cows.at(currentAnimal)->animalSprite.setPosition(empty[x].first * gridSize, empty[x].second * gridSize);
 		currentAnimal++;
 	}
-	Entity Tree;
-	Tree.CreateEntity("./res/map.png", { 49 * 8 + 20,147,70,100 });
+	
 	while (currentres < maxres)
 	{
+
 		int x = rand() % empty.size(), y = rand() % 32000;
-		if (y < 15000)
+		if (s)
 		{
-			Land[empty[x].first - 1][empty[x].second - 1][1] = new tile(empty[x].first - 1, empty[x].second - 1, gridSize, Tree.tex, Tree.tr, "#G04");
-			Land[empty[x].first - 1][empty[x].second - 1][1]->health = 400;
-		}
-		else if (y < 27000)
-		{
-			Land[empty[x].first - 1][empty[x].second - 1][1] = new tile(empty[x].first - 1, empty[x].second - 1, gridSize, Tree.tex, Tree.tr, "#G05");
-			Land[empty[x].first - 1][empty[x].second - 1][1]->health = 80;
+			if (y < 27000)
+			{
+				Land[empty[x].first ][empty[x].second][1] = new tile(empty[x].first, empty[x].second , gridSize, Tree.tex, Tree.tr, "#G05");
+				Land[empty[x].first][empty[x].second][1]->health = 500;
+			}
+			else
+			{
+				Land[empty[x].first ][empty[x].second][1] = new tile(empty[x].first , empty[x].second , gridSize, Tree.tex, Tree.tr, "#G06");
+				Land[empty[x].first ][empty[x].second][1]->health = 600;
+			}
 		}
 		else
 		{
-			Land[empty[x].first - 1][empty[x].second - 1][1] = new tile(empty[x].first - 1, empty[x].second - 1, gridSize, Tree.tex, Tree.tr, "#G06");
-			Land[empty[x].first - 1][empty[x].second - 1][1]->health = 120;
+			if (y < 27000)
+			{
+				Land[empty[x].first][empty[x].second][1] = new tile(empty[x].first , empty[x].second, gridSize, Tree.tex, Tree.tr, "#G04");
+				Land[empty[x].first ][empty[x].second][1]->health = 400;
+			}
+			else
+			{
+				Land[empty[x].first][empty[x].second ][1] = new tile(empty[x].first, empty[x].second, gridSize, Tree.tex, Tree.tr, "#G05");
+				Land[empty[x].first ][empty[x].second][1]->health = 500;
+			}
 		}
-
-		Land[empty[x].first-1][empty[x].second-1][1]->id=currentres;
 		currentres++;
-		collision[empty[x].first][empty[x].second] = 1;
+		collision[empty[x].first+1][empty[x].second+1] = 1;
 		empty.erase(empty.begin() + x);
 	}
 }
@@ -213,15 +230,20 @@ void lands::rendering(sf::RenderTarget* target, sf::Vector2f playerPosition, sf:
 	//sf::Vector2i posi = sf::Vector2i(playerPosition.x / gridSize, playerPosition.y / gridSize);
 }
 
-void lands::loading1(string filename)
+Vector2f* lands::loading1(string filename)
 {
 	long long i, j, k, left, top, left1, top1, width, height, elem;
 	sf::Texture* tex[3] = { new sf::Texture,new sf::Texture,new sf::Texture };
 	tex[0]->loadFromFile("./res/map.png");
 	tex[1]->loadFromFile("./res/m.png");
 	tex[2]->loadFromFile("./res/dungeonex.png");
+	texture = new RenderTexture;
+	if (texture->create(14000, 10000))cout << "yes" << endl;
+	texture2 = new RenderTexture;
+	if (texture2->create(14000, 10000))cout << "yes" << endl;
 	fstream load;
 	load.open(filename);
+
 	if (load.is_open())
 	{
 		load >> maxSize.x >> maxSize.y;
@@ -277,6 +299,15 @@ void lands::loading1(string filename)
 					blacksmithStore.setSize(Vector2f(100, 100));
 						blacksmithStore.setPosition(i * 100, j * 100);
 					}
+					else if (type == "#G07")
+					{
+						arr[0] =Vector2f(i,j);
+					}
+					else if (type == "#G10")
+					{
+						arr[1] =  Vector2f(i, j);
+					}
+
 				}
 				else 
 				{
@@ -289,4 +320,5 @@ void lands::loading1(string filename)
 	else
 		throw("Error!!! Failed to save");
 	load.close();
+	return arr;
 }

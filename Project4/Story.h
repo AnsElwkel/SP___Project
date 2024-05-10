@@ -3,7 +3,7 @@
 #include"Game.h"
 struct Story
 {
-	
+
 	Game game;
 	enemies FinalBoss;
 	character hero;
@@ -16,6 +16,6 @@ struct Story
 	Vector2f WindowSize;
 	RenderWindow* window;
 	Story();
-	Story(sf::RenderWindow *window);
+	Story(sf::RenderWindow* window);
 	int Begin(float DeltaTime, float GameTime, ELARABY::pathFinder& path);
 };

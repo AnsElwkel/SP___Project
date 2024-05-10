@@ -314,7 +314,7 @@ void enemies::ChaceAndHit(character& x, bool ok, ELARABY::pathFinder& path,int i
 	ChaseDestance = (x.sprite.getPosition() - (sprite.getPosition()));
 	if (sqrt(ChaseDestance.x * ChaseDestance.x + ChaseDestance.y * ChaseDestance.y) > HitDistance)
 	{
-		if (ok || abs(ChaseDestance.x / 100) > 5 || abs(ChaseDestance.y / 100) >5||(abs(ChaseDestance.x / 100) <= 2 &&abs(ChaseDestance.y / 100) <= 2))
+		if (ok ||abs(ChaseDestance.x / 100) >25 || abs(ChaseDestance.y / 100) >25 ||(abs(ChaseDestance.x / 100) <= 2 &&abs(ChaseDestance.y / 100) <= 2)||path.Enemy[i]->start==nullptr)
 		{
 			Hiti = 0;
 			if (ChaseDestance.x > ChaseDestance.y && abs(ChaseDestance.x) > abs(ChaseDestance.y))
@@ -338,7 +338,7 @@ void enemies::ChaceAndHit(character& x, bool ok, ELARABY::pathFinder& path,int i
 				move("left");
 			else if (dir.y==-1)
 				move("up");
-			sprite.move(dir.x * 0.5,dir.y*0.5);
+			sprite.move(dir.x * speed * DeltaTime,dir.y* speed * DeltaTime);
 		}
 
 	}

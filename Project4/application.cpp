@@ -20,7 +20,6 @@ void application::update()
 	else
 	{
 		window->close();
-		
 	}
 	
 }

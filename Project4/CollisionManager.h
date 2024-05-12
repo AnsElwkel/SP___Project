@@ -44,4 +44,26 @@ protected:
 	FloatRect ob1Bounds, ob2Bounds;
 };
 
+
+//Explain in source code
+struct collisionManager2 : public collisionManager1
+{
+	void applyCollision(vector<Sprite>&, Vector2f&, vector<Sprite>&);
+	void applyCollision(vector<RectangleShape>&, Vector2f&, RectangleShape&);
+	void applyCollision(Sprite wall, Vector2f&, Sprite&);
+	void setNextBound(FloatRect&, Vector2f&);
+
+	//Handle collision sides
+	bool leftCollision();
+	bool rightCollision();
+	bool topCollision();
+	bool bottomCollision();
+
+	void applyCollisionWithAnimals(Sprite& object, Vector2f& velocity, Sprite wall[], float& dt, bool& isRandom);
+
+
+private:
+	FloatRect nextStep;
+};
+
 #endif

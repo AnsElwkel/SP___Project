@@ -1,26 +1,26 @@
-D:\برمجة\SFML\Project4\Project4\application.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\application.obj
-D:\برمجة\SFML\Project4\Project4\button.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\button.obj
-D:\برمجة\SFML\Project4\Project4\character.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\character.obj
-D:\برمجة\SFML\Project4\Project4\Collects & Inventory.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Collects & Inventory.obj
-D:\برمجة\SFML\Project4\Project4\CollisionManager.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\CollisionManager.obj
-D:\برمجة\SFML\Project4\Project4\DailyMission.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\DailyMission.obj
-D:\برمجة\SFML\Project4\Project4\DayAndNight.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\DayAndNight.obj
-D:\برمجة\SFML\Project4\Project4\Editor.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Editor.obj
-D:\برمجة\SFML\Project4\Project4\Enemies.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Enemies.obj
-D:\برمجة\SFML\Project4\Project4\entities.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\entities.obj
-D:\برمجة\SFML\Project4\Project4\Game.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Game.obj
-D:\برمجة\SFML\Project4\Project4\GameManager.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\GameManager.obj
-D:\برمجة\SFML\Project4\Project4\GameScenes.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\GameScenes.obj
-D:\برمجة\SFML\Project4\Project4\lands.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\lands.obj
-D:\برمجة\SFML\Project4\Project4\main.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\main.obj
-D:\برمجة\SFML\Project4\Project4\mainMenu.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\mainMenu.obj
-D:\برمجة\SFML\Project4\Project4\map.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\map.obj
-D:\برمجة\SFML\Project4\Project4\MOBS.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\MOBS.obj
-D:\برمجة\SFML\Project4\Project4\PauseMenu.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\PauseMenu.obj
-D:\برمجة\SFML\Project4\Project4\PressF.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\PressF.obj
-D:\برمجة\SFML\Project4\Project4\Settings.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Settings.obj
-D:\برمجة\SFML\Project4\Project4\Source.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Source.obj
-D:\برمجة\SFML\Project4\Project4\SpriteVector.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\SpriteVector.obj
-D:\برمجة\SFML\Project4\Project4\states.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\states.obj
-D:\برمجة\SFML\Project4\Project4\Story.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\Story.obj
-D:\برمجة\SFML\Project4\Project4\tile.cpp;D:\برمجة\SFML\Project4\Project4\x64\Debug\tile.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\application.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\application.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\button.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\button.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\character.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\character.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Collects & Inventory.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Collects & Inventory.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\CollisionManager.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\CollisionManager.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\DailyMission.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\DailyMission.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\DayAndNight.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\DayAndNight.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Editor.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Editor.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Enemies.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Enemies.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\entities.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\entities.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Game.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Game.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\GameManager.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\GameManager.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\GameScenes.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\GameScenes.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\lands.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\lands.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\main.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\main.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\mainMenu.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\mainMenu.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\map.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\map.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\MOBS.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\MOBS.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\PauseMenu.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\PauseMenu.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\PressF.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\PressF.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Settings.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Settings.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Source.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Source.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\SpriteVector.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\SpriteVector.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\states.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\states.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\Story.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\Story.obj
+C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\tile.cpp;C:\Users\AnasElwkel\Documents\GitHub\siltara game\Project4\x64\Debug\tile.obj

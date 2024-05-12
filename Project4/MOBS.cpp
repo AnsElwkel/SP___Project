@@ -2,7 +2,7 @@
 void MOBS::randomlyMove(RectangleShape object)
 {
 	int select = 0, tar = 0;
-	int size = 4;
+	
 	if (collision.isColliding(animalSprite, object))
 	{
 		RectangleShape shape(sf::Vector2f(animalSprite.getGlobalBounds().width, (animalSprite.getGlobalBounds().height)));
@@ -126,9 +126,11 @@ void MOBS::playSound(Sprite& mainChar) {
 void MOBS::hit(Sprite& mainChar, int& animationCounterHit) {
 
 	int distance = (int)sqrt(pow((mainChar.getPosition().x - animalSprite.getPosition().x), 2) + pow((mainChar.getPosition().y - animalSprite.getPosition().y), 2));
-	if (distance <= 150 && Keyboard::isKeyPressed(Keyboard::X)) {
+	if (collision.isColliding(animalSprite, mainChar)) {
+	    collision.setObjectBound(animalSprite, mainChar);
+	// collision.Movement(animalSprite, mainChar);
 		
-		if (animationCounterHit == 3)
+		if (animationCounterHit == 6)
 		{
 			animalVelocity *= 2.F;
 			hp -= swordCode;
@@ -136,15 +138,15 @@ void MOBS::hit(Sprite& mainChar, int& animationCounterHit) {
 		}
 		hitSound.play();
 	}
-	else if (distance == 400 && isHit == 1)//When will i reset velocity edit condition
+	else if (distance == 300 && isHit == 1)//When will i reset velocity edit condition
 	{
 		animalVelocity *= 0.5F;
 		isHit = 0;
 	}
 	if (hp <= 0)
 	{
-		meatSprite.setPosition(animalSprite.getPosition().x, animalSprite.getPosition().y);
-		animalSprite.setScale(0, 0);
+		/*meatSprite.setPosition(animalSprite.getPosition().x, animalSprite.getPosition().y);
+		animalSprite.setScale(0, 0);*/
 		killedMobs++;
 	}
 }

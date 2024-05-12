@@ -5,24 +5,24 @@ struct enemies
 {
 	//Hit and Damage controls
 	int damage = 10, HitDistance = 60;
-	float HitSpeed = 0.1;
+	float HitSpeed = 0.1f;
 
 	//health Control
 	int health = 5;
 
 	//Speed Control
-	float speed = 150;
+	float speed = 150.f;
 
 	//Death Animation Control
-	float DeathDelay = 0.5;
+	float DeathDelay = 0.5f;
 
 	//Enemies Scales
-	Vector2f scale = { 2,2};
+	Vector2f scale = { 2.f,2.f};
 
 	//Sprite Sheet Size
-	Vector2f WalkSize = { 64, 64 };
-	Vector2f DieSize = { 64, 64 };
-	Vector2f HitSize = { 192, 192 };
+	Vector2f WalkSize = { 64.f, 64.f };
+	Vector2f DieSize = { 64.f, 64.f };
+	Vector2f HitSize = { 192.f, 192.f };
 	int NumOfWalkFrames = 9;
 	int NumOfHitFrames = 6;//Defer Between normal monster and boss
 
@@ -51,8 +51,8 @@ struct enemies
 	bool IsAlive = true, IsStanding = true, arrive = 0;
 	int MaxHealth = health;
 	int Animationi = 0, Hiti = 0, Deathi = 0;
-	float AnimationTimer = 0, HitTimer = 0, DeathTimer = 0;
-	float AnimationDelay = 10 / speed;
+	float AnimationTimer = 0.f, HitTimer = 0.f, DeathTimer = 0.f;
+	float AnimationDelay = 10.f / speed;
 	int HitAnimationHandle = 6;
 
 	string Type, HitDirection;

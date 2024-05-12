@@ -11,7 +11,7 @@ struct MOBS
 {
 	collisionManager1 collision;
 
-	int swordCode = 10;
+	int swordCode = 20;
 	float deltaTime = 1 / 60.f;
 	float timer = 0;
 
@@ -29,15 +29,15 @@ struct MOBS
 	Sound hitSound;
 	Vector2i spriteSize = { 512,512 };
 	Vector2i spriteChickenSize = { 128,128 };
-	Vector2f animalVelocity = { 0,0 };
-	Vector2f scale { 1.4,1.4 };
+	Vector2f animalVelocity = { 0.f,0.f };
+	Vector2f scale { 1.4f,1.4f };
 	
 	int animationCounterAnimal = 0;//a for animal
 	int hp = 120;
 
-	float animalDelay = 0.06f;
+	float animalDelay = 0.08f;
 	float heroDelay = 0.06f;
-	float soundTimer = 0;
+	float soundTimer = 0.f;
 	
 	Clock soundClock;
 

@@ -139,7 +139,9 @@ struct menuSettings:states
     vSync* VERTICAL_SYNC_SETTINGS;
     Save* SAVE_SETTINGS;
     RectangleShape* BACK_GROUND; //Gray Rectangle
-
+    Sprite bGround;
+    Texture tground;
+    bool once = 1;
     Event event;
     void setResolution_Settings(RenderTarget*);
     void setFPS_Settings(RenderTarget*);

@@ -310,6 +310,10 @@ void GameScenes::scene2(enemies& e, character& h)
 		typech = 0;
 		h.die("");
 		HeroTalk.sprite.setTextureRect(h.sprite.getTextureRect());
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+		window->draw(backG1);
 		e.FinalBossDraw(h);
 		window->draw(HeroTalk.sprite);
 		window->draw(t[5]);
@@ -328,6 +332,10 @@ void GameScenes::scene2(enemies& e, character& h)
 			{
 				NapTimer -= DeltaTime;
 			}
+			tGround1.loadFromFile("bg1.jpeg");
+			backG1.setTexture(tGround1);
+			backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+
 			e.FinalBossDraw(h);
 			window->draw(HeroTalk.sprite);
 			window->draw(t[5]);
@@ -361,6 +369,10 @@ void GameScenes::scene3(enemies& e, character& h)
 	if (!h.arrive)
 	{
 		h.GoTo({ ((float)window->getSize().x / 4), ((float)window->getSize().y / 2) }, 3, 200);
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+
 		window->draw(h.sprite);
 		window->draw(e.sprite);
 	}
@@ -452,6 +464,7 @@ void GameScenes::scene5(enemies& e, character& h)
 	if (!e.IsStanding)
 	{
 		e.die("stand");
+		window->draw(backG1);
 		e.FinalBossDraw(h);
 	}
 	else if (!e.arrive && ach)
@@ -466,6 +479,10 @@ void GameScenes::scene5(enemies& e, character& h)
 		e.arrive = 0;
 		e.sprite.setTextureRect(IntRect(0, e.WalkDownIndex, e.WalkSize.x, e.WalkSize.y));
 		h.GoTo({ WindowSize.x / 2, WindowSize.y }, 3, 300);
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+		window->draw(backG1);
 		window->draw(h.sprite);
 	}
 	else if (i[12] < s[12].size())
@@ -474,6 +491,10 @@ void GameScenes::scene5(enemies& e, character& h)
 			h.ChangeWeapon("LongSword");
 		h.sprite.setPosition(WindowSize.x / 2, 64);
 		h.sprite.setTextureRect(IntRect(0, h.WalkDownIndex, h.WalkSize.x, h.WalkSize.y));
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+		window->draw(backG1);
 		window->draw(FakeBrother);
 		DisplayText(t[12], s[12], i[12], e, h, "hero");
 		h.arrive = 0;
@@ -482,6 +503,10 @@ void GameScenes::scene5(enemies& e, character& h)
 	else if (!h.arrive && bch)
 	{
 		h.GoTo({ WindowSize.x / 2, WindowSize.y / 2 }, 3, 300);
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+		window->draw(backG1);
 		window->draw(FakeBrother);
 		window->draw(h.sprite);
 		window->draw(e.sprite);
@@ -552,6 +577,7 @@ void GameScenes::scene5(enemies& e, character& h)
 				HitTimer -= DeltaTime;
 			}
 		}
+		window->draw(backG1);
 		window->draw(FakeBrother);
 		window->draw(h.sprite);
 		window->draw(e.sprite);
@@ -592,11 +618,16 @@ void GameScenes::scene5(enemies& e, character& h)
 	else if (!e.arrive)
 	{
 		e.GoTo({ WindowSize.x / 2, 0 }, 300);
+		window->draw(backG1);
 		e.FinalBossDraw(h);
 	}
 	else if (!h.arrive && cch)
 	{
 		h.GoTo({ WindowSize.x / 2, 0 }, 3, 300);
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+		window->draw(backG1);
 		window->draw(h.sprite);
 	}
 	else if (h.arrive && cch)
@@ -612,6 +643,10 @@ void GameScenes::scene5(enemies& e, character& h)
 	else if (!h.arrive)
 	{
 		h.GoTo({ WindowSize.x / 2, WindowSize.y / 2 + 100 }, 3, 300);
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+
 		e.FinalBossDraw(h);
 	}
 	else if (i[15] < s[15].size())
@@ -725,6 +760,10 @@ void GameScenes::scene6(enemies& e, character& h)
 		{
 			CSTimer -= DeltaTime;
 		}
+		tGround1.loadFromFile("bg1.jpeg");
+		backG1.setTexture(tGround1);
+		backG1.setPosition(HeroTalk.sprite.getPosition().x - 600, HeroTalk.sprite.getPosition().y - 750);
+		window->draw(backG1);
 		e.FinalBossDraw(h);
 		window->draw(HeroTalk.sprite);
 		window->draw(t[27]);

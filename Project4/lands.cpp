@@ -1,4 +1,6 @@
 #include "lands.h"
+#include"includes.h"
+
 lands::lands()
 {
 

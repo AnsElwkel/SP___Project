@@ -1,7 +1,7 @@
 
 #include<SFML/Graphics.hpp>
-#include<bits/stdc++.h>
 #include"global.h"
+#include"includes.h"
 #ifndef PressF_H_
 #define PressF_H_
 using namespace std;

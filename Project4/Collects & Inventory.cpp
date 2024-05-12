@@ -221,6 +221,9 @@ bool isPlayerBesideObject(const Player& player, const Vector2f& objectPos)
 {
     return(abs(player.position.x - objectPos.x) < 90 && abs(player.position.y - objectPos.y) < 90);
 }
+void PlayerMovement(Player& player)
+{
+}
 /**********************************************************************************************************************************************/
 
 int findAvailableSlot()

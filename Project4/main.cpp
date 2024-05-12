@@ -48,7 +48,7 @@ int main()
 {
 
 	
-	//window->setFramerateLimit(100);
+	window->setFramerateLimit(150);
 	application Application(window);
 	srand(time(NULL));
 	sf::Clock dt;

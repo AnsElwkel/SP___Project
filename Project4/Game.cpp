@@ -54,7 +54,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 			if (hero.health > 0)
 			{
 				dn.flow();
-				if (dn.DayDate >= 1)
+				if (dn.DayDate >= 10)
 				{
 					//DrawSprite.add(hero.sprite);
 					bool chi = ThereIsMonsters();

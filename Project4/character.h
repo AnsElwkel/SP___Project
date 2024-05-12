@@ -45,24 +45,24 @@ struct character
 	int NumOfHitFrames = 6;
 
 	// walking to right start frame
-	const int WalkRightIndex = 11 * WalkSize.y;
+	const int WalkRightIndex = 11 * (int)WalkSize.y;
 	// walking to left start frame
-	const int WalkLeftIndex = 9 * WalkSize.y;
+	const int WalkLeftIndex = 9 * (int)WalkSize.y;
 	// walking up start frame
-	const int WalkUpIndex = 8 * WalkSize.y;
+	const int WalkUpIndex = 8 * (int)WalkSize.y;
 	// walking down start frame
-	const int WalkDownIndex = 10 * WalkSize.y;
+	const int WalkDownIndex = 10 * (int)WalkSize.y;
 	//Dieing index
-	const int DieIndex = 20 * WalkSize.y;
+	const int DieIndex = 20 *(int) WalkSize.y;
 
 	//Hiting Right Start Frame
-	int HitRightIndex = 21 * WalkSize.y + 3 * HitSize.y;
+	int HitRightIndex = 21 * (int)WalkSize.y + 3 * (int)HitSize.y;
 	//Hiting Left Start Frame
-	int HitLeftIndex = 21 * WalkSize.y + 1 * HitSize.y;
+	int HitLeftIndex = 21 * (int)WalkSize.y + 1 * (int)HitSize.y;
 	//Hiting Up Start Frame
-	int HitUpIndex = 21 * WalkSize.y + 0 * HitSize.y;
+	int HitUpIndex = 21 * (int)WalkSize.y + 0 * (int)HitSize.y;
 	//Hiting Down Start Frame
-	int HitDownIndex = 21 * WalkSize.y + 2 * HitSize.y;
+	int HitDownIndex = 21 * (int)WalkSize.y + 2 * (int)HitSize.y;
 
 
 	//Not Controls (Don't touch)

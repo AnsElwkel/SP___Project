@@ -31,12 +31,12 @@ void enemies::set(int posx = 0, int posy = 0, int heal = 50, string x = "FinalBo
 		HitAnimationHandle = 6;
 	}
 	sprite.setTexture(SpriteTexture);
-	sprite.setTextureRect(IntRect(0, WalkDownIndex, WalkSize.x, WalkSize.y));
+	sprite.setTextureRect(IntRect(0, (int)WalkDownIndex, (int)WalkSize.x, (int)WalkSize.y));
 	if (ch)sprite.setOrigin(WalkSize / 2.f);
-	else sprite.setOrigin(WalkSize.x / 6, 0);
-	if (ch)sprite.setScale(1+window->getSize().x/1920, 1+window->getSize().y/1080);
+	else sprite.setOrigin(WalkSize.x / 6.f, 0.f);
+	if (ch)sprite.setScale(1.f+window->getSize().x/1920.f, 1.f+window->getSize().y/1080.f);
 	else sprite.setScale(scale);
-	sprite.setPosition(posx, posy);
+	sprite.setPosition((float)posx, (float)posy);
 	IsAlive = true;
 	health = heal;
 	MaxHealth = heal;
@@ -66,7 +66,7 @@ void enemies::move(string x)
 		{
 			Animationi++;
 			Animationi %= NumOfWalkFrames;
-			sprite.setTextureRect(IntRect(WalkSize.x * Animationi, WalkRightIndex, WalkSize.x, WalkSize.y));
+			sprite.setTextureRect(IntRect((int)WalkSize.x * Animationi, (int)WalkRightIndex, (int)WalkSize.x, (int)WalkSize.y));
 			sprite.setOrigin(WalkSize / 2.f);
 			AnimationTimer = AnimationDelay;
 		}
@@ -81,7 +81,7 @@ void enemies::move(string x)
 		{
 			Animationi++;
 			Animationi %= NumOfWalkFrames;
-			sprite.setTextureRect(IntRect(WalkSize.x * Animationi, WalkDownIndex, WalkSize.x, WalkSize.y));
+			sprite.setTextureRect(IntRect((int)WalkSize.x * Animationi, (int)WalkDownIndex, (int)WalkSize.x, (int)WalkSize.y));
 			sprite.setOrigin(32, 32);
 			AnimationTimer = AnimationDelay;
 		}
@@ -96,7 +96,7 @@ void enemies::move(string x)
 		{
 			Animationi++;
 			Animationi %= NumOfWalkFrames;
-			sprite.setTextureRect(IntRect(WalkSize.x * Animationi, WalkLeftIndex, WalkSize.x, WalkSize.y));
+			sprite.setTextureRect(IntRect((int)WalkSize.x * Animationi, (int)WalkLeftIndex, (int)WalkSize.x, (int)WalkSize.y));
 			sprite.setOrigin(WalkSize / 2.f);
 			AnimationTimer = AnimationDelay;
 		}
@@ -111,7 +111,7 @@ void enemies::move(string x)
 		{
 			Animationi++;
 			Animationi %= NumOfWalkFrames;
-			sprite.setTextureRect(IntRect(WalkSize.x * Animationi, WalkUpIndex, WalkSize.x, WalkSize.y));
+			sprite.setTextureRect(IntRect((int)WalkSize.x * Animationi, (int)WalkUpIndex, (int)WalkSize.x, (int)WalkSize.y));
 			sprite.setOrigin(WalkSize / 2.f);
 			AnimationTimer = AnimationDelay;
 		}
@@ -132,7 +132,7 @@ void enemies::die(string x)
 			{
 				Deathi++;
 				Deathi %= 4;
-				sprite.setTextureRect(IntRect(DieSize.x * Deathi, DieIndex, DieSize.x, DieSize.y));
+				sprite.setTextureRect(IntRect((int)DieSize.x * Deathi, (int)DieIndex, (int)DieSize.x, (int)DieSize.y));
 				sprite.setOrigin(DieSize / 2.f);
 				DeathTimer = DeathDelay;
 				if (Deathi == 3)
@@ -151,7 +151,7 @@ void enemies::die(string x)
 			if (DeathTimer < 0)
 			{
 				Deathi--;
-				sprite.setTextureRect(IntRect(DieSize.x * Deathi, DieIndex, DieSize.x, DieSize.y));
+				sprite.setTextureRect(IntRect((int)DieSize.x * Deathi, (int)DieIndex, (int)DieSize.x, (int)DieSize.y));
 				sprite.setOrigin(DieSize / 2.f);
 				DeathTimer = DeathDelay;
 				if (Deathi == 0)
@@ -169,7 +169,7 @@ void enemies::die(string x)
 		{
 			Deathi++;
 			Deathi %= 6;
-			sprite.setTextureRect(IntRect(DieSize.x * Deathi, DieIndex, DieSize.x, DieSize.y));
+			sprite.setTextureRect(IntRect((int)DieSize.x * Deathi, (int)DieIndex, (int)DieSize.x, (int)DieSize.y));
 			sprite.setOrigin(DieSize / 2.f);
 			DeathTimer = DeathDelay;
 			if (Deathi == 5)
@@ -190,7 +190,7 @@ void enemies::hit(string x, int& h)
 		{
 			Hiti++;
 			Hiti %= HitAnimationHandle;
-			sprite.setTextureRect(IntRect(HitSize.x * Hiti, HitUpIndex, HitSize.x, HitSize.y));
+			sprite.setTextureRect(IntRect((int)HitSize.x * Hiti, (int)HitUpIndex, (int)HitSize.x, (int)HitSize.y));
 			sprite.setOrigin(HitSize / 2.f);
 			HitTimer = HitSpeed;
 			if (Hiti == HitAnimationHandle - 1)
@@ -209,7 +209,7 @@ void enemies::hit(string x, int& h)
 		{
 			Hiti++;
 			Hiti %= HitAnimationHandle;
-			sprite.setTextureRect(IntRect(HitSize.x * Hiti, HitDownIndex, HitSize.x, HitSize.y));
+			sprite.setTextureRect(IntRect((int)HitSize.x * Hiti, (int)HitDownIndex, (int)HitSize.x, (int)HitSize.y));
 			sprite.setOrigin(HitSize / 2.f);
 			HitTimer = HitSpeed;
 			if (Hiti == HitAnimationHandle - 1)
@@ -228,7 +228,7 @@ void enemies::hit(string x, int& h)
 		{
 			Hiti++;
 			Hiti %= HitAnimationHandle;
-			sprite.setTextureRect(IntRect(HitSize.x * Hiti, HitLeftIndex, HitSize.x, HitSize.y));
+			sprite.setTextureRect(IntRect((int)HitSize.x * Hiti, (int)HitLeftIndex, (int)HitSize.x, (int)HitSize.y));
 			sprite.setOrigin(HitSize / 2.f);
 			HitTimer = HitSpeed;
 			if (Hiti == HitAnimationHandle - 1)
@@ -247,7 +247,7 @@ void enemies::hit(string x, int& h)
 		{
 			Hiti++;
 			Hiti %= HitAnimationHandle;
-			sprite.setTextureRect(IntRect(HitSize.x * Hiti, HitRightIndex, HitSize.x, HitSize.y));
+			sprite.setTextureRect(IntRect((int)HitSize.x * Hiti, (int)HitRightIndex, (int)HitSize.x, (int)HitSize.y));
 			sprite.setOrigin(HitSize / 2.f);
 			HitTimer = HitSpeed;
 			if (Hiti == HitAnimationHandle - 1)
@@ -400,9 +400,9 @@ void enemies::ShowHealthBar()
 	BossHealthText.setString(to_string(health));
 	BossHealthText.setScale(BossHealthBar.getScale());
 	BossHealthText.setOrigin((BossHealthText.getLocalBounds().width) / 2.f, (BossHealthText.getLocalBounds().height) / 2.f);
-	BossHealthText.setPosition(BossHealthBar.getPosition().x + (BossHealthText.getOutlineThickness() - 3.8),
+	BossHealthText.setPosition(BossHealthBar.getPosition().x + (BossHealthText.getOutlineThickness() - 3.8f),
 							   BossHealthBar.getPosition().y - BossHealthText.getOutlineThickness() + 
-							  (BossHealthText.getOutlineThickness() - (2.2 + BossHealthBar.getScale().x * 2)) * 2);//A very Hard relation done by testing
+							  (BossHealthText.getOutlineThickness() - (2.2f + BossHealthBar.getScale().x * 2.f)) * 2.f);//A very Hard relation done by testing
 	window->draw(BossHealthBarFrame);
 	window->draw(BossHealthBar);
 	window->draw(BossHealthText);

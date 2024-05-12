@@ -47,7 +47,7 @@ void list1::whenPress(RenderTarget* window, Event& ev, Vector2f mousePos)
 		isPress = 0;
 
 
-		if (Mouse::isButtonPressed(Mouse::Left)&&deltaTime>1)
+		if (Mouse::isButtonPressed(Mouse::Left) && deltaTime > 1)
 		{
 			isIdle = 0;
 			isTouch = 0;
@@ -251,7 +251,7 @@ void fps::setFPSDetails(RenderTarget* window)
 	fin.close();
 
 	//Handle first last saved option in file to appear on screen
-	int idx;
+	int idx{};
 	for (int i = 0; i < 6; ++i) {
 		if (currentFPS == FPSList[i]) {
 			idx = i;
@@ -354,8 +354,8 @@ void vSync::setVSyncDetails(RenderTarget* window)
 
 	//Set Details of left rectangle <vSync>
 	this->List1->setListDetails(window->getSize().x / 5.4, window->getSize().y / 10.6,//Size
-		window->getSize().x / 18.f, window->getSize().y / 1.72, //Position Icon
-		window->getSize().x / 12.f, window->getSize().y / 1.72, //Position Text ( in icon)
+		window->getSize().x / 18.f, window->getSize().y / 1.72f, //Position Icon
+		window->getSize().x / 12.f, window->getSize().y / 1.72f, //Position Text ( in icon)
 		70, this->name,
 		Color(145, 230, 80, 100),
 		Color(255, 50, 80, 85), window);
@@ -446,7 +446,7 @@ void Save::render(RenderTarget* window)
 }
 
 //Initialize Variables
-Save::Save() :  name(new string[1]), button(new Buttons()) , apply(0) {}
+Save::Save() : name(new string[1]), button(new Buttons()), apply(0) {}
 
 //Delete Dynamic Atrributes
 Save::~Save() {
@@ -506,19 +506,19 @@ void menuSettings::update(const float& dt)
 	UpdateMousePos();
 	Updatebind(dt);
 	Vector2f mousePos = Vector2f(mousePositionWindow);
-	 SAVE_SETTINGS->whenPress(window, mousePos,
-                    RESOLUTION_SETTINGS->List->getText(),
-                    FPS_SETTINGS->List->getText(),
-                    SFX_SETTINGS->List1->getText(),
-                    VERTICAL_SYNC_SETTINGS->List1->getText());
-                    applySettings(window, mousePos,SAVE_SETTINGS->apply);
-					//while (window->pollEvent(event))
-					{
-						SFX_SETTINGS->List->whenPress(window, event, mousePos);
-						VERTICAL_SYNC_SETTINGS->List->whenPress(window, event, mousePos);
-						RESOLUTION_SETTINGS->List->whenPress(window, event, mousePos);
-						FPS_SETTINGS->List->whenPress(window, event, mousePos);
-					}
+	SAVE_SETTINGS->whenPress(window, mousePos,
+		RESOLUTION_SETTINGS->List->getText(),
+		FPS_SETTINGS->List->getText(),
+		SFX_SETTINGS->List1->getText(),
+		VERTICAL_SYNC_SETTINGS->List1->getText());
+	applySettings(window, mousePos, SAVE_SETTINGS->apply);
+	//while (window->pollEvent(event))
+	{
+		SFX_SETTINGS->List->whenPress(window, event, mousePos);
+		VERTICAL_SYNC_SETTINGS->List->whenPress(window, event, mousePos);
+		RESOLUTION_SETTINGS->List->whenPress(window, event, mousePos);
+		FPS_SETTINGS->List->whenPress(window, event, mousePos);
+	}
 }
 
 void menuSettings::Updatebind(const float& dt)
@@ -527,8 +527,14 @@ void menuSettings::Updatebind(const float& dt)
 }
 
 //apply settings
-void menuSettings::applySettings(RenderTarget* target, Vector2f& mousePos , bool & apply)
+void menuSettings::applySettings(RenderTarget* target, Vector2f& mousePos, bool& apply)
 {
+	if (once) {
+		tground.loadFromFile("./res/siltara4.jpg");
+		bGround.setTexture(tground);
+
+		once = 0;
+	}
 
 	if (apply) {
 
@@ -546,175 +552,175 @@ void menuSettings::applySettings(RenderTarget* target, Vector2f& mousePos , bool
 		fin >> SFX;
 		fin >> vSync;
 
-		
+
 		//apply settings
 		double scale = (double)bounds.width / (double)window->getSize().x; //Handle Scale
 
 		//Handle Resolution Details after changes
 		this->RESOLUTION_SETTINGS->List->elements->setPosition(
-		  	  RESOLUTION_SETTINGS->List->elements->getPosition().x * scale, 
-			  RESOLUTION_SETTINGS->List->elements->getPosition().y * scale
+			RESOLUTION_SETTINGS->List->elements->getPosition().x * scale,
+			RESOLUTION_SETTINGS->List->elements->getPosition().y * scale
 		);
 		this->RESOLUTION_SETTINGS->List1->elements->setPosition(
-			  RESOLUTION_SETTINGS->List1->elements->getPosition().x * scale,
-			  RESOLUTION_SETTINGS->List1->elements->getPosition().y * scale
+			RESOLUTION_SETTINGS->List1->elements->getPosition().x * scale,
+			RESOLUTION_SETTINGS->List1->elements->getPosition().y * scale
 		);
 
 		this->RESOLUTION_SETTINGS->List->text->setPosition(
-			  RESOLUTION_SETTINGS->List->text->getPosition().x * scale,
-			  RESOLUTION_SETTINGS->List->text->getPosition().y * scale
+			RESOLUTION_SETTINGS->List->text->getPosition().x * scale,
+			RESOLUTION_SETTINGS->List->text->getPosition().y * scale
 		);
 		this->RESOLUTION_SETTINGS->List1->text->setPosition(
-			  RESOLUTION_SETTINGS->List1->text->getPosition().x * scale,
-			  RESOLUTION_SETTINGS->List1->text->getPosition().y * scale
+			RESOLUTION_SETTINGS->List1->text->getPosition().x * scale,
+			RESOLUTION_SETTINGS->List1->text->getPosition().y * scale
 		);
 		this->RESOLUTION_SETTINGS->List->elements->setSize(Vector2f(
-			  RESOLUTION_SETTINGS->List->elements->getSize().x * scale , 
-			  RESOLUTION_SETTINGS->List->elements->getSize().y * scale)
+			RESOLUTION_SETTINGS->List->elements->getSize().x * scale,
+			RESOLUTION_SETTINGS->List->elements->getSize().y * scale)
 		);
 		this->RESOLUTION_SETTINGS->List1->elements->setSize(Vector2f(
-			  RESOLUTION_SETTINGS->List1->elements->getSize().x * scale,
-			  RESOLUTION_SETTINGS->List1->elements->getSize().y * scale)
+			RESOLUTION_SETTINGS->List1->elements->getSize().x * scale,
+			RESOLUTION_SETTINGS->List1->elements->getSize().y * scale)
 		);
 
 		this->RESOLUTION_SETTINGS->List->text->setCharacterSize(
-			  RESOLUTION_SETTINGS->List->text->getCharacterSize() * scale
+			RESOLUTION_SETTINGS->List->text->getCharacterSize() * scale
 		);
 		this->RESOLUTION_SETTINGS->List1->text->setCharacterSize(
-			  RESOLUTION_SETTINGS->List1->text->getCharacterSize() * scale
+			RESOLUTION_SETTINGS->List1->text->getCharacterSize() * scale
 		);
 
 
 		//Handle FPS Details after changes
 		this->FPS_SETTINGS->List->elements->setPosition(
-			  FPS_SETTINGS->List->elements->getPosition().x * scale,
-			  FPS_SETTINGS->List->elements->getPosition().y * scale
+			FPS_SETTINGS->List->elements->getPosition().x * scale,
+			FPS_SETTINGS->List->elements->getPosition().y * scale
 		);
 		this->FPS_SETTINGS->List1->elements->setPosition(
-			  FPS_SETTINGS->List1->elements->getPosition().x * scale,
-			  FPS_SETTINGS->List1->elements->getPosition().y * scale
+			FPS_SETTINGS->List1->elements->getPosition().x * scale,
+			FPS_SETTINGS->List1->elements->getPosition().y * scale
 		);
 
 		this->FPS_SETTINGS->List->text->setPosition(
-			  FPS_SETTINGS->List->text->getPosition().x * scale,
-			  FPS_SETTINGS->List->text->getPosition().y * scale
+			FPS_SETTINGS->List->text->getPosition().x * scale,
+			FPS_SETTINGS->List->text->getPosition().y * scale
 		);
 		this->FPS_SETTINGS->List1->text->setPosition(
-			  FPS_SETTINGS->List1->text->getPosition().x * scale,
-			  FPS_SETTINGS->List1->text->getPosition().y * scale
+			FPS_SETTINGS->List1->text->getPosition().x * scale,
+			FPS_SETTINGS->List1->text->getPosition().y * scale
 		);
 		this->FPS_SETTINGS->List->elements->setSize(Vector2f(
-			  FPS_SETTINGS->List->elements->getSize().x * scale,
-			  FPS_SETTINGS->List->elements->getSize().y * scale)
+			FPS_SETTINGS->List->elements->getSize().x * scale,
+			FPS_SETTINGS->List->elements->getSize().y * scale)
 		);
 		this->FPS_SETTINGS->List1->elements->setSize(Vector2f(
-			  FPS_SETTINGS->List1->elements->getSize().x * scale,
-			  FPS_SETTINGS->List1->elements->getSize().y * scale)
+			FPS_SETTINGS->List1->elements->getSize().x * scale,
+			FPS_SETTINGS->List1->elements->getSize().y * scale)
 		);
 
 		this->FPS_SETTINGS->List->text->setCharacterSize(
-			  FPS_SETTINGS->List->text->getCharacterSize() * scale
+			FPS_SETTINGS->List->text->getCharacterSize() * scale
 		);
 		this->FPS_SETTINGS->List1->text->setCharacterSize(
-			  FPS_SETTINGS->List1->text->getCharacterSize() * scale
+			FPS_SETTINGS->List1->text->getCharacterSize() * scale
 		);
 
 
 
 		//Handle vSync Details after changes
 		this->VERTICAL_SYNC_SETTINGS->List->elements->setPosition(
-			  VERTICAL_SYNC_SETTINGS->List->elements->getPosition().x * scale,
-			  VERTICAL_SYNC_SETTINGS->List->elements->getPosition().y * scale
+			VERTICAL_SYNC_SETTINGS->List->elements->getPosition().x * scale,
+			VERTICAL_SYNC_SETTINGS->List->elements->getPosition().y * scale
 		);
 		this->VERTICAL_SYNC_SETTINGS->List1->elements->setPosition(
-			  VERTICAL_SYNC_SETTINGS->List1->elements->getPosition().x * scale,
-			  VERTICAL_SYNC_SETTINGS->List1->elements->getPosition().y * scale
+			VERTICAL_SYNC_SETTINGS->List1->elements->getPosition().x * scale,
+			VERTICAL_SYNC_SETTINGS->List1->elements->getPosition().y * scale
 		);
 
 		this->VERTICAL_SYNC_SETTINGS->List->text->setPosition(
-			  VERTICAL_SYNC_SETTINGS->List->text->getPosition().x * scale,
-			  VERTICAL_SYNC_SETTINGS->List->text->getPosition().y * scale
+			VERTICAL_SYNC_SETTINGS->List->text->getPosition().x * scale,
+			VERTICAL_SYNC_SETTINGS->List->text->getPosition().y * scale
 		);
 		this->VERTICAL_SYNC_SETTINGS->List1->text->setPosition(
-			  VERTICAL_SYNC_SETTINGS->List1->text->getPosition().x * scale,
-			  VERTICAL_SYNC_SETTINGS->List1->text->getPosition().y * scale
+			VERTICAL_SYNC_SETTINGS->List1->text->getPosition().x * scale,
+			VERTICAL_SYNC_SETTINGS->List1->text->getPosition().y * scale
 		);
 
 		this->VERTICAL_SYNC_SETTINGS->List->elements->setSize(Vector2f(
-			  VERTICAL_SYNC_SETTINGS->List->elements->getSize().x * scale,
-			  VERTICAL_SYNC_SETTINGS->List->elements->getSize().y * scale)
+			VERTICAL_SYNC_SETTINGS->List->elements->getSize().x * scale,
+			VERTICAL_SYNC_SETTINGS->List->elements->getSize().y * scale)
 		);
 		this->VERTICAL_SYNC_SETTINGS->List1->elements->setSize(Vector2f(
-			  VERTICAL_SYNC_SETTINGS->List1->elements->getSize().x * scale,
-			  VERTICAL_SYNC_SETTINGS->List1->elements->getSize().y * scale)
+			VERTICAL_SYNC_SETTINGS->List1->elements->getSize().x * scale,
+			VERTICAL_SYNC_SETTINGS->List1->elements->getSize().y * scale)
 		);
 
 		this->VERTICAL_SYNC_SETTINGS->List->text->setCharacterSize(
-			  VERTICAL_SYNC_SETTINGS->List->text->getCharacterSize()* scale
+			VERTICAL_SYNC_SETTINGS->List->text->getCharacterSize() * scale
 		);
 		this->VERTICAL_SYNC_SETTINGS->List1->text->setCharacterSize(
-			  VERTICAL_SYNC_SETTINGS->List1->text->getCharacterSize()* scale
+			VERTICAL_SYNC_SETTINGS->List1->text->getCharacterSize() * scale
 		);
 
 
 		//Handle SFX Details after changes
 		this->SFX_SETTINGS->List->elements->setPosition(
-			  SFX_SETTINGS->List->elements->getPosition().x * scale,
-			  SFX_SETTINGS->List->elements->getPosition().y * scale
+			SFX_SETTINGS->List->elements->getPosition().x * scale,
+			SFX_SETTINGS->List->elements->getPosition().y * scale
 		);
 		this->SFX_SETTINGS->List1->elements->setPosition(
-			  SFX_SETTINGS->List1->elements->getPosition().x * scale,
-			  SFX_SETTINGS->List1->elements->getPosition().y * scale
+			SFX_SETTINGS->List1->elements->getPosition().x * scale,
+			SFX_SETTINGS->List1->elements->getPosition().y * scale
 		);
 
 		this->SFX_SETTINGS->List->text->setPosition(
-			  SFX_SETTINGS->List->text->getPosition().x * scale,
-			  SFX_SETTINGS->List->text->getPosition().y * scale
+			SFX_SETTINGS->List->text->getPosition().x * scale,
+			SFX_SETTINGS->List->text->getPosition().y * scale
 		);
 		this->SFX_SETTINGS->List1->text->setPosition(
-			  SFX_SETTINGS->List1->text->getPosition().x * scale,
-			  SFX_SETTINGS->List1->text->getPosition().y * scale
+			SFX_SETTINGS->List1->text->getPosition().x * scale,
+			SFX_SETTINGS->List1->text->getPosition().y * scale
 		);
 		this->SFX_SETTINGS->List->elements->setSize(Vector2f(
-			  SFX_SETTINGS->List->elements->getSize().x* scale,
-			  SFX_SETTINGS->List->elements->getSize().y* scale)
+			SFX_SETTINGS->List->elements->getSize().x * scale,
+			SFX_SETTINGS->List->elements->getSize().y * scale)
 		);
 		this->SFX_SETTINGS->List1->elements->setSize(Vector2f(
-		  	  SFX_SETTINGS->List1->elements->getSize().x* scale,
-			  SFX_SETTINGS->List1->elements->getSize().y* scale)
+			SFX_SETTINGS->List1->elements->getSize().x * scale,
+			SFX_SETTINGS->List1->elements->getSize().y * scale)
 		);
 
 		this->SFX_SETTINGS->List->text->setCharacterSize(
-			  SFX_SETTINGS->List->text->getCharacterSize()* scale
+			SFX_SETTINGS->List->text->getCharacterSize() * scale
 		);
 		this->SFX_SETTINGS->List1->text->setCharacterSize(
-			  SFX_SETTINGS->List1->text->getCharacterSize()* scale
+			SFX_SETTINGS->List1->text->getCharacterSize() * scale
 		);
-	
+
 		//Resize Save Details 
 		this->SAVE_SETTINGS->button->rect->setPosition(
 			SAVE_SETTINGS->button->rect->getPosition().x * scale,
 			SAVE_SETTINGS->button->rect->getPosition().y * scale
 		);
 		this->SAVE_SETTINGS->button->text->setPosition(
-			SAVE_SETTINGS->button->text->getPosition().x* scale,
-			SAVE_SETTINGS->button->text->getPosition().y* scale
+			SAVE_SETTINGS->button->text->getPosition().x * scale,
+			SAVE_SETTINGS->button->text->getPosition().y * scale
 		);
 		this->SAVE_SETTINGS->button->rect->setSize(Vector2f(
-			  SAVE_SETTINGS->button->rect->getSize().x * scale ,
-			  SAVE_SETTINGS->button->rect->getSize().y* scale)
+			SAVE_SETTINGS->button->rect->getSize().x * scale,
+			SAVE_SETTINGS->button->rect->getSize().y * scale)
 		);
 		this->SAVE_SETTINGS->button->text->setCharacterSize(
-			  SAVE_SETTINGS->button->text->getCharacterSize() *  scale
+			SAVE_SETTINGS->button->text->getCharacterSize() * scale
 		);
-		
-		this->BACK_GROUND->setPosition(BACK_GROUND->getPosition().x * scale , BACK_GROUND->getPosition().y * scale);
-		this->BACK_GROUND->setSize(Vector2f(BACK_GROUND->getSize().x * scale , BACK_GROUND->getSize().y * scale));
+
+		this->BACK_GROUND->setPosition(BACK_GROUND->getPosition().x * scale, BACK_GROUND->getPosition().y * scale);
+		this->BACK_GROUND->setSize(Vector2f(BACK_GROUND->getSize().x * scale, BACK_GROUND->getSize().y * scale));
 		window->create(bounds, titleGame, Style::Titlebar | Style::Close | Style::Fullscreen);
 
 		window->setFramerateLimit(fps);
 		if (SFX)
- {
+		{
 			//SFX is open
 		}
 		else {
@@ -729,10 +735,11 @@ void menuSettings::applySettings(RenderTarget* target, Vector2f& mousePos , bool
 //Gray Rectangle
 void menuSettings::renderBackGround(RenderTarget* window)
 {
+	window->draw(this->bGround);
 	window->draw(*this->BACK_GROUND);
 }
 
-menuSettings::menuSettings(sf::RenderWindow* window, std::stack<states*>* m,Event &ev):states(window,m),RESOLUTION_SETTINGS(new Resolution(3)), FPS_SETTINGS(new fps(6)),
+menuSettings::menuSettings(sf::RenderWindow* window, std::stack<states*>* m, Event& ev) :states(window, m), RESOLUTION_SETTINGS(new Resolution(3)), FPS_SETTINGS(new fps(6)),
 SFX_SETTINGS(new SFX()), VERTICAL_SYNC_SETTINGS(new vSync()),
 SAVE_SETTINGS(new Save()), BACK_GROUND(new RectangleShape())
 {

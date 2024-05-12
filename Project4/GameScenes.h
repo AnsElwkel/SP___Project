@@ -13,7 +13,8 @@ struct GameScenes
 
 	//Text Scale Control
 	Vector2f scale = { WindowSize.x / 1600, WindowSize.y / 900 };
-
+	Sprite backG1;
+	Texture tGround1;
 
 	//Constants (Don't Touch)
 	bool Blinking = 1, scene0ch = 1, scene1ch = 1, scene2ch = 1, scene3ch = 1, scene4ch = 1,

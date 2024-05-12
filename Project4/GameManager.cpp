@@ -184,8 +184,7 @@ void GameManager::CheckCollison1(int x, int y,int z)
 
 	if (Keyboard::isKeyPressed(Keyboard::X))
 	{
-		world->Lands.at(world->currentLand)->cows.at(z)->randomlyMove(shape);
-
+		world->Lands.at(world->currentLand)->cows.at(z)->hit(story->hero.sprite, story->hero.HitI);
 		if (world->Lands.at(world->currentLand)->cows.at(z)->hp <= 0)
 		{
 			item_type addedmeat;

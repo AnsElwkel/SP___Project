@@ -67,8 +67,7 @@ void PressFtoOpenWeapons()
 	press.setString("Press F to open");
 	Box.setSize({ press.getGlobalBounds().width, press.getGlobalBounds().height });
 	Box.setPosition(press.getPosition());
-	Box.setFillColor(Color(128, 128, 128, 120));//grey
-	window->draw(Box);
+	Box.setFillColor(Color(48,48,48, 200));//grey
 	weapons.weaponName.setOrigin(weapons.weaponName.getLocalBounds().width / 2.0, weapons.weaponName.getLocalBounds().height / 2.0);
 	weapons.weaponName.setPosition(WindowSize.x / 2.0, WindowSize.x / 1920.f * 100);
 	weapons.weapondt.setCharacterSize(24 * WindowSize.x / 1920.f);
@@ -76,6 +75,7 @@ void PressFtoOpenWeapons()
 	// end fonts
 	if (last != 'f')
 	{
+		window->draw(Box);
 		window->draw(press);
 	}
 	if (Keyboard::isKeyPressed(Keyboard::F))
@@ -262,15 +262,23 @@ void PressFtoOpenfood()
 {
 	//each block is 72*72
 	// fonts
+	RectangleShape Box;
+	press.setString("Press F to open");
+	Box.setSize({ press.getGlobalBounds().width, press.getGlobalBounds().height });
+	Box.setPosition(press.getPosition());
+	Box.setFillColor(Color(48, 48, 48, 200));//grey
 	food.foodName.setOrigin(food.foodName.getLocalBounds().width / 2.0, food.foodName.getLocalBounds().height / 2.0);
 	food.foodName.setPosition(WindowSize.x / 2.0, 100 * WindowSize.x / 1920.f);
 	food.fooddt.setPosition(0, 200 * WindowSize.x / 1920.f);
 	food.fooddt.setCharacterSize(24 * WindowSize.x / 1920.f);
 	// end fonts
-	press.setString("Press F to open");
 
 	if (last != 'f')
+	{
+		window->draw(Box);
 		window->draw(press);
+	}
+
 	if (Keyboard::isKeyPressed(Keyboard::F))
 	{
 		last = 'f';

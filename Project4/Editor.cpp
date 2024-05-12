@@ -251,13 +251,13 @@ void Editor::update(const float& dt)
 		camera.move(0, -5);
 	}if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
 	{
-		startfloat.y += 5;
-		camera.move(0, 5);
+		startfloat.y += 5.f;
+		camera.move(0.f, 5.f);
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::C))
 	{
 
-		tiles->Gridsizef += 0.2;
+		tiles->Gridsizef += 0.2f;
 		pressed = 1;
 	}
 	else if(!Keyboard::isKeyPressed(Keyboard::RControl) && !Keyboard::isKeyPressed(Keyboard::C)&&pressed)
@@ -267,7 +267,7 @@ void Editor::update(const float& dt)
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::B))
 	{
-		tiles->Gridsizef -= 0.2;
+		tiles->Gridsizef -= 0.2f;
 		pressed = 1;
 	}
 	else if (!Keyboard::isKeyPressed(Keyboard::RControl) && !Keyboard::isKeyPressed(Keyboard::B) && pressed)
@@ -279,12 +279,12 @@ void Editor::update(const float& dt)
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Up)&&delta1>0.4)
 	{
 		elem = min(elem + 1, 9);
-		delta1 = 0;
+		delta1 = 0.f;
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Down)&&delta1>0.4)
 	{
 		elem = max(elem - 1, 0);
-		delta1 = 0;
+		delta1 = 0.f;
 	}
 	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Right) && delta1 > 0.4)
 	{
@@ -299,38 +299,38 @@ void Editor::update(const float& dt)
 		}
 		else if (!elem1)
 		{
-			selector.Selector.setSize(Vector2f(49 * selector.sprite.getScale().x, 49));
+			selector.Selector.setSize(Vector2f(49.f * selector.sprite.getScale().x, 49.f));
 			selector.L = 3;
 			selector.T = 5;
 		}
 		else
 		{
-			selector.Selector.setSize(Vector2f(32 * selector.sprite.getScale().x, 32));
+			selector.Selector.setSize(Vector2f(32.f * selector.sprite.getScale().x, 32.f));
 
 		}
 
 		delta1 = 0;
 	}
-	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Left) && delta1 > 0.4)
+	if (Keyboard::isKeyPressed(Keyboard::RControl) && Keyboard::isKeyPressed(Keyboard::Left) && delta1 > 0.4f)
 	{
 		elem1 = max(elem1 - 1, 0);
 		selector.sprite.setTexture(*tex[elem1]);
 		if (elem1 == 1)
 		{
-			selector.Selector.setSize(Vector2f(32 * selector.sprite.getScale().x, 32));
+			selector.Selector.setSize(Vector2f(32.f * selector.sprite.getScale().x, 32.f));
 			selector.L = 0;
 			selector.T = 0;
 
 		}
 		else if (!elem1)
 		{
-			selector.Selector.setSize(Vector2f(49 * selector.sprite.getScale().x, 49));
+			selector.Selector.setSize(Vector2f(49.f * selector.sprite.getScale().x, 49.f));
 			selector.L = 3;
 			selector.T = 5;
 		}
 		else
 		{
-			selector.Selector.setSize(Vector2f(28 * selector.sprite.getScale().x, 28));
+			selector.Selector.setSize(Vector2f(28.f * selector.sprite.getScale().x, 28.f));
 
 		}
 
@@ -366,6 +366,7 @@ void Editor::render(sf::RenderTarget* target)
 }
 Editor::textureSelector::textureSelector()
 {
+	cout << NULL;
 
 }
 

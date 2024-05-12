@@ -37,3 +37,4 @@ There are several places to learn SFML:
 ## Contribute
 
 SFML is an open-source project, and it needs your help to go on growing and improving. If you want to get involved and suggest some additional features, file a bug report or submit a patch, please have a look at the [contribution guidelines](https://www.sfml-dev.org/contribute.php).
+##

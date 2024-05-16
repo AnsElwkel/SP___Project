@@ -484,7 +484,7 @@ void menuSettings::setSave_Settings(RenderTarget* window)
 
 void menuSettings::end()
 {
-	cout << "settings has closed\n";
+	//cout << "settings has closed\n";
 }
 
 void menuSettings::render(RenderTarget* window)

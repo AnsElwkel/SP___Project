@@ -90,6 +90,10 @@ struct character
 	Font HungerFont;
 	Text HungerText;
 
+	// Sounds
+	SoundBuffer saberHitBuffer;
+	Sound saberHitSound;
+
 	void set(int posx, int posy, bool SetOriginOrNot);
 	void reset();
 	void HealthBarSet(int NewHeal);

@@ -96,7 +96,8 @@ void mainMenu::FontInit()
 
 void mainMenu::end()
 {
-	cout << "mainmenu State Has Closed" << endl;
+	//
+	//  << "mainmenu State Has Closed" << endl;
 }
 
 void mainMenu::Updatebind(const float& dt)

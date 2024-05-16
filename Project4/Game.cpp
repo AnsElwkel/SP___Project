@@ -133,7 +133,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 //		{
 //			if (enemiesch[i] == 0)
 //			{
-//				cout << "Spawn " << i << endl;
+//				//cout << "Spawn " << i << endl;
 //				enemiesch[i] = 1;
 //				int x = rand() % 2;
 //				if (x)
@@ -141,7 +141,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 //				else
 //					Monsters[i].set(rand() % window->getSize().x + 1, rand() % window->getSize().y + 1, 50, "Zombie", "", "", 1);
 //				arr[0] = Monsters[i].sprite;
-//				cout << arr[0].getPosition().x << endl;
+//				//cout << arr[0].getPosition().x << endl;
 //				path.initial(arr, 1);
 //				break;
 //
@@ -166,7 +166,7 @@ void Game::play(character &hero, ELARABY::pathFinder& path)
 //			}
 //			else if (!Monsters[i].IsAlive)
 //			{
-//				cout << "Erase " << i << endl;
+//				//cout << "Erase " << i << endl;
 //				x.score++;
 //				enemiesch[i] = 0;
 //			}
@@ -188,7 +188,7 @@ void Game::MonstersKill()
 			}
 			else
 			{
-				cout << "Erase " << i << endl;
+				//cout << "Erase " << i << endl;
 				enemiesch[i] = 0;
 			}
 		}

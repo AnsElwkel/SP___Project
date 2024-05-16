@@ -113,15 +113,15 @@ namespace ELARABY
 				walk = now;
 			}
 		}
-		//cout << walk->position.x << " " << walk->position.y << endl;
+		////cout << walk->position.x << " " << walk->position.y << endl;
 		return walk;
 	}
 
 
 	void pathFinder::update(object* walk, sf::Sprite& shape, int x, int y, int x1, int y1, int gridsize, int i)
 	{
-		//cout << "here" << endl;
-		//	cout << 1 << endl;
+		////cout << "here" << endl;
+		//	//cout << 1 << endl;
 		if(walk!=nullptr)
 		Enemy[i]->currentSpeed = moveMent(walk, x, y, x1, y1, gridsize, i);
 		//shape.move(Enemy[i]->currentSpeed);
@@ -162,7 +162,7 @@ namespace ELARABY
 						tabor.push_back(child);
 					if (child == End)
 					{
-						//cout << Enemy[i]->currentSpeed.x << Enemy[i]->currentSpeed.y << endl;
+						////cout << Enemy[i]->currentSpeed.x << Enemy[i]->currentSpeed.y << endl;
 						update(getMove(), monster, x, y, x1, y1, gridsize, i);
 						return Enemy[i]->currentSpeed;
 
@@ -172,7 +172,7 @@ namespace ELARABY
 		}
 		else
 		{
-			//cout << Enemy[i]->currentSpeed.x << Enemy[i]->currentSpeed.y << endl;
+			////cout << Enemy[i]->currentSpeed.x << Enemy[i]->currentSpeed.y << endl;
 			return Enemy[i]->currentSpeed;
 		}
 

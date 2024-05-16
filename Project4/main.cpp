@@ -1,4 +1,4 @@
-#include"includes.h"
+﻿#include"includes.h"
 #include"application.h"
 #include <time.h>
 #include"Global.h"
@@ -61,4 +61,42 @@ int main()
 		Application.update();
 		Application.render();
 	}
+}
+
+//#include <iostream>
+//#include <SFML/Graphics.hpp>
+//#include "AnimatedGIF.h"
+//
+//int main(int argc, char** argv)
+//{
+//   /* if (argc < 2)
+//    {
+//        std::cerr << "No argument" << std::endl;
+//        return 1;
+//    }*/
+//
+//    AnimatedGIF gif("SEEN.gif");
+//    sf::Vector2i size = gif.getSize();
+//
+//    sf::RenderWindow window(sf::VideoMode(size.x, size.y), "gifdemo");
+//    window.setFramerateLimit(60);
+//
+//    sf::Sprite sprite;
+//
+//    while (window.isOpen())
+//    {
+//        sf::Event event;
+//        while (window.pollEvent(event))
+//        {
+//            if (event.type == sf::Event::Closed)
+//                window.close();
+//        }
+//
+//        gif.update(sprite);
+//        window.clear(sf::Color::Black); // draw the background so the gif does not leave trails from previous frames
+//        window.draw(sprite);
+//        window.display();
+//    }
+//
+//    return EXIT_SUCCESS;
 }

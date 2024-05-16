@@ -25,6 +25,9 @@ struct GameScenes
 	enemies FinalBossTalk;
 	character HeroTalk;
 
+	SoundBuffer scaryLoughBuffer;
+	Sound scaryLoughSound;
+
 	GameScenes();
 	void DisplayText(Text& t, string& s, int& idx, enemies& e, character& h, string talker);
 	void blink();

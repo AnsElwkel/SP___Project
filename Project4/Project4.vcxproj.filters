@@ -93,6 +93,9 @@
     <ClInclude Include="DailyMission.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AnimatedGIF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
@@ -171,6 +174,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DailyMission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedGIF.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

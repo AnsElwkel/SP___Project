@@ -607,3 +607,7 @@ void setCursor()
 	cursor.loadFromPixels(cursorText.copyToImage().getPixelsPtr(), cursorText.getSize(), { 0,0 });
 	window->setMouseCursor(cursor);
 }
+
+void setblocks(Texture& blockText, Sprite& blocks)
+{
+}

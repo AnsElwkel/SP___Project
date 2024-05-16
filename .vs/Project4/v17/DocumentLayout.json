@@ -1,118 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GIT\\",
+  "WorkspaceRootPath": "E:\\siltara\\SP___Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\PressF.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\PressF.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Story.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Story.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\GameScenes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameScenes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameScenes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Story.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Story.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\MOBS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\MOBS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\MOBS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\MOBS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Enemies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Enemies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Enemies.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Enemies.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Settings.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Settings.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Editor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Editor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\PressF.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\PressF.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Collects \u0026 Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Collects \u0026 Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\DayAndNight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\DayAndNight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\DayAndNight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\DayAndNight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\lands.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\lands.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\lands.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\includes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Settings.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Settings.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\PressF.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\PressF.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\MOBS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\MOBS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Enemies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Enemies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Editor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Editor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\DayAndNight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\DayAndNight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Collects \u0026 Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Collects \u0026 Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\PressF.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\PressF.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\MOBS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\MOBS.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\includes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\includes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|D:\\GIT\\Project4\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Enemies.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Enemies.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\DayAndNight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\DayAndNight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\CollisionManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Story.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Story.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\Story.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Story.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,132 +126,341 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MOBS.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\MOBS.cpp",
-              "RelativeDocumentMoniker": "Project4\\MOBS.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\MOBS.cpp",
-              "RelativeToolTip": "Project4\\MOBS.cpp",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIAAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-11T14:42:46.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MOBS.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\MOBS.h",
-              "RelativeDocumentMoniker": "Project4\\MOBS.h",
-              "ToolTip": "D:\\GIT\\Project4\\MOBS.h",
-              "RelativeToolTip": "Project4\\MOBS.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-11T13:05:23.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "character.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\character.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\character.cpp",
               "RelativeDocumentMoniker": "Project4\\character.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\character.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\character.cpp",
               "RelativeToolTip": "Project4\\character.cpp",
-              "ViewState": "AQIAAC4DAAAAAAAAAAAawPQCAAAVAAAA",
+              "ViewState": "AQIAAO4CAAAAAAAAAAAawAQDAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-10T18:12:28.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameScenes.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\GameScenes.cpp",
-              "RelativeDocumentMoniker": "Project4\\GameScenes.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\GameScenes.cpp",
-              "RelativeToolTip": "Project4\\GameScenes.cpp",
-              "ViewState": "AQIAADUDAAAAAAAAAAAawP0CAAAXAAAA",
+              "DocumentIndex": 10,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\main.cpp",
+              "RelativeDocumentMoniker": "Project4\\main.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\main.cpp",
+              "RelativeToolTip": "Project4\\main.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowD8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T19:52:37.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2024-05-10T17:37:30.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CollisionManager.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\CollisionManager.h",
-              "RelativeDocumentMoniker": "Project4\\CollisionManager.h",
-              "ToolTip": "D:\\GIT\\Project4\\CollisionManager.h",
-              "RelativeToolTip": "Project4\\CollisionManager.h",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAwAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T18:00:44.348Z"
+              "DocumentIndex": 4,
+              "Title": "lands.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\lands.cpp",
+              "RelativeDocumentMoniker": "Project4\\lands.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\lands.cpp",
+              "RelativeToolTip": "Project4\\lands.cpp",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAawPkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T17:50:02.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "application.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\application.cpp",
+              "RelativeDocumentMoniker": "Project4\\application.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\application.cpp",
+              "RelativeToolTip": "Project4\\application.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAnwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-16T04:47:55.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "character.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\character.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\character.h",
               "RelativeDocumentMoniker": "Project4\\character.h",
-              "ToolTip": "D:\\GIT\\Project4\\character.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\character.h",
               "RelativeToolTip": "Project4\\character.h",
-              "ViewState": "AQIAACwAAAAAAAAAAAAawA4AAAAAAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-10T17:37:30.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Story.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Story.h",
-              "RelativeDocumentMoniker": "Project4\\Story.h",
-              "ToolTip": "D:\\GIT\\Project4\\Story.h",
-              "RelativeToolTip": "Project4\\Story.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
+              "DocumentIndex": 0,
+              "Title": "GameScenes.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\GameScenes.h",
+              "RelativeDocumentMoniker": "Project4\\GameScenes.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\GameScenes.h",
+              "RelativeToolTip": "Project4\\GameScenes.h",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowBwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T19:50:42.905Z"
+              "WhenOpened": "2024-05-11T15:47:09.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameScenes.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp",
+              "RelativeDocumentMoniker": "Project4\\GameScenes.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp",
+              "RelativeToolTip": "Project4\\GameScenes.cpp",
+              "ViewState": "AQIAABwBAAAAAAAAAAAowCgBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T19:52:37.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Project4\\GameManager.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\GameManager.cpp",
+              "RelativeToolTip": "Project4\\GameManager.cpp",
+              "ViewState": "AQIAAKcBAAAAAAAAAAAowL8BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T17:37:30.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Settings.cpp",
+              "RelativeDocumentMoniker": "Project4\\Settings.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Settings.cpp",
+              "RelativeToolTip": "Project4\\Settings.cpp",
+              "ViewState": "AQIAANcBAAAAAAAAAAAawOYBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T13:02:45.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PressF.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\PressF.cpp",
+              "RelativeDocumentMoniker": "Project4\\PressF.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\PressF.cpp",
+              "RelativeToolTip": "Project4\\PressF.cpp",
+              "ViewState": "AQIAAEkCAAAAAAAAAAAowGECAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T17:37:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mainMenu.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\mainMenu.cpp",
+              "RelativeDocumentMoniker": "Project4\\mainMenu.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\mainMenu.cpp",
+              "RelativeToolTip": "Project4\\mainMenu.cpp",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T17:37:30.235Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "MOBS.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\MOBS.cpp",
+              "RelativeDocumentMoniker": "Project4\\MOBS.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\MOBS.cpp",
+              "RelativeToolTip": "Project4\\MOBS.cpp",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAowJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T14:42:46.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Game.cpp",
+              "RelativeDocumentMoniker": "Project4\\Game.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Game.cpp",
+              "RelativeToolTip": "Project4\\Game.cpp",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAowMMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T18:16:17.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Enemies.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Enemies.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Enemies.cpp",
               "RelativeDocumentMoniker": "Project4\\Enemies.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\Enemies.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Enemies.cpp",
               "RelativeToolTip": "Project4\\Enemies.cpp",
-              "ViewState": "AQIAAFUBAAAAAAAAAAAawGsBAAAXAAAA",
+              "ViewState": "AQIAAIABAAAAAAAAAAAowJgBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-11T13:15:52.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "Editor.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Editor.cpp",
+              "RelativeDocumentMoniker": "Project4\\Editor.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Editor.cpp",
+              "RelativeToolTip": "Project4\\Editor.cpp",
+              "ViewState": "AQIAAA4CAAAAAAAAAAAowCYCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T13:08:52.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DayAndNight.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\DayAndNight.cpp",
+              "RelativeDocumentMoniker": "Project4\\DayAndNight.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\DayAndNight.cpp",
+              "RelativeToolTip": "Project4\\DayAndNight.cpp",
+              "ViewState": "AQIAABcAAAAAAAAAAAAowC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T18:12:54.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Collects \u0026 Inventory.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Collects \u0026 Inventory.cpp",
+              "RelativeDocumentMoniker": "Project4\\Collects \u0026 Inventory.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Collects \u0026 Inventory.cpp",
+              "RelativeToolTip": "Project4\\Collects \u0026 Inventory.cpp",
+              "ViewState": "AQIAAGkBAAAAAAAAAAAowIEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T17:37:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Settings.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Settings.h",
+              "RelativeDocumentMoniker": "Project4\\Settings.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Settings.h",
+              "RelativeToolTip": "Project4\\Settings.h",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAowKIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T13:03:01.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PressF.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\PressF.h",
+              "RelativeDocumentMoniker": "Project4\\PressF.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\PressF.h",
+              "RelativeToolTip": "Project4\\PressF.h",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAowNgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T17:37:30.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MOBS.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\MOBS.h",
+              "RelativeDocumentMoniker": "Project4\\MOBS.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\MOBS.h",
+              "RelativeToolTip": "Project4\\MOBS.h",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T13:05:23.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "map.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\map.h",
+              "RelativeDocumentMoniker": "Project4\\map.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\map.h",
+              "RelativeToolTip": "Project4\\map.h",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T13:07:57.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "mainMenu.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\mainMenu.h",
+              "RelativeDocumentMoniker": "Project4\\mainMenu.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\mainMenu.h",
+              "RelativeToolTip": "Project4\\mainMenu.h",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T17:37:30.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "includes.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\includes.h",
+              "RelativeDocumentMoniker": "Project4\\includes.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\includes.h",
+              "RelativeToolTip": "Project4\\includes.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T17:50:21.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\GameManager.h",
+              "RelativeDocumentMoniker": "Project4\\GameManager.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\GameManager.h",
+              "RelativeToolTip": "Project4\\GameManager.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowB4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T17:37:30.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Enemies.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Enemies.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Enemies.h",
               "RelativeDocumentMoniker": "Project4\\Enemies.h",
-              "ToolTip": "D:\\GIT\\Project4\\Enemies.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Enemies.h",
               "RelativeToolTip": "Project4\\Enemies.h",
-              "ViewState": "AQIAADsAAAAAAAAAAAAawEkAAAAJAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAowFIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-11T13:13:20.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
+              "Title": "DayAndNight.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\DayAndNight.h",
+              "RelativeDocumentMoniker": "Project4\\DayAndNight.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\DayAndNight.h",
+              "RelativeToolTip": "Project4\\DayAndNight.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T17:37:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CollisionManager.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\CollisionManager.h",
+              "RelativeDocumentMoniker": "Project4\\CollisionManager.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\CollisionManager.h",
+              "RelativeToolTip": "Project4\\CollisionManager.h",
+              "ViewState": "AQIAACwAAAAAAAAAAAAowEQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T18:00:44.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Story.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Story.cpp",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Story.cpp",
               "RelativeDocumentMoniker": "Project4\\Story.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\Story.cpp",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Story.cpp",
               "RelativeToolTip": "Project4\\Story.cpp",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAD8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -255,230 +468,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PressF.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\PressF.cpp",
-              "RelativeDocumentMoniker": "Project4\\PressF.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\PressF.cpp",
-              "RelativeToolTip": "Project4\\PressF.cpp",
-              "ViewState": "AQIAAPwAAAAAAAAAAAAAAAgBAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameScenes.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\GameScenes.h",
-              "RelativeDocumentMoniker": "Project4\\GameScenes.h",
-              "ToolTip": "D:\\GIT\\Project4\\GameScenes.h",
-              "RelativeToolTip": "Project4\\GameScenes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "DocumentIndex": 28,
+              "Title": "Story.h",
+              "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\Story.h",
+              "RelativeDocumentMoniker": "Project4\\Story.h",
+              "ToolTip": "E:\\siltara\\SP___Project\\Project4\\Story.h",
+              "RelativeToolTip": "Project4\\Story.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-11T15:47:09.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\main.cpp",
-              "RelativeDocumentMoniker": "Project4\\main.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\main.cpp",
-              "RelativeToolTip": "Project4\\main.cpp",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\GameManager.cpp",
-              "RelativeDocumentMoniker": "Project4\\GameManager.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\GameManager.cpp",
-              "RelativeToolTip": "Project4\\GameManager.cpp",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAawL8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameManager.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\GameManager.h",
-              "RelativeDocumentMoniker": "Project4\\GameManager.h",
-              "ToolTip": "D:\\GIT\\Project4\\GameManager.h",
-              "RelativeToolTip": "Project4\\GameManager.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAawBAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T17:37:30.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Settings.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Settings.cpp",
-              "RelativeDocumentMoniker": "Project4\\Settings.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\Settings.cpp",
-              "RelativeToolTip": "Project4\\Settings.cpp",
-              "ViewState": "AQIAAFgBAAAAAAAAAAAawF8BAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-11T13:02:45.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Editor.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Editor.cpp",
-              "RelativeDocumentMoniker": "Project4\\Editor.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\Editor.cpp",
-              "RelativeToolTip": "Project4\\Editor.cpp",
-              "ViewState": "AQIAAG4BAAAAAAAAAAAuwG8BAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-11T13:08:52.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PressF.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\PressF.h",
-              "RelativeDocumentMoniker": "Project4\\PressF.h",
-              "ToolTip": "D:\\GIT\\Project4\\PressF.h",
-              "RelativeToolTip": "Project4\\PressF.h",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAAuwJ8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T17:37:30.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "map.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\map.h",
-              "RelativeDocumentMoniker": "Project4\\map.h",
-              "ToolTip": "D:\\GIT\\Project4\\map.h",
-              "RelativeToolTip": "Project4\\map.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-11T13:07:57.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Settings.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Settings.h",
-              "RelativeDocumentMoniker": "Project4\\Settings.h",
-              "ToolTip": "D:\\GIT\\Project4\\Settings.h",
-              "RelativeToolTip": "Project4\\Settings.h",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAawI0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-11T13:03:01.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "lands.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\lands.cpp",
-              "RelativeDocumentMoniker": "Project4\\lands.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\lands.cpp",
-              "RelativeToolTip": "Project4\\lands.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:50:02.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DayAndNight.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\DayAndNight.cpp",
-              "RelativeDocumentMoniker": "Project4\\DayAndNight.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\DayAndNight.cpp",
-              "RelativeToolTip": "Project4\\DayAndNight.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T18:12:54.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Collects \u0026 Inventory.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Collects \u0026 Inventory.cpp",
-              "RelativeDocumentMoniker": "Project4\\Collects \u0026 Inventory.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\Collects \u0026 Inventory.cpp",
-              "RelativeToolTip": "Project4\\Collects \u0026 Inventory.cpp",
-              "ViewState": "AQIAANcAAAAAAAAAAAAawOAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\Game.cpp",
-              "RelativeDocumentMoniker": "Project4\\Game.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\Game.cpp",
-              "RelativeToolTip": "Project4\\Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T18:16:17.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DayAndNight.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\DayAndNight.h",
-              "RelativeDocumentMoniker": "Project4\\DayAndNight.h",
-              "ToolTip": "D:\\GIT\\Project4\\DayAndNight.h",
-              "RelativeToolTip": "Project4\\DayAndNight.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T17:37:30.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "mainMenu.cpp",
-              "DocumentMoniker": "D:\\GIT\\Project4\\mainMenu.cpp",
-              "RelativeDocumentMoniker": "Project4\\mainMenu.cpp",
-              "ToolTip": "D:\\GIT\\Project4\\mainMenu.cpp",
-              "RelativeToolTip": "Project4\\mainMenu.cpp",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAAAYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "mainMenu.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\mainMenu.h",
-              "RelativeDocumentMoniker": "Project4\\mainMenu.h",
-              "ToolTip": "D:\\GIT\\Project4\\mainMenu.h",
-              "RelativeToolTip": "Project4\\mainMenu.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T17:37:30.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "includes.h",
-              "DocumentMoniker": "D:\\GIT\\Project4\\includes.h",
-              "RelativeDocumentMoniker": "Project4\\includes.h",
-              "ToolTip": "D:\\GIT\\Project4\\includes.h",
-              "RelativeToolTip": "Project4\\includes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T17:50:21.888Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2024-05-10T19:50:42.905Z"
             }
           ]
         }

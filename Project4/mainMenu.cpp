@@ -14,8 +14,10 @@ mainMenu::~mainMenu()
 }
 void mainMenu::buttoninit()
 {
-	buttons["Game"] = new button;
-	buttons["Game"]->Button(font, "SILTARA", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x/2-180*window->getSize().x/1920, 400);
+	buttons["New Game"] = new button;
+	buttons["New Game"]->Button(font, "New Game", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x / 2 - 180 * window->getSize().x / 1920, 300);
+	buttons["Load Game"] = new button;
+	buttons["Load Game"]->Button(font, "Load Game", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x/2-180*window->getSize().x/1920, 400);
 	buttons["settings"] = new button;
 	buttons["settings"]->Button(font, "Settings", sf::Color(0, 0, 0, 255), sf::Color(0, 0, 255, 120), sf::Color(0, 0, 0, 80), 360, 60, window->getSize().x / 2 - 180 * window->getSize().x / 1920, 500);
 	buttons["editor"] = new button;
@@ -40,7 +42,38 @@ void mainMenu::buttonUpdate()
 	{
 		quit = true;
 	}
-	if (buttons["Game"]->isPressed())
+	if (buttons["Load Game"]->isPressed())
+	{
+		//Load from files
+		
+		fstream fin;
+		float x, y;
+		fin.open("saveGame.txt", ios::trunc | ios::in | ios::out);
+		//Hero
+		fin >> x >> y;
+
+		//Include GameManager
+		
+		/*fin	>> story->hero.stamina >> story->hero.health >> story->hero.walk ;
+		fin >> story->hero.run >> story->hero.damage >> story->hero.score;
+		fin >> story->hero.hunger;*/
+		
+		//Resources
+		fin >> inventory.currentIron >> inventory.currentStones >> inventory.currentWood;
+
+	
+		for (int i = 0; i < 27; ++i) {
+			fin >> inv_items[i].weapon_or_mawared_or_nothing;
+			fin >> inv_items[i].mawared.quantity >> inv_items[i].mawared.type;
+			fin >> inv_items[i].weapons.health >> inv_items[i].weapons.type;
+		}
+
+		fin.close();
+		story->hero.sprite.setPosition({ x, y });
+
+		gameStates->push(new GameManager(window, gameStates));
+	}
+	if (buttons["New Game"]->isPressed())
 	{
 		gameStates->push(new GameManager(window, gameStates));
 	}

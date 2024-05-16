@@ -132,6 +132,29 @@ void GameManager::buttonUpdate()
 	{
 		i.second->update(mousePositionWindow);
 	}
+	if (PauseM->buttons["Save"]->isPressed())
+	{
+		fstream fout;
+		fout.open("saveGame.txt", ios::trunc | ios::in | ios::out);
+
+		fout << story->hero.sprite.getPosition().x << ' ' << story->hero.sprite.getPosition().y << '\n'
+			 << story->hero.stamina << ' ' << story->hero.health << ' ' << story->hero.walk << '\n'
+			 << story->hero.run << ' ' << story->hero.damage << ' ' << story->hero.score << '\n'
+			 << story->hero.hunger;
+		
+
+		fout << inventory.currentIron << ' ' << inventory.currentStones << ' ' << inventory.currentWood << '\n';
+
+
+		for (int i = 0; i < 27; ++i) {
+			fout << inv_items[i].weapon_or_mawared_or_nothing << '\n'
+				 << inv_items[i].mawared.quantity << ' ' << inv_items[i].mawared.type << '\n'
+				 << inv_items[i].weapons.health <<  ' ' << inv_items[i].weapons.type << '\n';
+		}
+
+		fout.close();
+	}
+
 	if (PauseM->buttons["continue"]->isPressed())
 		Pause = false;
 	if (PauseM->buttons["Mainmenu"]->isPressed())
@@ -152,6 +175,7 @@ void GameManager::pausinit()
 {
 	PauseM->List.setSize(sf::Vector2f(window->getSize().x * 0.2, window->getSize().y * 0.45));
 	PauseM->List.setPosition(sf::Vector2f(window->getSize().x * 0.4, window->getSize().y * 0.325));
+	PauseM->addbutton("Save", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 300 / 1080.0 * window->getSize().y);
 	PauseM->addbutton("continue", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 400 / 1080.0 * window->getSize().y);
 	PauseM->addbutton("Mainmenu", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 700 / 1080.0 * window->getSize().y);
 	PauseM->addbutton("settings", 280 * window->getSize().x / 1920, 60 * window->getSize().y / 1080, 820 / 1920.0 * window->getSize().x, 600 / 1080.0 * window->getSize().y);

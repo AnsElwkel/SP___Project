@@ -69,7 +69,7 @@ void mainMenu::buttonUpdate()
 		}
 
 		fin.close();
-		story->hero.sprite.setPosition({ x, y });
+		//story->hero.sprite.setPosition({ x, y });
 
 		gameStates->push(new GameManager(window, gameStates));
 	}

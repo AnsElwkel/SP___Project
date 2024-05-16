@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\siltara\\SP___Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameScenes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameScenes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|solutionrelative:Project4\\GameScenes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD84400-816A-4DF3-9D35-06A2B0E5FE98}|Project4\\Project4.vcxproj|E:\\siltara\\SP___Project\\Project4\\character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -126,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -138,8 +138,7 @@
               "RelativeToolTip": "Project4\\character.cpp",
               "ViewState": "AQIAAO4CAAAAAAAAAAAawAQDAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T18:12:28.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T18:12:28.779Z"
             },
             {
               "$type": "Document",
@@ -163,8 +162,7 @@
               "RelativeToolTip": "Project4\\lands.cpp",
               "ViewState": "AQIAAMsAAAAAAAAAAAAawPkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:50:02.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T17:50:02.695Z"
             },
             {
               "$type": "Document",
@@ -176,8 +174,7 @@
               "RelativeToolTip": "Project4\\application.cpp",
               "ViewState": "AQIAABsAAAAAAAAAAAAnwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-16T04:47:55.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T04:47:55.475Z"
             },
             {
               "$type": "Document",
@@ -189,12 +186,11 @@
               "RelativeToolTip": "Project4\\character.h",
               "ViewState": "AQIAAEgAAAAAAAAAAAAAAFoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T17:37:30.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T17:37:30.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameScenes.h",
               "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\GameScenes.h",
               "RelativeDocumentMoniker": "Project4\\GameScenes.h",
@@ -207,13 +203,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameScenes.cpp",
               "DocumentMoniker": "E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp",
               "RelativeDocumentMoniker": "Project4\\GameScenes.cpp",
               "ToolTip": "E:\\siltara\\SP___Project\\Project4\\GameScenes.cpp",
               "RelativeToolTip": "Project4\\GameScenes.cpp",
-              "ViewState": "AQIAABwBAAAAAAAAAAAowDIBAAAZAAAA",
+              "ViewState": "AQIAABwBAAAAAAAAAAAowCgBAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-10T19:52:37.236Z",
               "EditorCaption": ""
@@ -228,8 +224,7 @@
               "RelativeToolTip": "Project4\\GameManager.cpp",
               "ViewState": "AQIAAKcBAAAAAAAAAAAowL8BAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T17:37:30.235Z"
             },
             {
               "$type": "Document",
@@ -241,8 +236,7 @@
               "RelativeToolTip": "Project4\\Settings.cpp",
               "ViewState": "AQIAANcBAAAAAAAAAAAawOYBAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-11T13:02:45.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T13:02:45.983Z"
             },
             {
               "$type": "Document",
@@ -290,8 +284,7 @@
               "RelativeToolTip": "Project4\\Game.cpp",
               "ViewState": "AQIAAKsAAAAAAAAAAAAowMMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T18:16:17.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T18:16:17.288Z"
             },
             {
               "$type": "Document",
@@ -315,8 +308,7 @@
               "RelativeToolTip": "Project4\\Editor.cpp",
               "ViewState": "AQIAAA4CAAAAAAAAAAAowCYCAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-11T13:08:52.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T13:08:52.462Z"
             },
             {
               "$type": "Document",
@@ -328,8 +320,7 @@
               "RelativeToolTip": "Project4\\DayAndNight.cpp",
               "ViewState": "AQIAABcAAAAAAAAAAAAowC8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T18:12:54.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T18:12:54.302Z"
             },
             {
               "$type": "Document",
@@ -341,8 +332,7 @@
               "RelativeToolTip": "Project4\\Collects \u0026 Inventory.cpp",
               "ViewState": "AQIAAGkBAAAAAAAAAAAowIEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T17:37:30.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T17:37:30.439Z"
             },
             {
               "$type": "Document",

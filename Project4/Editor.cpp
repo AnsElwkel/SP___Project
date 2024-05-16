@@ -27,7 +27,7 @@ Editor::~Editor()
 
 void Editor::end()
 {
-	cout << "editor has closed\n";
+	//cout << "editor has closed\n";
 }
 
 void Editor::pausinit()
@@ -92,7 +92,7 @@ void Editor::remove(unsigned x, unsigned y, unsigned z)
 void Editor::UUI()
 {
 	selectorRect.setPosition(mousePositionGrid.x*tiles->Gridsizef,mousePositionGrid.y*tiles->Gridsizef);
-	cout << arr[elem] << "\n";
+	//cout << arr[elem] << "\n";
 }
 void Editor::buttonUpdate(){
 	for (auto& i : PauseM->buttons)
@@ -219,7 +219,7 @@ void Editor::FontInit()
 bool pressed = 0;
 void Editor::update(const float& dt)
 {
-	//cout << arr[elem] << endl;
+	////cout << arr[elem] << endl;
 	Updatebind(dt);
 	UpdateMousePos(&camera);
 	selector.hide->update(mousePositionWindow);
@@ -366,7 +366,7 @@ void Editor::render(sf::RenderTarget* target)
 }
 Editor::textureSelector::textureSelector()
 {
-	cout << NULL;
+	//cout << NULL;
 
 }
 

@@ -9,9 +9,9 @@ Entity Tree;
 lands::lands(sf::Vector2f maxSize,int cost, int id, int maxRes, int maxAnimal, int maxEnemies,int gridSize,std::string filename,bool what)
 {
 	texture = new RenderTexture;
-	if (texture->create(14000, 10000))cout << "yes" << endl;
+	if (texture->create(14000, 10000))//cout << "yes" << endl;
 	texture2 = new RenderTexture;
-	if (texture2->create(14000, 10000))cout << "yes" << endl;
+	if (texture2->create(14000, 10000))//cout << "yes" << endl;
 	Tree.CreateEntity("./res/map.png", { 49 * 8 + 20,147,70,100 });
 	this->cost = cost;
 	this->id = id;
@@ -119,7 +119,7 @@ Sprite* lands::spawning(enemies Monsters[],bool enemiesch[], sf::Sprite)
 		if (enemiesch[i] == 0)
 		{
 			int x = rand() % empty.size();
-			cout << "Spawn " << i << endl;
+			//cout << "Spawn " << i << endl;
 			enemiesch[i] = 1;
 			if (x)
 				Monsters[i].set(empty[x].first*gridSize,empty[x].second*gridSize, 50, "Skelaton", "", "", 1);
@@ -240,9 +240,9 @@ Vector2f* lands::loading1(string filename)
 	tex[1]->loadFromFile("./res/m.png");
 	tex[2]->loadFromFile("./res/dungeonex.png");
 	texture = new RenderTexture;
-	if (texture->create(14000, 10000))cout << "yes" << endl;
+	//if (texture->create(14000, 10000))//cout << "yes" << endl;
 	texture2 = new RenderTexture;
-	if (texture2->create(14000, 10000))cout << "yes" << endl;
+	//if (texture2->create(14000, 10000))//cout << "yes" << endl;
 	fstream load;
 	load.open(filename);
 
@@ -277,7 +277,7 @@ Vector2f* lands::loading1(string filename)
 			load >> i >> j >> k >> type >> left >> top >> width >> height >> left1 >> top1>>elem;
 			Land[i][j][k] = new tile(left, top, gridSize, tex[elem], {(int)left1,(int)top1,(int)width,(int)height}, type);
 			Land[i][j][k]->whichTexture = elem;
-			//cout << left << endl;
+			////cout << left << endl;
 			if (!k)
 			{
 				if (type != "#G02")

@@ -17,10 +17,10 @@ bool GameManager::colli(RectangleShape& shape, RectangleShape& h,int x,int y)
 				world->Lands[opened]->Land[x][y][1]->health--;
 				if (world->Lands[opened]->Land[x][y][1]->health <= 0)
 				{
-					cout << 1 << endl;
+					//cout << 1 << endl;
 					if (i == 4)
 					{
-						cout << "Tree destroyed, wood dropped!" << endl;
+						//cout << "Tree destroyed, wood dropped!" << endl;
 						Wood wood;
 						wood.position = world->Lands[opened]->Land[x][y][0]->Tile.getPosition();
 						wood.position.y += 50;
@@ -31,7 +31,7 @@ bool GameManager::colli(RectangleShape& shape, RectangleShape& h,int x,int y)
 					}
 					else if (i == 5)
 					{
-						cout << "Stone destroyed!";
+						//cout << "Stone destroyed!";
 						Stone_collectable dropped_stone;
 						dropped_stone.position = world->Lands[opened]->Land[x][y][0]->Tile.getPosition();
 						dropped_stone.position.y += 30;
@@ -43,7 +43,7 @@ bool GameManager::colli(RectangleShape& shape, RectangleShape& h,int x,int y)
 					}
 					else
 					{
-						cout << "Iron destroyed!\n";
+						//cout << "Iron destroyed!\n";
 						Iron_collectable dropped_iron;
 						dropped_iron.position = world->Lands[opened]->Land[x][y][0]->Tile.getPosition();
 						dropped_iron.sprite.setPosition(dropped_iron.position.x, dropped_iron.position.y);
@@ -69,7 +69,7 @@ bool GameManager::colli(RectangleShape& shape, RectangleShape& h,int x,int y)
 			else if (world->Lands[opened]->Land[x][y][1]->type=="#G10")
 			{
 				GoToOtherLand(opened - 1);
-				cout << opened << endl;
+				//cout << opened << endl;
 				return 1;
 			}
 		}
@@ -224,7 +224,7 @@ void GameManager::render(sf::RenderTarget* target)
 		}
 		else
 		{
-			//cout << inventory.currentWood << endl;
+			////cout << inventory.currentWood << endl;
 
 			target->setView(camera);
 			world->render1(story->hero.sprite, target, story->game.enemiesch, opened);
@@ -325,9 +325,9 @@ void GameManager::update(const float& dt)
 		}
 		else
 		{
-			//cout << inventory.currentIron << " " << inventory.currentWood << endl;
+			////cout << inventory.currentIron << " " << inventory.currentWood << endl;
 			collectItems(story->hero.sprite, collectedWoods, collectedStones, collectedIrons);
-			cout << 1 / dt << endl;
+			//cout << 1 / dt << endl;
 			for (size_t i = 0; i < world->Lands.at(world->currentLand)->currentAnimal; i++)
 			{
 				CheckCollison1((int)(world->Lands.at(world->currentLand)->cows.at(i)->animalSprite.getPosition().x / world->Gridsizef), (int)(world->Lands.at(world->currentLand)->cows.at(i)->animalSprite.getPosition().y / world->Gridsizef), i);
@@ -443,6 +443,6 @@ void GameManager::GoToOtherLand(int x)
 		world->Lands.at(x)->randoming(opened);
 		world->Lands[x]->once = 1;
 		story->hero.sprite.setPosition(window->getSize().x / 2, window->getSize().y / 2);
-		cout << 1 << endl;
+		//cout << 1 << endl;
 	}
 }

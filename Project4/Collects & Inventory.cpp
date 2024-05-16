@@ -244,7 +244,7 @@ void updateObjectHealth(Player& player, Tree& tree, Stone& stone, Iron& iron, ve
         tree.health -= 0.1f;
         if (tree.health <= 0)
         {
-            cout << "Tree destroyed, wood dropped!" << endl;
+            //cout << "Tree destroyed, wood dropped!" << endl;
 
             Wood wood;
             wood.position = tree.sprite.getPosition();
@@ -262,7 +262,7 @@ void updateObjectHealth(Player& player, Tree& tree, Stone& stone, Iron& iron, ve
         stone.health -= 0.05f;
         if (stone.health <= 0)
         {
-            cout << "Stone destroyed!";
+            //cout << "Stone destroyed!";
             Stone_collectable dropped_stone;
             dropped_stone.position = stone.sprite.getPosition();
             dropped_stone.position.y += 30;
@@ -279,7 +279,7 @@ void updateObjectHealth(Player& player, Tree& tree, Stone& stone, Iron& iron, ve
         iron.health -= 0.05f;
         if (iron.health <= 0)
         {
-            cout << "Iron destroyed!\n";
+            //cout << "Iron destroyed!\n";
             Iron_collectable dropped_iron;
             // dropped_iron.position = iron.sprite.getPosition();
              //dropped_iron.position.y+
@@ -322,7 +322,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
                 {
                     addToInventory(item);
                 }
-            cout << "Wood collected!" << endl;
+            //cout << "Wood collected!" << endl;
 
         }
     }
@@ -349,7 +349,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
             else
                 if (!full())
                     addToInventory(item);
-            cout << "Stone collected!" << endl;
+            //cout << "Stone collected!" << endl;
             Sprite stoneSprite;
         }
     }
@@ -375,7 +375,7 @@ void collectItems(Sprite& player, vector<Wood>& collectedWoods, vector<Stone_col
             else
                 if (!full())
                     addToInventory(item);
-            cout << "iron collected!" << endl;
+            //cout << "iron collected!" << endl;
             Sprite ironSprite;
             ironSprite.setTexture(dropped_iron_texture);
             ironSprite.setScale(0.2f, 0.2f);

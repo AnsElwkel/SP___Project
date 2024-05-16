@@ -427,7 +427,7 @@ void checkIfDone::Updatebind(const float& dt)
 }
 void checkIfDone::end()
 {
-    cout << "daily has closed" << endl;
+    //cout << "daily has closed" << endl;
 }
 void checkIfDone::giftBox() {
 

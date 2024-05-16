@@ -35,7 +35,7 @@ void application::render()
 void application::DeltaUpdate(float dt)
 {
 	deltatime = dt;
-	//cout << 1.0/deltatime << endl;
+	////cout << 1.0/deltatime << endl;
 }
 
 void application::statesinitializer()

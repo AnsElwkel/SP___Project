@@ -40,7 +40,7 @@ void DayAndNight::flow()
 				Day = !Day;
 				DNclock.restart();
 				DayDate++;
-				cout << "DayDate: " << DayDate << endl;
+				//cout << "DayDate: " << DayDate << endl;
 			}
 		}
 	}

@@ -276,6 +276,8 @@ void GameScenes::Scene2Set()
 	s[4] = "HHHH, your friend is still alive, but you will never see him again//";
 	s[5] = "What do you mean?!";
 	s[6] = "HaHaHaHa, FareWell, Hero!//";
+	scaryLoughBuffer.loadFromFile("./res/Sounds/scary-laugh-2-123863.mp3");
+	scaryLoughSound.setBuffer(scaryLoughBuffer);
 }
 
 int inap = 0;
@@ -302,6 +304,7 @@ void GameScenes::scene2(enemies& e, character& h)
 	{
 		TextDelay = SlowTextDelay;
 		DisplayText(t[5], s[5], i[5], e, h, "hero");
+		scaryLoughSound.play();
 	}
 	else if (h.IsAlive)
 	{

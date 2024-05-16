@@ -1,92 +1,1660 @@
-﻿C:\Program Files\visual studio new\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (SP_Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  PressF.cpp
-D:\GIT\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
-  (compiling source file 'PressF.cpp')
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (SP_Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AnimatedGIF.cpp
+  application.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file 'PressF.cpp')
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'application.cpp')
   
-D:\GIT\Project4\PressF.cpp(5,10): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\GIT\Project4\PressF.cpp(53,70): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(72,123): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(72,73): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(73,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(74,54): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
-D:\GIT\Project4\PressF.cpp(74,54): warning C4244:         with
-D:\GIT\Project4\PressF.cpp(74,54): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(74,54): warning C4244:             T=float
-D:\GIT\Project4\PressF.cpp(74,54): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:         with
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:             T=int
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:         and
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:             T=float
-D:\GIT\Project4\PressF.cpp(110,125): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:         with
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:             T=int
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:         and
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:             T=float
-D:\GIT\Project4\PressF.cpp(110,94): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(271,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(271,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(272,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(274,49): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
-D:\GIT\Project4\PressF.cpp(274,49): warning C4244:         with
-D:\GIT\Project4\PressF.cpp(274,49): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(274,49): warning C4244:             T=float
-D:\GIT\Project4\PressF.cpp(274,49): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(406,120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(406,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(413,111): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(413,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(420,110): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(420,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(427,109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(427,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(445,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(445,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(452,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(452,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(459,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(459,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(476,47): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
-D:\GIT\Project4\PressF.cpp(476,47): warning C4244:         with
-D:\GIT\Project4\PressF.cpp(476,47): warning C4244:         [
-D:\GIT\Project4\PressF.cpp(476,47): warning C4244:             T=float
-D:\GIT\Project4\PressF.cpp(476,47): warning C4244:         ]
-D:\GIT\Project4\PressF.cpp(484,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(484,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(492,104): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(492,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(571,118): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(571,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\GIT\Project4\PressF.cpp(575,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Project4.vcxproj -> D:\GIT\x64\Debug\Project4.exe
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'application.cpp')
+  
+E:\siltara\SP___Project\Project4\application.cpp(7,23): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  character.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'character.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'character.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'character.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'character.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'character.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'character.cpp')
+  
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(9,75): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(9,63): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(10,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(21,72): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(21,60): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(22,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(108,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(108,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(113,22): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\siltara\SP___Project\Project4\character.cpp(135,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(135,52): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(135,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(135,52): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\character.cpp(135,52): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(152,47): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(152,47): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(152,47): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(152,47): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\character.cpp(152,47): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(200,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(200,52): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(200,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(200,52): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\character.cpp(200,52): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(229,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(228,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(244,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(243,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(259,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(258,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(278,96): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(278,84): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(278,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(297,95): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(297,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(297,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(316,93): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(316,81): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(316,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(335,95): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(335,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(335,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(428,86): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(428,74): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(432,85): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(432,73): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(436,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(436,71): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(440,85): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(440,73): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(617,74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(617,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(623,74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(623,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(630,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(630,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(635,85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(635,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(693,98): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(693,86): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(693,58): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(713,98): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(713,86): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(713,58): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(733,94): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(733,82): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(733,54): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(791,31): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(791,31): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(791,31): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(791,31): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(791,31): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(793,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(793,30): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(793,30): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(793,30): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(793,30): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(795,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(795,28): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(795,28): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(795,28): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(795,28): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(797,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(797,30): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(797,30): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(797,30): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(797,30): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(804,105): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(804,93): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(804,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(819,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(819,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(819,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(834,102): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(834,90): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(834,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(849,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(849,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(849,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(866,31): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(866,31): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(866,31): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(866,31): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(866,31): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(868,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(868,30): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(868,30): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(868,30): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(868,30): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(870,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(870,28): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(870,28): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(870,28): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(870,28): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(872,30): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(872,30): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(872,30): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(872,30): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(872,30): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(880,105): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(880,93): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(880,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(896,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(896,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(896,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(912,102): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(912,90): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(912,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(928,104): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(928,92): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:         and
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\character.cpp(928,56): warning C4244:         ]
+  Collects & Inventory.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'Collects%20&%20Inventory.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'Collects%20&%20Inventory.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'Collects%20&%20Inventory.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'Collects%20&%20Inventory.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'Collects%20&%20Inventory.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'Collects%20&%20Inventory.cpp')
+  
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(86,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(94,47): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(95,48): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(96,50): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(99,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(99,82): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(101,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(101,82): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(103,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(103,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(114,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(118,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(133,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(133,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(146,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(164,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(244,24): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(262,25): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Collects & Inventory.cpp(279,24): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+  DailyMission.cpp
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'DailyMission.cpp')
+  
+E:\siltara\SP___Project\Project4\DailyMission.cpp(287,45): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\DailyMission.cpp(390,33): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\DailyMission.cpp(437,34): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\DailyMission.cpp(437,34): warning C4244:         with
+E:\siltara\SP___Project\Project4\DailyMission.cpp(437,34): warning C4244:         [
+E:\siltara\SP___Project\Project4\DailyMission.cpp(437,34): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\DailyMission.cpp(437,34): warning C4244:         ]
+  DayAndNight.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'DayAndNight.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'DayAndNight.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'DayAndNight.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'DayAndNight.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'DayAndNight.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'DayAndNight.cpp')
+  
+  Editor.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Editor.cpp')
+  
+E:\siltara\SP___Project\Project4\Editor.cpp(6,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(35,83): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(35,83): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(35,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(35,83): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(35,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(35,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(35,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(35,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(35,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(35,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(36,87): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(36,87): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(36,87): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(36,87): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(36,87): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(36,60): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(36,60): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(36,60): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(36,60): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(36,60): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(37,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(37,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(38,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(38,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(39,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(39,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(40,144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(40,108): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(55,8): warning C4018: '<': signed/unsigned mismatch
+E:\siltara\SP___Project\Project4\Editor.cpp(55,44): warning C4018: '<': signed/unsigned mismatch
+E:\siltara\SP___Project\Project4\Editor.cpp(129,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(129,10): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(129,10): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(129,10): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(129,10): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(130,11): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(130,11): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(130,11): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(130,11): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(130,11): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(131,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(131,10): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(131,10): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(131,10): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(131,10): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(132,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(132,10): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(132,10): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(132,10): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(132,10): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(141,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(141,10): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(141,10): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(141,10): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(141,10): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(142,11): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(142,11): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(142,11): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(142,11): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(142,11): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(143,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(143,10): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(143,10): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(143,10): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(143,10): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(144,10): warning C4244: '=': conversion from 'const _Ty' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(144,10): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(144,10): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(144,10): warning C4244:             _Ty=float
+E:\siltara\SP___Project\Project4\Editor.cpp(144,10): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(226,141): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(226,141): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(226,141): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(226,141): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\Editor.cpp(226,141): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(226,78): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(226,78): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(226,78): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(226,78): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\Editor.cpp(226,78): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(234,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(344,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(344,23): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(344,23): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(344,23): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(344,23): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(346,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(346,23): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(346,23): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(346,23): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(346,23): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(357,104): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(362,137): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(362,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(376,99): warning C4305: 'argument': truncation from 'int' to 'sf::Uint8'
+E:\siltara\SP___Project\Project4\Editor.cpp(376,99): warning C4309: 'argument': truncation of constant value
+E:\siltara\SP___Project\Project4\Editor.cpp(378,116): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(378,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(380,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(380,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(388,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(388,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:         and
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\Editor.cpp(445,70): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:         and
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\Editor.cpp(445,116): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:         and
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\Editor.cpp(445,171): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:         and
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:             T=int
+E:\siltara\SP___Project\Project4\Editor.cpp(445,208): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(456,38): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(456,38): warning C4244:         with
+E:\siltara\SP___Project\Project4\Editor.cpp(456,38): warning C4244:         [
+E:\siltara\SP___Project\Project4\Editor.cpp(456,38): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Editor.cpp(456,38): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Editor.cpp(459,119): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(459,112): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(462,3): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(461,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(464,149): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(464,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(464,124): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(466,157): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(466,140): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(466,132): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(468,143): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(468,126): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Editor.cpp(468,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'Game.cpp')
+  
+E:\siltara\SP___Project\Project4\Game.cpp(47,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Game.cpp(70,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Game.cpp(70,55): warning C4244:         with
+E:\siltara\SP___Project\Project4\Game.cpp(70,55): warning C4244:         [
+E:\siltara\SP___Project\Project4\Game.cpp(70,55): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\Game.cpp(70,55): warning C4244:         ]
+  GameManager.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'GameManager.cpp')
+  
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,32): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,32): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,32): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,32): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,32): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,23): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,23): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,23): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,23): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(76,23): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(87,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,29): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,29): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,29): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,29): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,29): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,21): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,21): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,21): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,21): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(97,21): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,83): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,83): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,83): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(153,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,87): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,87): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,87): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,87): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,87): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,60): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,60): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,60): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,60): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(154,60): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(155,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(155,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(156,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(156,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(157,148): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(157,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(158,145): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(158,109): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,80): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,80): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,80): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,80): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,80): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,55): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,55): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,55): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\GameManager.cpp(215,55): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(266,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(308,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(312,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(333,230): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,34): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,34): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,34): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,34): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,34): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,25): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,25): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,25): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,25): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(345,25): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,55): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,55): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,55): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,55): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,55): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,44): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,44): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,44): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,44): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(346,44): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,34): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,34): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,34): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,34): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,34): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,25): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,25): warning C4305:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,25): warning C4305:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,25): warning C4305:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(350,25): warning C4305:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,82): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,82): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,82): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,82): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,82): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,40): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,40): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,40): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\GameManager.cpp(360,40): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(421,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,79): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,79): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,79): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,79): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,79): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,54): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,54): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,54): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\GameManager.cpp(436,54): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,79): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,79): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,79): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,79): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,79): warning C4244:         ]
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,54): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,54): warning C4244:         with
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,54): warning C4244:         [
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,54): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\GameManager.cpp(445,54): warning C4244:         ]
+  lands.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'lands.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'lands.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'lands.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'lands.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'lands.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'lands.cpp')
+  
+E:\siltara\SP___Project\Project4\lands.cpp(20,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(30,22): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(30,22): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(30,22): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(30,22): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(30,22): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(33,26): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(33,26): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(33,26): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(33,26): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(33,26): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(42,29): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(42,29): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(42,29): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(42,29): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(42,29): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(45,33): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(45,33): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(45,33): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(45,33): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(45,33): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(48,17): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(89,51): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(89,51): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(89,51): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(89,51): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(89,51): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(89,40): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(89,40): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(89,40): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(89,40): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(89,40): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(94,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(94,47): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(94,47): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(94,47): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(94,47): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(94,39): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(94,39): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(94,39): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(94,39): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(94,39): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(108,20): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(125,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(125,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(127,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(127,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(202,82): warning C4244: 'argument': conversion from '_Ty2' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(202,82): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(202,82): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(202,82): warning C4244:             _Ty2=int
+E:\siltara\SP___Project\Project4\lands.cpp(202,82): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(202,66): warning C4244: 'argument': conversion from '_Ty1' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(202,66): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(202,66): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(202,66): warning C4244:             _Ty1=int
+E:\siltara\SP___Project\Project4\lands.cpp(202,66): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(207,83): warning C4244: 'argument': conversion from '_Ty2' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(207,83): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(207,83): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(207,83): warning C4244:             _Ty2=int
+E:\siltara\SP___Project\Project4\lands.cpp(207,83): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(207,66): warning C4244: 'argument': conversion from '_Ty1' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(207,66): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(207,66): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(207,66): warning C4244:             _Ty1=int
+E:\siltara\SP___Project\Project4\lands.cpp(207,66): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(215,82): warning C4244: 'argument': conversion from '_Ty2' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(215,82): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(215,82): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(215,82): warning C4244:             _Ty2=int
+E:\siltara\SP___Project\Project4\lands.cpp(215,82): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(215,65): warning C4244: 'argument': conversion from '_Ty1' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(215,65): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(215,65): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(215,65): warning C4244:             _Ty1=int
+E:\siltara\SP___Project\Project4\lands.cpp(215,65): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(220,82): warning C4244: 'argument': conversion from '_Ty2' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(220,82): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(220,82): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(220,82): warning C4244:             _Ty2=int
+E:\siltara\SP___Project\Project4\lands.cpp(220,82): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(220,66): warning C4244: 'argument': conversion from '_Ty1' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(220,66): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(220,66): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(220,66): warning C4244:             _Ty1=int
+E:\siltara\SP___Project\Project4\lands.cpp(220,66): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(247,2): error C2065: 'load': undeclared identifier
+E:\siltara\SP___Project\Project4\lands.cpp(249,6): error C2065: 'load': undeclared identifier
+E:\siltara\SP___Project\Project4\lands.cpp(251,3): error C2065: 'load': undeclared identifier
+E:\siltara\SP___Project\Project4\lands.cpp(252,3): error C2065: 'load': undeclared identifier
+E:\siltara\SP___Project\Project4\lands.cpp(253,3): error C2065: 'load': undeclared identifier
+E:\siltara\SP___Project\Project4\lands.cpp(254,22): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(254,22): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(254,22): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(254,22): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(254,22): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(257,26): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(257,26): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(257,26): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(257,26): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(257,26): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(265,30): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(265,30): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(265,30): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(265,30): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(265,30): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(268,34): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(268,34): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(268,34): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(268,34): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(268,34): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(271,18): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(274,52): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(274,52): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(274,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(274,52): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(274,52): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(274,41): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(274,41): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(274,41): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(274,41): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(274,41): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(277,4): error C2065: 'load': undeclared identifier
+E:\siltara\SP___Project\Project4\lands.cpp(278,9): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(278,12): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(278,15): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(278,35): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(278,29): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(279,9): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(279,12): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(279,15): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(279,34): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(285,18): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(285,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(293,18): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(293,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(297,36): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(297,30): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(302,46): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(302,37): warning C4244: 'argument': conversion from '__int64' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(306,26): warning C4244: 'argument': conversion from '__int64' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(306,26): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(306,26): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(306,26): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(306,26): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(306,24): warning C4244: 'argument': conversion from '__int64' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(306,24): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(306,24): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(306,24): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(306,24): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(310,29): warning C4244: 'argument': conversion from '__int64' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(310,29): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(310,29): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(310,29): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(310,29): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(310,26): warning C4244: 'argument': conversion from '__int64' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(310,26): warning C4244:         with
+E:\siltara\SP___Project\Project4\lands.cpp(310,26): warning C4244:         [
+E:\siltara\SP___Project\Project4\lands.cpp(310,26): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\lands.cpp(310,26): warning C4244:         ]
+E:\siltara\SP___Project\Project4\lands.cpp(316,18): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(316,25): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\lands.cpp(324,2): error C2065: 'load': undeclared identifier
+  main.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+E:\siltara\SP___Project\Project4\main.cpp(19,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\siltara\SP___Project\Project4\main.cpp(39,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\main.cpp(53,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\main.cpp(59,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\main.cpp(102,1): error C2059: syntax error: '}'
+E:\siltara\SP___Project\Project4\main.cpp(102,1): error C2143: syntax error: missing ';' before '}'
+  mainMenu.cpp
+E:\siltara\SP___Project\Project4\PressF.h(160,2): warning C4091: 'extern ': ignored on left of 'foodDetails' when no variable is declared
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(167,2): warning C4091: 'extern ': ignored on left of 'foodStore' when no variable is declared
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(175,2): warning C4091: 'extern ': ignored on left of 'weaponsDetails' when no variable is declared
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(182,2): warning C4091: 'extern ': ignored on left of 'weaponStore' when no variable is declared
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(192,2): warning C4091: 'extern ': ignored on left of 'blocks' when no variable is declared
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\PressF.h(197,2): warning C4091: 'extern ': ignored on left of 'myWeapons' when no variable is declared
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(11,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(12,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\GameScenes.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'mainMenu.cpp')
+  
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:         with
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:         [
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:         ]
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:         and
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:         [
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,74): warning C4244:         ]
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:         with
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:         ]
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:         and
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\mainMenu.cpp(5,52): warning C4244:         ]
+  PauseMenu.cpp
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:         with
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:         [
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:         ]
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:         and
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:         [
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,72): warning C4244:         ]
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:         with
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:         [
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:         ]
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:         and
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:         [
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(4,51): warning C4244:         ]
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,75): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,75): warning C4244:         with
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,75): warning C4244:         [
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,75): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,75): warning C4244:         ]
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,48): warning C4244:         with
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,48): warning C4244:         [
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,48): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(6,48): warning C4244:         ]
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(8,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(8,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(21,129): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\PauseMenu.cpp(21,123): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Settings.cpp
+E:\siltara\SP___Project\Project4\Settings.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Settings.cpp')
+  
+E:\siltara\SP___Project\Project4\Settings.cpp(41,24): warning C4305: '+=': truncation from 'double' to 'float'
+E:\siltara\SP___Project\Project4\Settings.cpp(124,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(124,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(125,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(125,38): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(125,38): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(125,38): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(125,38): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(125,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(125,31): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(125,31): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(125,31): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(125,31): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(132,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(132,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(201,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(201,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(200,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(200,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(199,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(199,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(209,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(209,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(208,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(207,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(207,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(268,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(268,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(267,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(267,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(266,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(266,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(276,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(275,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(274,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(274,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(307,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(307,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(306,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(306,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(305,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(305,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(316,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(316,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(315,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(315,23): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(315,23): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(315,23): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(315,23): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\Settings.cpp(315,23): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(314,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(314,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(350,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(350,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(349,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(349,23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(348,76): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(348,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(356,77): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(356,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(384,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(384,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(383,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(383,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(382,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(382,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(562,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(561,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(566,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(565,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(571,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(570,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(575,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(574,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(579,53): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(579,53): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(579,53): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(579,53): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(579,53): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(578,53): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(578,53): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(578,53): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(578,53): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(578,53): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(583,54): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(583,54): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(583,54): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(583,54): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(583,54): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(582,54): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(582,54): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(582,54): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(582,54): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(582,54): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(587,56): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(590,57): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(597,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(596,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(601,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(600,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(606,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(605,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(610,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(609,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(614,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(614,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(614,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(614,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(614,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(613,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(613,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(613,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(613,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(613,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(618,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(618,47): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(618,47): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(618,47): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(618,47): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(617,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(617,47): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(617,47): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(617,47): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(617,47): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(622,49): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(625,50): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(633,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(632,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(637,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(636,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(642,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(641,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(646,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(645,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(651,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(651,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(651,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(651,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(651,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(650,56): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(650,56): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(650,56): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(650,56): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(650,56): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(655,57): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(655,57): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(655,57): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(655,57): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(655,57): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(654,57): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(654,57): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(654,57): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(654,57): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(654,57): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(659,59): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(662,60): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(669,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(668,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(673,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(672,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(678,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(677,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(682,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(681,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(686,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(686,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(686,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(686,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(686,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(685,46): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(685,46): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(685,46): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(685,46): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(685,46): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(690,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(690,47): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(690,47): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(690,47): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(690,47): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(689,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(689,47): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(689,47): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(689,47): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(689,47): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(694,49): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(697,50): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(703,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(702,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(707,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(706,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(711,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(711,45): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(711,45): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(711,45): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(711,45): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(710,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(710,45): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(710,45): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(710,45): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(710,45): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(714,52): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(717,101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(717,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(718,98): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(718,98): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(718,98): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(718,98): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(718,98): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(718,64): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(718,64): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(718,64): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(718,64): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(718,64): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(751,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:         and
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(753,77): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:         with
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:             T=unsigned int
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:         ]
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:         and
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:         [
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:             T=float
+E:\siltara\SP___Project\Project4\Settings.cpp(753,52): warning C4244:         ]
+  Source.cpp
+E:\siltara\SP___Project\Project4\Source.cpp(9,11): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+E:\siltara\SP___Project\Project4\Source.cpp(154,15): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
+  tile.cpp
+E:\siltara\SP___Project\Project4\tile.cpp(21,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\tile.cpp(21,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\tile.cpp(31,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\siltara\SP___Project\Project4\tile.cpp(31,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+E:\siltara\SP___Project\Project4\Source.cpp(179,1): warning C4715: 'ELARABY::pathFinder::Astar': not all control paths return a value

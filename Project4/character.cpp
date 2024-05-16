@@ -366,7 +366,7 @@ void character::move()
             }
             if (Keyboard::isKeyPressed(Keyboard::Num1))
             {
-                cout << WeaponsBar[0].Weapontype << '\n';
+                ////cout << WeaponsBar[0].Weapontype << '\n';
                 if (WeaponsBar[0].Weapontype == 1)
                 {
                     ChangeWeapon("LongSword");
@@ -378,7 +378,7 @@ void character::move()
             }
             else if (Keyboard::isKeyPressed(Keyboard::Num2))
             {
-                cout << WeaponsBar[2].Weapontype << '\n';
+                ////cout << WeaponsBar[2].Weapontype << '\n';
                 if (WeaponsBar[1].Weapontype == 2)
                 {
                     ChangeWeapon("Waraxe");
@@ -389,7 +389,7 @@ void character::move()
             }
             else if (Keyboard::isKeyPressed(Keyboard::Num4))
             {
-                cout << WeaponsBar[2].Weapontype << '\n';
+                ////cout << WeaponsBar[2].Weapontype << '\n';
                 if (WeaponsBar[3].Weapontype == 4)
                 {
                     ChangeWeapon("Mace");
@@ -401,7 +401,7 @@ void character::move()
             }
             else if (Keyboard::isKeyPressed(Keyboard::Num3))
             {
-                cout << WeaponsBar[2].Weapontype << '\n';
+                //cout << WeaponsBar[2].Weapontype << '\n';
                 if (WeaponsBar[2].Weapontype == 3)
                 {
                     ChangeWeapon("Saber");
@@ -770,6 +770,7 @@ void character::hit()
         }
         else if (weapon == "Saber")
         {
+            saberHitSound.play();
             WeaponsBar[2].WeaponHealth -= 30;
         }
         else if (weapon == "Mace")

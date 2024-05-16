@@ -200,6 +200,8 @@ extern blocks Blocks;
 extern weaponStore weapons;
 extern Texture currentWeaponText[4];
 extern Sprite currentWeapon[4];
+extern SoundBuffer weaponBreakBuffer[4];
+extern Sound weaponBreakSound[4];
 bool checkDistance(float currentDistance, Sprite mainCharcter, RectangleShape store);
 float calcDistance(Sprite mainCharcter, RectangleShape store);
 void PressFtoOpenWeapons();

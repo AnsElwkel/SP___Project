@@ -38,6 +38,8 @@ Sprite weaponkoisk;
 Texture cursorText;
 Cursor cursor;
 RectangleShape WeaponHealthBar, WeaponHealthBarFrame;
+SoundBuffer weaponBreakBuffer[4];
+Sound weaponBreakSound[4];
 ///////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -498,7 +500,12 @@ void drawWeaponStore(Vector2f pos)
 void  displayWeaponHeroList()
 {
 
-
+	/*weaponBreakBuffer[0].loadFromFile("./res/Sounds/SwordBreak2.mp3");
+	weaponBreakBuffer[1].loadFromFile("./res/Sounds/WaraxeBreak.mp3");
+	weaponBreakBuffer[2].loadFromFile("./res/Sounds/Swordbreak.mp3");
+	weaponBreakBuffer[3].loadFromFile("./res/Sounds/MaceBreak.mp3");
+	for (int i = 0; i < 4; i++)
+		weaponBreakSound[i].setBuffer(weaponBreakBuffer[i]);*/
 	for (int i = 0; i < WEAPONSNUMBER; i++)
 	{
 		setblocks(Blocks.WeaponBarText, Blocks.WeaponBarB, { WindowSize.x / 2.f - 2 * Blocks.WeaponBarB.getGlobalBounds().width + i * Blocks.WeaponBarB.getGlobalBounds().width,WindowSize.y - Blocks.WeaponBarB.getGlobalBounds().height });
@@ -507,6 +514,8 @@ void  displayWeaponHeroList()
 	{
 		if (WeaponsBar[i].WeaponHealth <= 0)
 		{
+			
+			//weaponBreakSound[i].play();
 			WeaponsBar[i].Weapontype = 0;
 			WeaponsBar[i].WeaponHealth = 100;
 		}
@@ -599,6 +608,7 @@ void HealthBarSet(float x, Vector2f pos)
 	WeaponHealthBarFrame.setFillColor(Color::Transparent);
 	window->draw(WeaponHealthBar);
 	window->draw(WeaponHealthBarFrame);
+
 
 }
 void setCursor()
